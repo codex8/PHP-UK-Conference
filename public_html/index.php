@@ -50,7 +50,8 @@
             <div class="main wrapper clearfix">
 
                 <article>
-                <div id="button-container" class="row">
+                <div id="button-container" >
+                 <div class="row">
                 <div  class="sixcol">
 				    <div class="left-button">
 				    <a href="#" onclick="" class="home-button yellow-button">SUBMIT</a>
@@ -68,6 +69,7 @@
         		</div>
         		</div>
         		</div>
+                </div>
                 </div>
                                   
                 </article>
