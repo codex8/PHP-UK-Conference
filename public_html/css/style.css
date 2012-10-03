@@ -194,8 +194,8 @@ ol {
 	width: 200px;
 	text-align: center;
 	text-decoration: none;
-	font-size: 400%;
-	padding: .5em 1em .55em;
+	font-size: 350%;
+	padding: .5em .5em .55em;
 	text-shadow: 0 1px 1px #7d4f16;
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
@@ -420,9 +420,9 @@ img {
     font-size: 80%;
     }
     .home-button {	
-		width: 200px;
+		width: 170px;
 		font-size: 250%;
-		padding: .5em 1em .55em;		
+		padding: .5em .5em .55em;		
 	}
   
 
