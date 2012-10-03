@@ -38,7 +38,7 @@
        <div id="page" >
        <div class="header-container">
             <header class="wrapper clearfix">
-                <img src="PlaceHolder4.png"/>
+                <img src="PlaceHolder6.png"/>
                 
                  <nav>
                     <ul>
