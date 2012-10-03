@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+
+<!--<![endif]-->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<head>
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+<script src="js/jquery.flip.js" type="text/javascript"></script>
+<script src="js/flipfunctions.js" type="text/javascript"></script>
+</head>
+<body>
+<h1> Test image flip</h1>
+<div class="row">
+<div class="fivecol">
+<div id="w1box" class="flipbox">
+<img class="work-image" src="ElephantFlyer.png" width="600" height="400"/>
+</div>
+<div id="w1reverse" class="flipbox">
+<img class="work-image" src="ElephantFlyerReverse.png" width="600" height="400"/>
+</div>
+<div id="w1control" class="flipPad">
+<a href="#" onclick="flipControlFlip( 'rl', '#eeeeee', event, 'w1')" class="view-detail" title="See the details">Details</a>
+<a href="#" onclick="flipControlRevert( event, 'w1')" class="view-image" title="See the image">Image</a>
+</div>
+<div class="sevencol last">
+</div>
+</div>	
+</div>
+
+</body>
