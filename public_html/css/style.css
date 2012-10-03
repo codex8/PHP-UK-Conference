@@ -123,7 +123,9 @@ ol {
 	/*margin-bottom: -101px;*/
 	min-height: 100%;
 }
-#primary {
+.main-container{
+	width:100%;
+	
 }
 
 #secondary{
