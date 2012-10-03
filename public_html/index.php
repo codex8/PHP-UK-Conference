@@ -15,10 +15,11 @@
      
 		<link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 		<style type="text/css">
-			#mc_embed_signup{background:#AAA; clear:left; }
-			#mc_embed_signup .button {background:#777;}
+			#mc_embed_signup{background:#57aaca; clear:left;}
+			#mc_embed_signup .button {background:#01708a;}
 			#mc_embed_signup .button:hover {background:#333;}
 			#mc_embed_signup .mc-field-group .asterisk { top: 33px; right: 3px;  }
+			
 			footer a { color:#fff; text-decoration: none;}
 			footer a { color:#333; text-decoration: underline;}
 			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -105,6 +106,8 @@
 											
 <!--End mc_embed_signup-->
                 </aside>
+               
+                
 
             </div> <!-- #main -->
         </div> <!-- #main-container -->
