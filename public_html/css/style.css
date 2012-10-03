@@ -192,7 +192,6 @@ ol {
 
 .home-button {
 	width: 200px;
-	display: inline-block;
 	outline: none;
 	cursor: pointer;
 	text-align: center;
@@ -207,6 +206,8 @@ ol {
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -420,6 +421,15 @@ img {
     body {
     font-size: 80%;
     }
+    .home-button {
+	
+	width: 200px;
+	font-size: 300%;
+	padding: .5em 1em .55em;
+	
+	
+	
+}
   
 
 }
@@ -461,38 +471,19 @@ img {
 }
 
 .home-button {
-	margin: auto;
+	
 	width: 200px;
-	display: inline-block;
-	outline: none;
-	cursor: pointer;
-	text-align: center;
-	text-decoration: none;
 	font-size: 300%;
 	padding: .5em 1em .55em;
-	text-shadow: 0 1px 1px #7d4f16;
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	display: block;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	
+	
 	
 }
-.home-button:hover {
-	text-decoration: none;
-}
-.home-button:active {
-	position: relative;
-	top: 1px;
-}
+
 .home-button-text {
 	margin-top: 2%;
 	line-height: 120%;
-	font-size: 200%;
+	font-size: 150%;
 	text-align: center;
 }
 
