@@ -326,11 +326,15 @@ img.alignright {
 	height: 103px; /*Extra 2px allows for border top*/
 }
 
-.footer-wrapper h3 {
+.footer-wrapper {
 	color: #fff;
-	
+	border-top: solid 15px #000;
 	text-align: center;
+	
 }
+.footer-wrapper h3 {
+	padding-bottom: 30px;
+	}
 
 /* =1140
 -------------------------------------------------------------- */
