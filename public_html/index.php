@@ -71,11 +71,11 @@
         		</div>
         		</div>
                 </div>
-                </div>
+              
                                   
                 </article>
 
-                <aside>
+                <article>
                
                     <h3 class="sign-up">Sign up for more Information</h3>
                     
@@ -105,10 +105,9 @@
 					</div>
 											
 <!--End mc_embed_signup-->
-                </aside>
                
-                
-
+                </article>
+              
             </div> <!-- #main -->
         </div> <!-- #main-container -->
         </div> <!-- page -->

@@ -56,7 +56,7 @@ html, body {
     
 }
 body {
-    font-family: "CabinRegular", "Arial", sans-serif;
+    font-family:  "Arial", sans-serif;
     font-size: 14px; /*All other font sizes derived at percentages */
     line-height: 140%;
     background-color: #fff;
@@ -124,7 +124,7 @@ ol {
 	min-height: 100%;
 }
 .main-container{
-	width:100%;
+	padding-bottom: 70px;
 	
 }
 
