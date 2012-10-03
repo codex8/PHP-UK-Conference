@@ -113,7 +113,7 @@
         </div> <!-- page -->
 
         <div class="footer-container">
-            <footer class="wrapper">
+            <footer class="footer-wrapper">
                 <h3>&copy; 2012 PHP London Limited | <a href="http://2012.phpconference.co.uk/" target="_blank">Vist the 2012 Conference Site</a></h3>
             </footer>
         </div>

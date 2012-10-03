@@ -311,11 +311,10 @@ img.alignright {
 #colophon {
 	padding: 1em 0 0;
 }
-#footer-wrapper {
+.footer-container {
 	max-width: 1140px;
 	margin: auto;
-	border-top: 2px solid #b3d841;
-	background-color: #dedede;
+	background-color: #303030;
 }
 .contact {
 	padding-left: 5%;
@@ -327,6 +326,11 @@ img.alignright {
 	height: 103px; /*Extra 2px allows for border top*/
 }
 
+.footer-wrapper h3 {
+	color: #fff;
+	
+	text-align: center;
+}
 
 /* =1140
 -------------------------------------------------------------- */
