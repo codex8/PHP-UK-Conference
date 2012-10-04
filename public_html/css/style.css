@@ -260,6 +260,9 @@ ol {
 	background: -moz-linear-gradient(top,  #fffdd2,  #fffa98);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffa98', endColorstr='#fffdd2');
 }
+#buyTicket {
+	display: none;
+}
 
 /*
 .yellow-button:hover {
