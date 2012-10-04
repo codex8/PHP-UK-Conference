@@ -150,7 +150,6 @@ ol {
 	}
 #submitAbstract {
 	display:none;	
-
 }
 
 /* Increase the size of the content area for templates without sidebars */
@@ -220,7 +219,27 @@ ol {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-.home-button:hover {
+.small-button {
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 200%;
+	padding: .5em .5em .55em;
+	text-shadow: 0 1px 1px #7d4f16;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,.2);
+	box-shadow: 0 1px 10px rgba(0,0,0,.2);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.home-button:hover, .small-button: hover{
 	text-decoration: none;
 }
 .home-button:active {

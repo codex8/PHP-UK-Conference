@@ -30,13 +30,20 @@
 		<script src="js/mail.js"></script>
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script> 
         <script>
-         function showHide(shID) {
+         function show(shID) {
              
         	if (document.getElementById(shID)) {
-        		console.log(shID);
+        		
         		$("#" + shID).css('display', 'block');
         	}
         }
+         function hide(shID) {
+             
+         	if (document.getElementById(shID)) {
+         		
+         		$("#" + shID).css('display', 'none');
+         	}
+         }
         </script>    
       
     </head>
@@ -65,7 +72,7 @@
                 <div  class="sixcol">
 				    <div class="left-button">
 				  
-				    <a href="#" onclick="showHide('submitAbstract')" class="home-button yellow-button">SUBMIT</a>
+				    <a href="#" onclick="show('submitAbstract')" class="home-button yellow-button">SUBMIT</a>
 				    
 					<div class="home-button-text">				
 					<p>CALL FOR PAPERS</p>
@@ -88,7 +95,8 @@
                 <article>
                 <div id="abstractContainer">
                     <div id="submitAbstract">
-                    <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDllUHJFT1Mzc3dnejFzMFJzWEZpT1E6MQ" width="80%" frameborder="0" margin-left="auto" margin-right="auto" padding-top="30px" marginheight="0" marginwidth="0">Loading...</iframe>
+                    <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDllUHJFT1Mzc3dnejFzMFJzWEZpT1E6MQ" width="760" height="650" frameborder="0" margin-left="auto" margin-right="auto" padding-top="30px" marginheight="0" marginwidth="0">Loading...</iframe>
+                    <a href="#" onclick="hide('submitAbstract')" class="small-button yellow-button">CLOSE</a>
                     </div>
                     </div>
                    </article>
