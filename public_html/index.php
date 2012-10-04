@@ -28,7 +28,16 @@
 
 		<script src="js/jquery-1.7.2.js"></script>		
 		<script src="js/mail.js"></script>
-        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>     
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script> 
+        <script>
+         function showHide(shID) {
+             
+        	if (document.getElementById(shID)) {
+        		console.log(shID);
+        		$("#" + shID).css('display', 'block');
+        	}
+        }
+        </script>    
       
     </head>
     <body>
@@ -55,7 +64,9 @@
                  <div class="row">
                 <div  class="sixcol">
 				    <div class="left-button">
-				    <a href="#" onclick="" class="home-button yellow-button">SUBMIT</a>
+				  
+				    <a href="#" onclick="showHide('submitAbstract')" class="home-button yellow-button">SUBMIT</a>
+				    
 					<div class="home-button-text">				
 					<p>CALL FOR PAPERS</p>
 					</div>
@@ -74,6 +85,11 @@
               
                                   
                 </article>
+                <article>
+                    <div id="submitAbstract">
+                    <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDllUHJFT1Mzc3dnejFzMFJzWEZpT1E6MQ" width="760" height="579" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    </div>
+                   </article>
 
                 <article>
                

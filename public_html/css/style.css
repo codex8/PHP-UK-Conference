@@ -143,6 +143,9 @@ ol {
 	display: block;
 	width: 100%;
 }
+#submitAbstract {
+	display:none;
+}
 
 /* Increase the size of the content area for templates without sidebars */
 .full-width #content,
