@@ -56,7 +56,7 @@
                  <div class="row">
                 <div  class="sixcol">
 				    <div class="left-button">				  
-				    <a href="https://docs.google.com/spreadsheet/viewform?formkey=dEpjZkRMSExYYUw0aEljUzNGWmpUb2c6MQ"  target="_blank" class="home-button yellow-button">SUBMIT</a>				    
+				    <a href="http://bit.ly/phpukcfp2013"  target="_blank" class="home-button yellow-button">SUBMIT</a>				    
 					<div class="home-button-text">				
 					<p>CALL FOR PAPERS</p>
 					</div>
@@ -64,7 +64,7 @@
 				</div>	
 				<div  class="sixcol last">
 				<div class="right-button">	
-					<a href="http://phpukconference.eventbrite.com/"  target="_blank"  class="home-button yellow-button">BUY</a>
+					<a href="http://phpukconference.eventbrite.com"  target="_blank"  class="home-button yellow-button">BUY</a>
 					<div class="home-button-text">
 					<p>BLIND BIRD TICKET</p>
 					</div>
