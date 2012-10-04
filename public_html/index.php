@@ -86,8 +86,10 @@
                                   
                 </article>
                 <article>
+                <div id="abstractContainer">
                     <div id="submitAbstract">
-                    <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDllUHJFT1Mzc3dnejFzMFJzWEZpT1E6MQ" width="760" height="579" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                    <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDllUHJFT1Mzc3dnejFzMFJzWEZpT1E6MQ" width="80%" frameborder="0" margin-left="auto" margin-right="auto" padding-top="30px" marginheight="0" marginwidth="0">Loading...</iframe>
+                    </div>
                     </div>
                    </article>
 
