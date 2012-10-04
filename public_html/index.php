@@ -11,29 +11,36 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+     
 		<link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 		<style type="text/css">
-			#mc_embed_signup{background:#AAA; clear:left; }
-			#mc_embed_signup .button {background:#777;}
+			#mc_embed_signup{background:#57aaca; clear:left;}
+			#mc_embed_signup .button {background:#01708a;}
 			#mc_embed_signup .button:hover {background:#333;}
 			#mc_embed_signup .mc-field-group .asterisk { top: 33px; right: 3px;  }
+			
 			footer a { color:#fff; text-decoration: none;}
 			footer a { color:#333; text-decoration: underline;}
 			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 			   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 		</style>
+
+		<script src="js/jquery-1.7.2.js"></script>		
 		<script src="js/mail.js"></script>
-        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script> 
+       
+      
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
-
+       <div id="page" >
        <div class="header-container">
             <header class="wrapper clearfix">
-                <h1 class="title">PHP UK Conference 2013</h1>
+                <img src="PlaceHolder6.png"/>
+                
                  <nav>
                     <ul>
                     </ul>
@@ -45,21 +52,33 @@
             <div class="main wrapper clearfix">
 
                 <article>
-                    
-                        <h1>Save the Date</h1>
-                        <h2>February 22nd-23rd 2013</h2>
-						<p>PHP London are pleased to announce their 8th annual UK PHP conference! For the second time over two days with four great tracks.</p>
-                        <p>In 2013 we will be at The Brewery right in the center of the City of London.</p>
-						<p><a href="http://www.thebrewery.co.uk/" target="_blank"><img src="http://www.thebrewery.co.uk/1365C6FD-BEED-481F-BDF5-1E7F149E3E99.CIMG" /></a></p>
-						<p><iframe width="580" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;q=the+Brewery+Chiswell+Street+London+EC1Y+4SD&amp;fb=1&amp;hq=the+Brewery+Chiswell+Street+London+EC1Y+4SD&amp;hnear=the+Brewery+Chiswell+Street+London+EC1Y+4SD&amp;cid=0,0,10506951312759484658&amp;t=m&amp;ll=51.535552,-0.071583&amp;spn=0.037372,0.099564&amp;z=13&amp;iwloc=A&amp;output=embed"></iframe></p>
-						<strong>Call for Papers</strong>
-                        <p>The call for papers will be opening on the 4th of October, along with full information for the conference.</p>
-                    
-                  
+                <div id="button-container" >
+                 <div class="row">
+                <div  class="sixcol">
+				    <div class="left-button">				  
+				    <a href="http://bit.ly/phpukcfp2013"  target="_blank" class="home-button yellow-button">SUBMIT</a>				    
+					<div class="home-button-text">				
+					<p>CALL FOR PAPERS</p>
+					</div>
+					</div>
+				</div>	
+				<div  class="sixcol last">
+				<div class="right-button">	
+					<a href="http://phpukconference.eventbrite.com"  target="_blank"  class="home-button yellow-button">BUY</a>
+					<div class="home-button-text">
+					<p>BLIND BIRD TICKET</p>
+					</div>
+        		</div>
+        		</div>
+        		</div>
+                </div>
+              
+                                  
                 </article>
-
-                <aside>
-                    <h3>Sign up for more Information</h3>
+  
+                
+               
+                    <h3 class="sign-up">Sign up for more Information</h3>
                     
 					<!-- Begin MailChimp Signup Form -->
 
@@ -87,13 +106,15 @@
 					</div>
 											
 <!--End mc_embed_signup-->
-                </aside>
-
+               
+                </article>
+              
             </div> <!-- #main -->
         </div> <!-- #main-container -->
+        </div> <!-- page -->
 
         <div class="footer-container">
-            <footer class="wrapper">
+            <footer class="footer-wrapper">
                 <h3>&copy; 2012 PHP London Limited | <a href="http://2012.phpconference.co.uk/" target="_blank">Vist the 2012 Conference Site</a></h3>
             </footer>
         </div>
