@@ -29,22 +29,7 @@
 		<script src="js/jquery-1.7.2.js"></script>		
 		<script src="js/mail.js"></script>
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script> 
-        <script>
-         function show(shID) {
-             
-        	if (document.getElementById(shID)) {
-        		
-        		$("#" + shID).css('display', 'block');
-        	}
-        }
-         function hide(shID) {
-             
-         	if (document.getElementById(shID)) {
-         		
-         		$("#" + shID).css('display', 'none');
-         	}
-         }
-        </script>    
+       
       
     </head>
     <body>
@@ -70,10 +55,8 @@
                 <div id="button-container" >
                  <div class="row">
                 <div  class="sixcol">
-				    <div class="left-button">
-				  
-				    <a href="#" onclick="show('submitAbstract')" class="home-button yellow-button">SUBMIT</a>
-				    
+				    <div class="left-button">				  
+				    <a href="https://docs.google.com/spreadsheet/viewform?formkey=dEpjZkRMSExYYUw0aEljUzNGWmpUb2c6MQ"  target="_blank" class="home-button yellow-button">SUBMIT</a>				    
 					<div class="home-button-text">				
 					<p>CALL FOR PAPERS</p>
 					</div>
@@ -81,7 +64,7 @@
 				</div>	
 				<div  class="sixcol last">
 				<div class="right-button">	
-					<a href="#" onclick ="show('buyTicket')" class="home-button yellow-button">BUY</a>
+					<a href="http://phpukconference.eventbrite.com/"  target="_blank"  class="home-button yellow-button">BUY</a>
 					<div class="home-button-text">
 					<p>BLIND BIRD TICKET</p>
 					</div>
@@ -92,21 +75,7 @@
               
                                   
                 </article>
-                <article>
-                <div id="abstractContainer">
-                    <div id="submitAbstract">
-                    <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dE5vaUwxNGZETU1NZzVyVVlzY0VKb2c6MQ" width="760" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                    <a href="#" onclick="hide('submitAbstract')" class="small-button yellow-button">CLOSE</a>
-                    </div>
-                    </div>
-                   </article>
-
-                <article>
-                <div id="buyTicket">
-                <div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.com/event/4521447772?ref=eweb" frameborder="0" height="1000" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com/r/eweb">Sell Tickets</a> <span style="color:#ddd;">through</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.com?ref=eweb">Eventbrite</a></div></div>
-                <a href="#" onclick="hide('buyTicket')" class="small-button yellow-button">CLOSE</a>
-                </div>
-                </article>
+  
                 
                
                     <h3 class="sign-up">Sign up for more Information</h3>
