@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/resets.css">
+<link rel="stylesheet" href="css/newstyle.css">
+<link rel="stylesheet" href="css/1140.css">
+<script src="js/jquery-1.8.0.min.js"></script>
+
+<script>
+window.onload = (function(){
+    $('#header').css('height', $('.header-image').height());
+});  
+$(document).ready(function(){
+    $(window).resize(function(){
+        $('#header').css('height', $('.header-image').height());
+    });        
+});
+</script>
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+
+<div id="page">
+<div id="header">
+<img class="header-image" src="images/HeaderBackground.png" alt=""/>
+<div id="access" class= 'row'>
+<div id="left-menu" class='fivecol'>
+<ul>
+<li>
+<a href="about.html">ABOUT&nbsp;CONFERENCE</a>
+</li>
+<li>
+<a href="registration.html">REGISTRATION</a>
+</li>
+<li>
+<a href="schedule.html">SCHEDULE</a>
+</li>
+</ul>
+</div>
+<div class='twocol'>
+</div>
+<div id="right-menu" class='fivecol last'>
+<ul>
+<li>
+<a href="sponsors.html">SPONSORS</a>
+</li>
+<li>
+<a href="socials.html">SOCIALS</a>
+</li>
+<li>
+<a href="venue.html">VENUE&nbsp;&#38;&nbsp;ACCOMMODATION</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="header-logo">
+<img class="header-logo" src="images/HeaderHead.png" alt="" />
+</div>
+
+<div id="header-text">
+<span class="small-title-text">F&nbsp;E&nbsp;B&nbsp;R&nbsp;U&nbsp;A&nbsp;R&nbsp;Y&nbsp;&nbsp;&nbsp;22&nbsp;-&nbsp;23&nbsp;&nbsp;&nbsp;2013&nbsp;&nbsp;&nbsp;&#8212;&nbsp;&nbsp;&nbsp;</span>
+<span class="big-title-text">PHP UK</span>
+<span class="small-title-text">&nbsp;&#8212;&nbsp;&nbsp;T&nbsp;H&nbsp;E&nbsp;&nbsp;B&nbsp;R&nbsp;E&nbsp;W&nbsp;E&nbsp;R&nbsp;Y,&nbsp;&nbsp;L&nbsp;O&nbsp;N&nbsp;D&nbsp;O&nbsp;N</span>
+</div>
+<div id="header-sub-text">
+<span class="sub-title-text">
+CONFERENCE 2013
+</span>
+</div>
+
+<div id="header-circles" >
+ <img class="circle" src="images/Round1.png" alt="" />
+ <img class="circle" src="images/Round2.png" alt="" />
+ <img class="circle" src="images/Round3.png" alt="" />
+ <img class="circle" src="images/Round4.png" alt="" />
+</div>
+
+</div>
+<div id="bar-below-header" class="transparent">
+</div>
+<div id="main">
+</div>
+</div><!-- page -->
+<div id="footer">
+</div>
+</body>
+</html>

@@ -1,34 +1,219 @@
-/* ============================== */
-/* ! Layout for desktop version   */
-/* ============================== */
+/*
+ * PHP UK Conference styles
+ */ 
+ 
+/* =Fonts
+---------------------------------------------------------------- */
+@font-face {
+    font-family: 'SteelfishRgRegular';
+    src: url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.eot');
+    src: url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.woff') format('woff'),
+         url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.ttf') format('truetype'),
+         url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.svg#SteelfishRgRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/bebas_neue/BebasNeue-webfont.eot');
+    src: url('../fonts/bebas_neue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas_neue/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/bebas_neue/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/bebas_neue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-	body {
-		
+}
+
+
+
+/* =Structure
+-------------------------------------------------------------- */
+
+html, body {
+    height: 100%
+    
+}
+body {
+    font-family:  "Arial", sans-serif;
+    font-size: 16px; /*All other font sizes derived at percentages */
+    line-height: 140%;
+    background-color: #fff;
+}
+
+
+/* = Page Content 
+-------------------------------------------------------------- */
+	
+#page {
+ 	display: block;
+	max-width: 1140px;
+	margin: auto;	 
+	background: #fff;
+	background: #efefef url(images/fallback-gradient.png);
+	background-image: -webkit-gradient(radial, 50% 45%, 0, 50% 80%, 100 from(#fff), to(#efefef));
+	background-image: -webkit-radial-gradient(50% 45%, closest-corner, #fff, #efefef); 
+	background-image: -moz-radial-gradient(50% 45%, closest-corner, #fff, #efefef);
+	background-image: -ms-radial-gradient(50% 45%, closest-corner, #fff, #efefef);
+	background-image: -o-radial-gradient(50% 45%, closest-corner, #fff, #efefef); 
+	min-height: 100%;
+}
+
+/* = Header 
+-------------------------------------------------------------- */
+
+#header {
 	}
 	
+img.header-image {
+    width: 100%;
+	position: absolute;
+	top: 0;
+	margin: auto;
+	max-width: 1140px;
+}
 
-/* ============================= */
-/* ! Layout for mobile version   */
-/* ============================= */
-
-@media handheld, only screen and (max-width: 767px) {
-
-	body {
-		
+img.header-logo {
+	width: 10%;
 	}
 
+#access {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #25272c;
+	position:relative;
+	z-index: 102;
+	color:white;
+	font-family: "BebasNeueRegular";
+	
+	
+}
+#left-menu {
+	text-align:right;
+}
+#access ul {
+	display: inline-block;
+}
+#access li {
+	position: relative;
+	display: inline-block;
+}
+#access a {
+	display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	text-decoration: none;
+	color: #fff;	
+}
+
+#access li:hover > a {
+	color: #2492a2;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+
+#header-logo {
+	text-align: center;
+	position:relative;
+	z-index: 103;
+	margin-top: -30px;
+	}
+
+#header-text {
+	text-align: center;
+	position:relative;
+	padding-top: 5%;
+}
+.big-title-text {	
+	font-family: "SteelfishRgRegular";
+	font-size: 400%;
+	color: #fff;
+}
+.small-title-text {	
+	font-family: "SteelfishRgRegular";
+	font-size: 150%;
+	color: #fff;
+}
+#header-sub-text{
+	text-align: center;
+	position:relative;
+	}
+.sub-title-text{
+	font-family: "SteelfishRgRegular";
+	font-size: 160%;
+	color: #da9e26;
+	padding-right: 3px;
+	}
+
+#header-circles {
+	position:relative;
+	z-index: 103;
+	text-align: center;
+	}
+img.circle {
+	padding: 30px;
+	width: 10%;
+	}
+
+#bar-below-header {
+	height: 60px;
+	background-color:black;
+	margin-top: -60px;
+}
+.transparent {
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+/* =Main
+-------------------------------------------------------------- */
+#main {
+	overflow:auto;
+	padding-bottom: 150px;  /* must be same height as the footer */
+}
+
+/* =Footer
+-------------------------------------------------------------- */
+
+#footer {
+	max-width: 1140px;
+	margin: auto;
+	background-color: #25272c;
+	height: 150px;
+	position:relative;
+	clear: both;
+	}
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
 }
 
 
-/* ========================================== */
-/* ! Provide higher res assets for iPhone 4   */
-/* ========================================== */
+/* =Images
+-------------------------------------------------------------- */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
-
-/*	.logo {
-		background: url(logo2x.jpg) no-repeat;
-		background-size: 212px 303px;
-	}*/
-
+a img {
+	border: none;
 }
+p img {
+	margin-bottom: 0.5em; /* a small bottom margin prevents content floating under images */
+}
+
+img.alignleft {
+	margin-right: 1em;
+}
+img.alignright {
+	margin-left: 1em;
+}
+
+
+
+
