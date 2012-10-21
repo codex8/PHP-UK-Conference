@@ -1,52 +1,32 @@
 /*
- * Lash up for temporary site
+ * PHP UK Conference styles
  */ 
-/* =CSS Resets
--------------------------------------------------------------- */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
  
+/* =Fonts
+---------------------------------------------------------------- */
+@font-face {
+    font-family: 'SteelfishRgRegular';
+    src: url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.eot');
+    src: url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.woff') format('woff'),
+         url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.ttf') format('truetype'),
+         url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.svg#SteelfishRgRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/bebas_neue/BebasNeue-webfont.eot');
+    src: url('../fonts/bebas_neue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas_neue/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/bebas_neue/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/bebas_neue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 /* =Structure
 -------------------------------------------------------------- */
@@ -57,253 +37,175 @@ html, body {
 }
 body {
     font-family:  "Arial", sans-serif;
-    font-size: 14px; /*All other font sizes derived at percentages */
+    font-size: 16px; /*All other font sizes derived at percentages */
     line-height: 140%;
     background-color: #fff;
-    color: #303030;
 }
-a:link {
-	color: #35bacd;  
-    text-decoration: none;
-}
-a:visited {
-   color: #5fc0ce;
-}
-a:hover {
-    color: #01708a; 
-}
+
 h1 {
-	font-family: 'Helvetica';
-	font-size: 200%;
-	padding-top:40px;
-	padding-bottom:20px;
-	text-shadow: 1px 1px 1px #aaa;
-	padding-left: 10px;
+	
 	}
 h2 {
-	font-family: 'Helvetica';
-	font-size: 150%;
-	padding-top:40px;
-	padding-bottom:20px;
+	
 	}
 h3 {
-	font-family: 'Helvetica';
-	font-size: 120%;
-	padding-top:40px;
-	padding-bottom:20px;
+	
 	}
 ul {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 10%;
+	
 }
 ol {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 10%;
-	list-style:decimal;
-}
 	
-.image-border {
-	background-color: #fff;
-	border:1px solid #ccc;
-	border-radius: 5px;
 }
+.transparent {
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+
+/* = Page Content 
+-------------------------------------------------------------- */
 	
 #page {
  	display: block;
 	max-width: 1140px;
 	margin: auto;	 
+	background: #fff;
 	background: #efefef url(images/fallback-gradient.png);
-	background-image: -webkit-gradient(radial, 50% 35%, 0, 50% 80%, 100 from(#fff), to(#efefef));
-	background-image: -webkit-radial-gradient(50% 35%, closest-corner, #fff, #efefef); 
-	background-image: -moz-radial-gradient(50% 35%, closest-corner, #fff, #efefef);
-	background-image: -ms-radial-gradient(50% 35%, closest-corner, #fff, #efefef);
-	background-image: -o-radial-gradient(50% 35%, closest-corner, #fff, #efefef);
-	/*margin-bottom: -101px;*/
+	background-image: -webkit-gradient(radial, 50% 45%, 0, 50% 80%, 100 from(#fff), to(#efefef));
+	background-image: -webkit-radial-gradient(50% 45%, closest-corner, #fff, #efefef); 
+	background-image: -moz-radial-gradient(50% 45%, closest-corner, #fff, #efefef);
+	background-image: -ms-radial-gradient(50% 45%, closest-corner, #fff, #efefef);
+	background-image: -o-radial-gradient(50% 45%, closest-corner, #fff, #efefef); 
 	min-height: 100%;
 }
-.main-container{
-	padding-bottom: 70px;
-	
-}
 
-#secondary{
-	padding-top: 30px;
-}
-#main-wrapper {
-	padding-top: 90px;
-	padding-left:5%;
-	padding-right: 5%;
-	padding-bottom:70px;
-	}
-
-#colophon {
-	clear: both;
-	display: block;
-	width: 100%;
-}
-#abstractContainer{
-	padding-top: 50px;
-	padding-left: 10%;
-	padding-bottom: 50px;
-	}
-#submitAbstract {
-	display:none;	
-}
-
-/* Increase the size of the content area for templates without sidebars */
-.full-width #content,
-.image-attachment #content,
-.error404 #content {
-	margin: 0;
-}
-
-
-
-/* Alignment */
-.alignleft {
-	display: inline;
-	float: left;
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	background-color: #fff;
-	margin-top:20px;
-	margin-bottom: 20px;
-}
-.alignright {
-	display: inline;
-	float: right;
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	background-color: #fff;
-	margin-top:20px;
-	margin-bottom: 20px;
-}
-.aligncenter {
-	clear: both;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	background-color: #fff;
-	margin-top:20px;
-	margin-bottom: 20px;
-}
-
-#button-container {
-	width: 60%;
+img.header-image {
+    width: 100%;
+	position: absolute;
+	top: 0;
 	margin: auto;
+	max-width: 1140px;
 }
 
-.home-button {
-	width: 200px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 350%;
-	padding: .5em .5em .55em;
-	text-shadow: 0 1px 1px #7d4f16;
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 1px 10px rgba(0,0,0,.2);
-	box-shadow: 0 1px 10px rgba(0,0,0,.2);
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-.small-button {
-	width: 100px;
-	text-align: center;
-	text-decoration: none;
-	font-size: 200%;
-	padding: .5em .5em .55em;
-	text-shadow: 0 1px 1px #7d4f16;
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 1px 10px rgba(0,0,0,.2);
-	box-shadow: 0 1px 10px rgba(0,0,0,.2);
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
+img.header-logo {
+	width: 10%;
+	}
 
-.home-button:hover, .small-button: hover{
-	text-decoration: none;
-}
-.home-button:active {
-	position: relative;
-	top: 1px;
-}
-.home-button-text {
-	margin-top: 2%;
-	line-height: 120%;
-	font-size: 200%;
-	text-align: center;
-}
-.yellow-button {
-	color: #fffcb8;
-	border: solid 2px #fffcb8;
-	background: #fffcb8;
-	background: -webkit-gradient(linear, left top, left bottom, from(#fffa98), to(#fffdd2));
-	background: -moz-linear-gradient(top,  #fffdd2,  #fffa98);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffa98', endColorstr='#fffdd2');
-}
-#buyTicket {
-	display: none;
-}
-
-/*
-.yellow-button:hover {
-	background: #f47c20;
-	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
-	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
-}
-.yellow-button:active {
-	color: #fcd3a5;
-	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
-	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
-}
-*/
-
-
-
-
-
-
-/* =Header
--------------------------------------------------------------- */
-.header-container {
+#access {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #25272c;
+	position:relative;
+	z-index: 102;
+	color:white;
+	font-family: "BebasNeueRegular";
 	
+	
+}
+#left-menu {
+	text-align:right;
+}
+#access ul {
+	display: inline-block;
+}
+#access li {
+	position: relative;
+	display: inline-block;
+}
+#access a {
+	display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	text-decoration: none;
+	color: #fff;	
+}
+
+#access li:hover > a {
+	color: #2492a2;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+
+
+#header {
+	}
+#header-logo {
+	text-align: center;
+	position:relative;
+	z-index: 103;
+	margin-top: -30px;
+	}
+
+#header-text {
+	text-align: center;
+	position:relative;
+	padding-top: 5%;
+}
+.big-title-text {	
+	font-family: "SteelfishRgRegular";
+	font-size: 400%;
+	color: #fff;
+}
+.small-title-text {	
+	font-family: "SteelfishRgRegular";
+	font-size: 150%;
+	color: #fff;
+}
+#header-sub-text{
+	text-align: center;
+	position:relative;
+	}
+.sub-title-text{
+	font-family: "SteelfishRgRegular";
+	font-size: 160%;
+	color: #da9e26;
+	padding-right: 3px;
+	}
+
+#header-circles {
+	position:relative;
+	z-index: 103;
+	text-align: center;
+	}
+img.circle {
+	padding: 30px;
+	width: 10%;
+	}
+
+#bar-below-header {
+	height: 60px;
+	background-color:black;
+	margin-top: -60px;
+}
+#main {
+	overflow:auto;
+	padding-bottom: 150px;  /* must be same height as the footer */
+}
+
+#footer {
 	max-width: 1140px;
 	margin: auto;
+	background-color: #25272c;
+	height: 150px;
+	position:relative;
+	clear: both;
 	}
-
-
-
-/* =Content
--------------------------------------------------------------- */
-#mc_embed_signup {
-	width:50%;
-	margin: auto;
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
 }
-.sign-up {
-	font-size: 200%;
-	text-align: center;
-	}
+/* =Navigation
+-------------------------------------------------------------- */
+
+
 
 /* =Images
 -------------------------------------------------------------- */
@@ -314,21 +216,7 @@ a img {
 p img {
 	margin-bottom: 0.5em; /* a small bottom margin prevents content floating under images */
 }
-/*
-Resize images to fit the main content area.
-- Applies only to images uploaded via WordPress by targeting size-* classes.
-- Other images will be left alone. Use "size-auto" class to apply to other images.
-*/
-img.size-auto,
-img.size-full,
-img.size-large,
-img.size-medium,
-.attachment img,
-.widget-area img,
-.wp-caption {
-	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
-	height: auto; /* Override height to match resized width for correct aspect ratio. */
-}
+
 img.alignleft {
 	margin-right: 1em;
 }
@@ -367,181 +255,64 @@ img.alignright {
 	padding-bottom: 30px;
 	}
 
-/* =1140
+
+/* = jQuery Countdown 
 -------------------------------------------------------------- */
-
-/* ==================================================================================================================== */
-/* ! The 1140px Grid V2 by Andy Taylor \ http://cssgrid.net \ http://www.twitter.com/andytlr \ http://www.andytlr.com   */
-/* ==================================================================================================================== */
-
-.container {
-padding-left: 20px;
-padding-right: 20px;
+.hasCountdown {
+	color: white;
+	padding-top: 2%;
 }
-
-.row {
-width: 100%;
-max-width: 1140px;
-min-width: 230px;
-margin: 0 auto;
-overflow: hidden;
+.countdown_rtl {
+	direction: rtl;
 }
-
-.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
-margin-right: 3.8%;
-float: left;
-min-height: 1px;
+.countdown_holding span {
+	color: #888;
 }
-
-.row .onecol {
-width: 4.85%;
-}
-
-.row .twocol {
-width: 13.45%;
-}
-
-.row .threecol {
-width: 22.05%;
-}
-
-.row .fourcol {
-width: 30.75%;
-}
-
-.row .fivecol {
-width: 39.45%;
-}
-
-.row .sixcol {
-width: 48%;
-}
-
-.row .sevencol {
-width: 56.75%;
-}
-
-.row .eightcol {
-width: 65.4%;
-}
-
-.row .ninecol {
-width: 74.05%;
-}
-
-.row .tencol {
-width: 82.7%;
-}
-
-.row .elevencol {
-width: 91.35%;
-}
-
-.row .twelvecol {
-width: 100%;
-float: left;
-}
-
-.last {
-margin-right: 0px;
-}
-
-img, object, embed {
-max-width: 100%;
-}
-
-img {
-	height: auto;
-}
-/* =Media queries */
-
-@media only screen and (max-width: 1023px) {
-
-    body {
-    font-size: 80%;
-    }
-    .home-button {	
-		width: 170px;
-		font-size: 250%;
-		padding: .5em .5em .55em;		
-	}
-  
-
-}
-
-/* Mobile */
-
-@media handheld, only screen and (max-width: 767px) {
-
-	body {
-	-webkit-text-size-adjust: none;
-	}
-	
-	.row, body, .container {
+.countdown_row {
+	clear: both;
 	width: 100%;
-	min-width: 0;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	}
-	
-	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
-	width: auto;
-	float: none;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	}
-
-}
-
-
-/* for testing phone layout on a bigger screen */
-@media only screen and (max-width: 767px) {
-	#button-container {
-	width: 100%;
-	margin: auto;
-}
-
-.home-button {
-	
-	width: 200px;
-	font-size: 300%;
-	padding: .5em 1em .55em;
-	
-	
-	
-}
-
-.home-button-text {
-	margin-top: 2%;
-	line-height: 120%;
-	font-size: 150%;
+	padding: 0px 2px;
 	text-align: center;
 }
-
-
-   
-   }
-@media handheld and (max-width: 767px) and (orientation:portrait) {
-    
+.countdown_show1 .countdown_section {
+	width: 98%;
 }
-@media handheld and (max-width: 767px) and (orientation:landscape) {
-    
+.countdown_show2 .countdown_section {
+	width: 48%;
 }
-@media handheld, only screen and (max-width: 479px) {
-	
-      
-      
-	
+.countdown_show3 .countdown_section {
+	width: 32.5%;
 }
-@media handheld, only screen and (max-width: 319px) {
-   
-		
+.countdown_show4 .countdown_section {
+	width: 24.5%;
+}
+.countdown_show5 .countdown_section {
+	width: 19.5%;
+}
+.countdown_show6 .countdown_section {
+	width: 16.25%;
+}
+.countdown_show7 .countdown_section {
+	width: 14%;
+}
+.countdown_section {
+	display: block;
+	float: left;
+	font-size: 100%;
+	text-align: center;
+	font-family: 'SteelfishRgRegular';
+}
+.countdown_amount {
+	font-family: 'SteelfishRgRegular';
+	font-size: 150%;
+	color:  #da9e26;
+}
+.countdown_descr {
+	padding-top: 5%;
+	font-size: 150%;
+	display: block;
+	width: 100%;
+	font-family: 'SteelfishRgRegular';
+	color: white;
 }
 
-
-/* =Fonts
--------------------------------------------------------------- */
