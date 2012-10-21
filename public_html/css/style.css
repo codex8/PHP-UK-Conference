@@ -184,6 +184,7 @@ img.circle {
 #content-bar-below-header {
 	height: 60px;
 	margin-top: -60px;
+	position:relative;
 }
 
 img.ticket-image {	
