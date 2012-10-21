@@ -3,8 +3,7 @@
 @media only screen and (max-width: 1023px) {
 
 	body {
-	font-size: 90%;
-	
+	font-size: 90%;	
 	}
 	img.circle {
 	width: 8%;	
@@ -28,7 +27,7 @@
 	font-size: 150%;
 	}
 	
-	
+}	
 
 
 /* Mobile */
@@ -108,7 +107,6 @@
 	width: 45%;
 	
 }
-@media handheld, only screen and (max-width: 319px) {
- 
+@media handheld, only screen and (max-width: 319px) { 
 		
 }
