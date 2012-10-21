@@ -95,8 +95,8 @@ img.header-logo {
 
 #access {
 	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 0.3%;
+	padding-bottom: 0.3%;
 	background-color: #25272c;
 	position:relative;
 	z-index: 102;
@@ -117,7 +117,7 @@ img.header-logo {
 }
 #access a {
 	display: block;
-	line-height: 2em;
+	line-height: 1em;
 	padding: 0 1em;
 	text-decoration: none;
 	color: #fff;	
@@ -137,7 +137,7 @@ img.header-logo {
 	text-align: center;
 	position:relative;
 	z-index: 103;
-	margin-top: -30px;
+	margin-top: -3%;
 	}
 
 #header-text {
@@ -170,9 +170,10 @@ img.header-logo {
 	position:relative;
 	z-index: 103;
 	text-align: center;
+	width: 80%;
 	}
 img.circle {
-	padding: 30px;
+	padding: 2% 5%;
 	width: 10%;
 	}
 
@@ -185,10 +186,10 @@ img.circle {
 	height: 60px;
 	margin-top: -60px;
 	position:relative;
+	width: 80%;
 }
 
 img.ticket-image {	
-	width: 32%;
 	z-index:110;
 	}
 #main {
