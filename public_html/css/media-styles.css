@@ -27,6 +27,8 @@
 	padding-top: 5%;
 	font-size: 150%;
 	}
+	
+	
 
 
 /* Mobile */
@@ -59,15 +61,18 @@
 	#header-circles {
 	display: none;
 	}
+	#bar-below-header {
+	height: 30px;
+	margin-top: -30px;
+	}
 	#content-bar-below-header {
-	height: 45px;
 	display: none;
 	}
 	#mobile-content-bar-below-header {
 	display: block;
 	position:relative;
-	height: 45px;
-	margin-top: -45px;
+	height: 30px;
+	margin-top: -30px;
 	}
 	#left-menu {
 	font-size: 90%;
