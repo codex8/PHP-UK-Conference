@@ -96,7 +96,16 @@
   
 }
 @media handheld, only screen and (max-width: 479px) {
-
+	.small-title-text {
+	display: none;
+	}
+	#left-menu {
+	font-size: 80%;
+	width: 45%;
+	}
+	#right-menu {
+	font-size: 80%;
+	width: 45%;
 	
 }
 @media handheld, only screen and (max-width: 319px) {
