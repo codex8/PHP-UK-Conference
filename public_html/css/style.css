@@ -59,8 +59,8 @@ ol {
 }
 .transparent {
 	zoom: 1;
-	filter: alpha(opacity=50);
-	opacity: 0.5;
+	filter: alpha(opacity=30);
+	opacity: 0.3;
 }
 
 
@@ -181,6 +181,15 @@ img.circle {
 	background-color:black;
 	margin-top: -60px;
 }
+#content-bar-below-header {
+	height: 60px;
+	margin-top: -60px;
+}
+
+img.ticket-image {	
+	width: 32%;
+	z-index:110;
+	}
 #main {
 	overflow:auto;
 	padding-bottom: 150px;  /* must be same height as the footer */
