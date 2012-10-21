@@ -107,6 +107,13 @@ img.header-logo {
 }
 #left-menu {
 	text-align:right;
+	width:40%;
+	float: left;
+}
+#right-menu {
+	text-align:left;
+	width: 40%;
+	float: right;
 }
 #access ul {
 	display: inline-block;
@@ -187,6 +194,18 @@ img.circle {
 	margin-top: -60px;
 	position:relative;
 	width: 80%;
+	overflow:visible;
+}
+#mobile-content-bar-below-header {
+	height: 60px;
+	margin-top: -60px;
+	position:relative;
+	width: 80%;
+	display: none;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	overflow: visible;
 }
 
 img.ticket-image {	
@@ -319,11 +338,11 @@ img.alignright {
 	color:  #da9e26;
 }
 .countdown_descr {
-	padding-top: 5%;
+	padding-top: 7%;
 	font-size: 150%;
 	display: block;
 	width: 100%;
 	font-family: 'SteelfishRgRegular';
-	color: white;
+	color: #da9e26;
 }
 

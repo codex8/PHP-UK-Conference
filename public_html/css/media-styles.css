@@ -1,0 +1,93 @@
+/* Smaller screens */
+
+@media only screen and (max-width: 1023px) {
+
+	body {
+	font-size: 90%;
+	
+	}
+	img.circle {
+	width: 8%;	
+	}
+	#bar-below-header {
+	height: 45px;
+	margin-top: -45px;
+	}
+	#content-bar-below-header {
+	height: 45px;
+	margin-top: -45px;
+	}
+	.countdown_section {
+	font-size: 90%;
+	}
+	.countdown_amount {	
+	font-size: 120%;
+	}
+	.countdown_descr {
+	padding-top: 5%;
+	font-size: 150%;
+	}
+
+
+/* Mobile */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+	font-size: 80%;
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	#header-circles {
+	display: none;
+	}
+	#content-bar-below-header {
+	height: 45px;
+	display: none;
+	}
+	#mobile-content-bar-below-header {
+	display: block;
+	position:relative;
+	height: 45px;
+	margin-top: -45px;
+	}
+	
+
+}
+
+/* for testing phone layout on a bigger screen */
+@media only screen and (max-width: 767px) {
+  
+}
+@media handheld and (max-width: 767px) and (orientation:portrait) {
+ 
+}
+@media handheld and (max-width: 767px) and (orientation:landscape) {
+  
+}
+@media handheld, only screen and (max-width: 479px) {
+
+	
+}
+@media handheld, only screen and (max-width: 319px) {
+ 
+		
+}
