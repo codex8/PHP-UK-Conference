@@ -248,10 +248,10 @@ p img {
 }
 
 img.alignleft {
-	margin-right: 1em;
+	float: left;
 }
 img.alignright {
-	margin-left: 1em;
+	float: right;
 }
 
 /* =Footer
