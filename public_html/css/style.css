@@ -162,6 +162,10 @@ img.header-logo {
 	color:white;
 	font-family: "BebasNeueRegular";
 	position: relative;  
+	max-width: 1920px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 150%;
 }
 #left-menu {
 	text-align:right;
@@ -186,6 +190,8 @@ img.header-logo {
 	display: inline-block;
 }
 #access a {
+	max-width: 1920px;
+	width: 100%;
 	display: block;
 	line-height: 1em;
 	padding: 0 1em;
@@ -221,16 +227,16 @@ img.header-logo {
 #header-text {
 	text-align: center;
 	position:relative;
-	padding-top: 5%;
+	padding-top: 6%;
 }
 .big-title-text {	
 	font-family: "SteelfishRgRegular";
-	font-size: 400%;
+	font-size: 600%;
 	color: #fff;
 }
 .small-title-text {	
 	font-family: "SteelfishRgRegular";
-	font-size: 150%;
+	font-size: 250%;
 	color: #fff;
 }
 #header-sub-text{
@@ -239,7 +245,7 @@ img.header-logo {
 	}
 .sub-title-text{
 	font-family: "SteelfishRgRegular";
-	font-size: 160%;
+	font-size: 250%;
 	color: #da9e26;
 	padding-right: 3px;
 	}
@@ -248,17 +254,18 @@ img.header-logo {
 	position:relative;
 	z-index: 103;
 	text-align: center;
-	width: 80%;
+	width: 100%;
 	}
 img.circle {
-	padding: 2% 5%;
-	width: 13%;
+	padding: 7% 2%;
+	width: 15%;
 	}
 
 #bar-below-header {
 	height: 60px;
 	background-color:black;
 	margin-top: -60px;
+	max-width: 1920px;
 }
 #content-bar-below-header {
 	font-family: "SteelfishRgRegular";
@@ -267,6 +274,7 @@ img.circle {
 	position:relative;
 	width: 80%;
 	overflow:visible;
+	max-width: 1920px;
 }
 #mobile-content-bar-below-header {
 	font-family: "SteelfishRgRegular";
