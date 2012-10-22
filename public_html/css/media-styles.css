@@ -1,8 +1,9 @@
-/* Smaller screens */
 
-@media only screen and (max-width: 1023px) {
-
-	body {
+/* tablets (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    body {
 	font-size: 90%;	
 	}
 	img.circle {
@@ -26,13 +27,11 @@
 	padding-top: 5%;
 	font-size: 150%;
 	}
-	
-}	
+}
 
 
-/* Mobile */
-
-@media handheld, only screen and (max-width: 767px) {
+@media only screen
+and (max-width: 767px) {
 
 	body {
 	font-size: 80%;
@@ -61,8 +60,8 @@
 	display: none;
 	}
 	#bar-below-header {
-	height: 30px;
-	margin-top: -30px;
+	height: 40px;
+	margin-top: -40px;
 	}
 	#content-bar-below-header {
 	display: none;
@@ -70,43 +69,47 @@
 	#mobile-content-bar-below-header {
 	display: block;
 	position:relative;
+	height: 40px;
+	margin-top: -40px;
+	}
+	#left-menu {
+	font-size: 90%;
+	width: 45%;
+	}
+	#right-menu {
+	font-size: 90%;
+	width: 45%;
+	}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+	body {
+	font-size: 70%;
+	}
+	.sub-title-text {
+	display: none;
+	}
+	.small-title-text {
+		font-size: 95%;
+		color: #da9e26;
+	}
+	#left-menu {
+	font-size: 80%;
+	}
+	#right-menu {
+	font-size: 80%;
+	}
+	#bar-below-header {
 	height: 30px;
 	margin-top: -30px;
 	}
-	#left-menu {
-	font-size: 90%;
-	width: 45%;
+	#mobile-content-bar-below-header {
+	height: 30px;
+	margin-top: -30px;
 	}
-	#right-menu {
-	font-size: 90%;
-	width: 45%;
-	}
-
 }
 
-/* for testing phone layout on a bigger screen */
-@media only screen and (max-width: 767px) {
-  
-}
-@media handheld and (max-width: 767px) and (orientation:portrait) {
- 
-}
-@media handheld and (max-width: 767px) and (orientation:landscape) {
-  
-}
-@media handheld, only screen and (max-width: 479px) {
-	.small-title-text {
-	display: none;
-	}
-	#left-menu {
-	font-size: 80%;
-	width: 45%;
-	}
-	#right-menu {
-	font-size: 80%;
-	width: 45%;
-	
-}
-@media handheld, only screen and (max-width: 319px) { 
-		
-}
