@@ -50,7 +50,7 @@ body {
     font-family:  "Arial", sans-serif;
     font-size: 16px; /*All other font sizes derived at percentages */
     line-height: 140%;
-    background-color: #fff;
+    background-color: #121212;
 }
 
 h1 {
@@ -129,7 +129,7 @@ img.right-ribbon {
 #page {
  	display: block;
  	width: 100%;
-	/* max-width: 1140px; */
+	max-width: 1920px;
 	margin: auto;	 
 	background: #fff;
 	background: #efefef url(images/fallback-gradient.png);
@@ -146,7 +146,7 @@ img.header-image {
 	position: absolute;
 	top: 0;
 	margin: auto;
-	/*max-width: 1140px;*/
+	max-width: 1920px;
 }
 
 img.header-logo {
@@ -213,6 +213,7 @@ img.header-logo {
 
 
 #header {
+
 	}
 #header-logo-with-text {
 	text-align: center;
@@ -325,6 +326,7 @@ img.ticket-image {
 	height: 150px;
 	position:relative;
 	clear: both;
+	max-width: 1920px;
 	}
 /*Opera Fix*/
 body:before {
