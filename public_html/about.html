@@ -18,14 +18,6 @@
 <script src="js/php-conference-functions.js"></script>
 <script src="js/jquery.countdown.js"></script>
 
-<script>
-$(function () {
-	var confDay = new Date();
-	confDay = new Date(confDay.getFullYear() + 1, 3 - 1, 22);
-	$('#year').text(confDay.getFullYear());
-	$('#noSeconds').countdown({until: confDay, format: 'dHM'});
-});
-</script>
 
 </head>
 <body>
@@ -89,15 +81,16 @@ CONFERENCE 2013
 <div id="noSeconds"></div>
 </div>
 <div class="fourcol">
-<div class="countdown_descr"><p>Time left to PHP UK conference</p></div>
+<div class="countdown_descr"><p>TIME LEFT TO THE PHP UK CONFERENCE</p></div>
 </div>
 <div class="fourcol last">
-<img class="ticket-image alignright" src="images/Ticket.png" alt=""/>
+<a href="http://phpukconference.eventbrite.com/"><img class="ticket-image alignright" src="images/Ticket.png" alt=""/></a>
 </div>
 </div>
-<div id= "mobile-content-bar-below-header" class="row">
-<img class="ticket-image align-right" src="images/Ticket.png" alt=""/>
+<div id= "mobile-content-bar-below-header" class= "row">
+<a href="http://phpukconference.eventbrite.com/"><img class="ticket-image" src="images/Ticket.png" alt=""/></a>
 </div>
+
 <div id="main">
   
 <div class="row">
