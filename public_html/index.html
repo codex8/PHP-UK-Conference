@@ -18,14 +18,6 @@
 <script src="js/php-conference-functions.js"></script>
 <script src="js/jquery.countdown.js"></script>
 
-<script>
-$(function () {
-	var confDay = new Date();
-	confDay = new Date(confDay.getFullYear() + 1, 3 - 1, 22);
-	$('#year').text(confDay.getFullYear());
-	$('#noSeconds').countdown({until: confDay, format: 'dHM'});
-});
-</script>
 
 </head>
 <body>
@@ -66,9 +58,6 @@ $(function () {
 </ul>
 </div>
 </div>
-<div id="header-logo-with-text">
-<img class="header-logo" src="images/HeaderHeadWithText.png" alt="" />
-</div>
 <div id="header-logo">
 <img class="header-logo" src="images/HeaderHead.png" alt="" />
 </div>
@@ -84,13 +73,14 @@ CONFERENCE 2013
 </span>
 </div>
 
-<div id="header-circles" class="row" >
+<div id="header-circle-wrapper" class="row" >
+<div id="header-circles" class="twelvecol">
  <img class="circle" src="images/Round1.png" alt="" />
  <img class="circle" src="images/Round2.png" alt="" />
  <img class="circle" src="images/Round3.png" alt="" />
  <img class="circle" src="images/Round4.png" alt="" />
 </div>
-
+</div>
 </div>
 <div id="bar-below-header" class="transparent">
 </div>
@@ -99,7 +89,7 @@ CONFERENCE 2013
 <div id="noSeconds"></div>
 </div>
 <div class="fourcol">
-<div class="countdown_descr"><p>Time left to PHP UK conference</p></div>
+<div class="countdown_descr"><p>TIME LEFT TO THE PHP UK CONFERENCE</p></div>
 </div>
 <div class="fourcol last">
 <a href="http://phpukconference.eventbrite.com/"><img class="ticket-image alignright" src="images/Ticket.png" alt=""/></a>

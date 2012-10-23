@@ -17,7 +17,7 @@ and (max-width: 1590px) {
 	font-size: 210%;
 	}
 	img.circle {
-	padding: 2% 5%;
+	padding: 3% 2%;
 	width: 14%;
 	}
 	#content-bar-below-header {
@@ -32,14 +32,6 @@ and (max-width: 1590px) {
     #mobile-content-bar-below-header {
 	display:none;
     }
-    #header-logo-with-text {	
-	margin-top: -3%;
-	width: 6%;
-	
-	}
-	#header-logo {
-	disply: none;
-	}
     
 }
 @media only screen
@@ -63,18 +55,17 @@ and (max-width: 1280px) {
 	font-size: 190%;
 	}
 	img.circle {
-	padding: 2% 5%;
-	width: 12%;
-	}
-	#header-logo-with-text {	
-	display: none;
-	
+	padding: 2% 1%;
+	width: 11%;
 	}
 	#header-logo {
 	display: block;	
 	margin-top: -4%;
 	width: 10%;
-	
+	}
+	.countdown_descr {
+	font-size: 120%;
+	margin-top: 3%;
 	}
 	
 }
@@ -87,11 +78,11 @@ and (max-width : 1024px) {
 	}
 	#access {
 	font-size: 120%;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
 	}
 	#header-text {
-	padding-top: 5%;
+	padding-top: 4.5%;
 	}
 	.big-title-text {		
 	font-size: 400%;
@@ -104,7 +95,7 @@ and (max-width : 1024px) {
 	}
 	
 	img.circle {
-	padding: 2% 5%;
+	padding: 3% 2%;
 	width: 8%;	
 	}
 	#bar-below-header {
@@ -122,15 +113,11 @@ and (max-width : 1024px) {
 	font-size: 120%;
 	}
 	.countdown_descr {
-	padding-top: 5%;
-	font-size: 150%;
+	padding-top: 7%;
+	font-size: 100%;
 	}
 	img.circle {
 	width: 10%;
-	}
-	#header-logo-with-text {	
-	display: none;
-	
 	}
 	#header-logo {
 	display: block;	
@@ -169,8 +156,8 @@ and (max-width: 767px) {
 	}
 	#access {
 	font-size: 100%;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
 	}
 	#header-text {
 	padding-top: 7%;
@@ -208,10 +195,6 @@ and (max-width: 767px) {
 	font-size: 90%;
 	width: 40%;
 	}
-	#header-logo-with-text {	
-	display: none;
-	
-	}
 	#header-logo {
 	display: block;	
 	margin-top: -4%;
@@ -248,10 +231,6 @@ and (max-width : 480px) {
 	#mobile-content-bar-below-header {
 	height: 30px;
 	margin-top: -30px;
-	}
-	#header-logo-with-text {	
-	display: none;
-	
 	}
 	#header-logo {
 	display: block;	
