@@ -214,11 +214,21 @@ img.header-logo {
 
 #header {
 	}
-#header-logo {
+#header-logo-with-text {
 	text-align: center;
 	position:relative;
 	z-index: 107;
-	margin-top: -3%;
+	margin-top: -4%;
+	width: 7%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	#header-logo {
+	display: none;
+	text-align: center;
+	position:relative;
+	z-index: 107;
+	margin-top: -4%;
 	width: 10%;
 	margin-left: auto;
 	margin-right: auto;
@@ -258,7 +268,7 @@ img.header-logo {
 	}
 img.circle {
 	padding: 7% 2%;
-	width: 15%;
+	width: 14%;
 	}
 
 #bar-below-header {
@@ -430,8 +440,8 @@ img.alignright {
 	color:  #da9e26;
 }
 .countdown_descr {
-	padding-top: 7%;
-	font-size: 150%;
+	padding-top: 5%;
+	font-size: 200%;
 	display: block;
 	width: 100%;
 	font-family: 'SteelfishRgRegular';

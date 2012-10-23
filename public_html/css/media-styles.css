@@ -1,4 +1,83 @@
-
+/* medium screens */
+@media only screen
+and (min-width : 1281px)
+and (max-width: 1590px) {
+	#access {
+	font-size: 120%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	.big-title-text {		
+	font-size: 500%;
+	}
+	.small-title-text {	
+	font-size: 200%;
+	}
+	.sub-title-text{
+	font-size: 210%;
+	}
+	img.circle {
+	padding: 2% 5%;
+	width: 14%;
+	}
+	#content-bar-below-header {
+	font-family: "SteelfishRgRegular";
+	height: 60px;
+	margin-top: -60px;
+	position:relative;
+	width: 80%;
+	overflow:visible;
+	max-width: 1920px;
+    }
+    #mobile-content-bar-below-header {
+	display:none;
+    }
+    #header-logo-with-text {	
+	margin-top: -3%;
+	width: 6%;
+	
+	}
+	#header-logo {
+	disply: none;
+	}
+    
+}
+@media only screen
+and (min-width : 1025px)
+and (max-width: 1280px) {
+	#access {
+	font-size: 110%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	#header-text {
+	padding-top: 5%;
+	}
+	.big-title-text {		
+	font-size: 450%;
+	}
+	.small-title-text {	
+	font-size: 170%;
+	}
+	.sub-title-text{
+	font-size: 190%;
+	}
+	img.circle {
+	padding: 2% 5%;
+	width: 12%;
+	}
+	#header-logo-with-text {	
+	display: none;
+	
+	}
+	#header-logo {
+	display: block;	
+	margin-top: -4%;
+	width: 10%;
+	
+	}
+	
+}
 /* tablets (portrait and landscape) ----------- */
 @media only screen 
 and (min-width : 768px) 
@@ -6,7 +85,26 @@ and (max-width : 1024px) {
     body {
 	font-size: 90%;	
 	}
+	#access {
+	font-size: 120%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	}
+	#header-text {
+	padding-top: 5%;
+	}
+	.big-title-text {		
+	font-size: 400%;
+	}
+	.small-title-text {	
+	font-size: 150%;
+	}
+	.sub-title-text{
+	font-size: 160%;
+	}
+	
 	img.circle {
+	padding: 2% 5%;
 	width: 8%;	
 	}
 	#bar-below-header {
@@ -29,6 +127,16 @@ and (max-width : 1024px) {
 	}
 	img.circle {
 	width: 10%;
+	}
+	#header-logo-with-text {	
+	display: none;
+	
+	}
+	#header-logo {
+	display: block;	
+	margin-top: -3%;
+	width: 10%;
+	
 	}
 	
 }
@@ -59,7 +167,23 @@ and (max-width: 767px) {
 	padding-left: 0px;
 	padding-right: 0px;
 	}
-	
+	#access {
+	font-size: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	}
+	#header-text {
+	padding-top: 7%;
+	}
+	.big-title-text {		
+	font-size: 400%;
+	}
+	.small-title-text {	
+	font-size: 150%;
+	}
+	.sub-title-text{
+	font-size: 150%;
+	}
 	#header-circles {
 	display: none;
 	}
@@ -78,11 +202,21 @@ and (max-width: 767px) {
 	}
 	#left-menu {
 	font-size: 90%;
-	width: 45%;
+	width: 40%;
 	}
 	#right-menu {
 	font-size: 90%;
-	width: 45%;
+	width: 40%;
+	}
+	#header-logo-with-text {	
+	display: none;
+	
+	}
+	#header-logo {
+	display: block;	
+	margin-top: -4%;
+	width: 10%;
+	
 	}
 
 }
@@ -114,6 +248,16 @@ and (max-width : 480px) {
 	#mobile-content-bar-below-header {
 	height: 30px;
 	margin-top: -30px;
+	}
+	#header-logo-with-text {	
+	display: none;
+	
+	}
+	#header-logo {
+	display: block;	
+	margin-top: -4%;
+	width: 10%;
+	
 	}
 }
 
