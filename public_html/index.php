@@ -40,7 +40,7 @@ the City of London.</p>
 AN ABSTRACT<img class="right-ribbon" src="images/TitleRibbonRight.png" /></h1>
 <p>We are looking for speakers that understand their subject and are
 passionate about it. Click the button below to send us your abstract
-before the 15th November 2012.</p>
+before the 22nd November 2012.</p>
 <div id="submit-abstract"><a href="http://bit.ly/phpukcfp2013"
 	target="_blank" class="standard-button">SUBMIT</a></div>
 </div>
