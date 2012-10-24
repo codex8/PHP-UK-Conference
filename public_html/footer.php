@@ -9,11 +9,11 @@
 <div class="row">
 <div class="fourcol">
 <p>Follow us on twitter</p>
-<p><a href="https://twitter.com/PHPLondon">@PHPLondon</a></p>
+<p><a href="https://twitter.com/PHPUKConference">@PHPUKConference</a></p>
 </div>
 <div class="fourcol">
 <p>Email us</p>
-<p><a href="mailto:contact@phplondon.org">contact@phplondon.org</a> </p>
+<p><a href="mailto:contact@phpconference.co.uk">contact@phpconference.co.uk</a> </p>
 </div>
 <div class="fourcol last">
 <p>Help us make this site better</p>
