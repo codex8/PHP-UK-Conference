@@ -147,6 +147,7 @@ img.header-image {
 	top: 0;
 	margin: auto;
 	max-width: 1920px;
+	max-height: 700px;
 }
 
 img.header-logo {
