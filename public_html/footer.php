@@ -8,14 +8,16 @@
 <h3> We'd love to hear from you </h3>
 <div class="row">
 <div class="fourcol">
-<p><a href="https://twitter.com/PHPLondon" class="twitter-follow-button" data-show-count="false">Follow @PHPLondon</a>
+<p>Follow us on twitter</p>
+<p><a href="https://twitter.com/PHPLondon">@PHPLondon</a></p>
 </div>
 <div class="fourcol">
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
-<p><a href="mailto:contact@phplondon.org"><img class="email-image" src="images/email.png"/>Send us an email</a> </p>
+<p>Email us</p>
+<p><a href="mailto:contact@phplondon.org">contact@phplondon.org</a> </p>
 </div>
 <div class="fourcol last">
-<a href="https://github.com/PHPLondon/PHP-UK-Conference/issues"><img class="octocat" src="images/octocat.png"/>Raise issues with this site</a>
+<p>Help us make this site better</p>
+<p><a href="https://github.com/PHPLondon/PHP-UK-Conference/issues">Raise an issue at Github</a></p>
 </div>
 </div>
 </div>
@@ -25,7 +27,8 @@
 <div id="contact-info">
 <p>Powered by <a href="http://phplondon.org">PHP LONDON</a></p>
 <p>PHP London Limited</p>
-<p>324/326 Regent Street, London. W1B3HH</p>
+<p>324/326 Regent Street</p>
+<p>London. W1B3HH</p>
 <p>Company number: 06770521</p>
 </div>
 </div>
