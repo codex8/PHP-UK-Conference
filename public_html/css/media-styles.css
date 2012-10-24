@@ -162,6 +162,9 @@ and (max-width: 767px) {
 	#header-text {
 	padding-top: 7%;
 	}
+	 .short-image-header-text {
+	padding-top: 5% !important;
+	}
 	.big-title-text {		
 	font-size: 400%;
 	}
@@ -198,8 +201,10 @@ and (max-width: 767px) {
 	#header-logo {
 	display: block;	
 	margin-top: -4%;
-	width: 10%;
-	
+	width: 10%;	
+	}
+	.short-image-sub-text {
+	display: none;
 	}
 
 }
@@ -236,7 +241,9 @@ and (max-width : 480px) {
 	display: block;	
 	margin-top: -4%;
 	width: 10%;
-	
+	}
+    .short-image-header-text {
+	padding-top: 5% !important;
 	}
 }
 
