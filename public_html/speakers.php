@@ -1,6 +1,7 @@
 <?php include 'header.php'; ?>
 <div id="main">
     <h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />CALL FOR PAPERS<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
+    <h2>Closes November 22 2012</h2>
     <p>The main attraction of any conference is the talks that are given and we aim to attract the best PHP speakers from around the world. We solicit talks through a call for papers so you, the community, can tell us what kinds of things everyone should be hearing about.</p>
     
     <p>We are looking for talks relating to any non-basic aspect of the PHP programming language, be it mainstream, advanced, niche or non-technical. We are looking for real 'wow' talks that are fresh and inspiring about cutting edge topics or new perspectives on common problems. The audience will be from all backgrounds varying in skill level from beginner to intermediate to advanced, so talks varying widely in topic and skill levels are required. Most of all we want speakers who have a deep knowledge about the topics they are proposing and can't wait to share that knowledge with a whole group of of eager listeners. Tell us what you're most passionate about and why we should be passionate about it as well.</p>
