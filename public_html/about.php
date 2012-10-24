@@ -12,8 +12,7 @@
 
 <p>The event kicks off on Thursday evening with a special pubcon sponsored by PHP London. Each day will then start with an inspiring keynote presentation, followed by your choice of 3 tracks of talks or unconference sessions. Each day will close with a panel session followed by the evening's social event. There's also exhibition space for all sponsors, to fill in the spaces in between.</p>
 
-
-<p>PHP UK Conference is run by volunteer members of the PHP London community. Costs are minimised to keep ticket prices as low as possible. The aim is not to make a profit, but if there are any surplus funds these are used to fund community events throughout the year and to fund the following years' conference.</p>
+<p>PHP UK Conference was started in 2006 with the aim to offer the local PHP community access to industry updates and professional development at an affordable rate. The conference is run solely by volunteer members of the PHP London community. Costs are minimised to keep ticket prices as low as possible, and any surplus funds are used to fund community events throughout the year and to fund the following years' conference.</p>
 
 <h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />ORGANISERS<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
 <div class="profile">
