@@ -3,7 +3,7 @@
 
 <div class="fourcol">
 <div id="php-london"> 
-<p>Powered by <a href="phplondon.org">PHP LONDON</a></p>
+<p>Powered by <a href="http://phplondon.org">PHP LONDON</a></p>
 </div>
 </div>
 
