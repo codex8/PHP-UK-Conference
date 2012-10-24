@@ -10,7 +10,7 @@
             <h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />FRIDAY<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
             <p>Opening conference social, details TBD.</p>
         </div>
-        <div class="profile fourcol">
+        <div class="profile fourcol last">
             <h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />SATURDAY<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
             <p>Closing conference social, details TBD.</p>
         </div>
