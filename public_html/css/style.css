@@ -365,6 +365,11 @@ img.octocat {
 img.brewery-image {
 	width:100%;
 }
+#brewery-map {
+	width:50%;
+	margin:auto;
+	padding-top: 50px;
+}
 
 /* =Navigation
 -------------------------------------------------------------- */
