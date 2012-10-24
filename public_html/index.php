@@ -16,20 +16,14 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/media-styles.css">
 
-
 <script src="js/jquery-1.8.0.min.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 <script src="js/php-conference-functions.js"></script>
 <script src="js/jquery.countdown.js"></script>
+
 </head>
 <body>
-
 <?php include 'banner.php'?>
-<?php
-$menu = strtolower(filter_input(INPUT_SERVER, 'REQUEST_URI', FILTER_SANITIZE_STRING));
-$menu = str_replace("/", "", $menu);
-?>
-
 <div id="main">
 
 <div class="row">
