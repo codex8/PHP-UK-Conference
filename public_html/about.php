@@ -25,9 +25,9 @@
 </div>
 <div class="profile">
     <img class="circle-frame" src="http://www.gravatar.com/avatar/a5bb97e83780c26b2a8862fedc4a81d2" />
-    <p><a href="http://uk.linkedin.com/in/ciaranr" target="_blank">Ciar&aacute;n</a> is the <a href="http://skimlinks.com/team#ciaran" target="_blank">CTO of Skimlinks</a> where he leads the technical innovation for Skimlinks' products and platform's infrastructure. Before Skimlinks, Ciar&aacute;n worked in Ireland as Head of IT at one of the country's largest <a href="http://realm.ie/" target="_blank">mobile communications companies</a> and established <a href="http://www.crunchbase.com/company/weeno-media" target="_blank">Weeno Ltd</a>. Ciaran has been developing PHP applications at large scale for the past 10 years since he first studied <a href="http://www.dcu.ie/prospective/deginfo.php?classname=DME&amp;originating_school=20" target="_blank">Digital Media Engineering</a> in Dublin City University and holds a Honors Diploma in Multimedia from <a href="http://www.uwl.ac.uk/" target="_blank">University of West London</a>.</p>
+    <p><a href="http://uk.linkedin.com/in/ciaranr">Ciar&aacute;n</a> is the CTO of <a href="http://skimlinks.com/team#ciaran">Skimlinks</a> where he leads the technical innovation for Skimlinks' products and platform's infrastructure. Before Skimlinks, Ciar&aacute;n worked in Ireland as Head of IT at one of the country's largest <a href="http://realm.ie/">mobile communications companies</a> and established <a href="http://www.crunchbase.com/company/weeno-media">Weeno Ltd</a>. Ciaran has been developing PHP applications at large scale for the past 10 years since he first studied <a href="http://www.dcu.ie/prospective/deginfo.php?classname=DME&amp;originating_school=20">Digital Media Engineering</a> in Dublin City University and holds a Honors Diploma in Multimedia from <a href="http://www.uwl.ac.uk/">University of West London</a>.</p>
     <p>Ciar&aacute;n is currently a Director of PHP London and manages sponsors, socials and marketing for the conference.</p>
-    <p><a class="btn" href="http://twitter.com/CiaranR" target="_blank">@CiaranR on Twitter &raquo;</a></p>
+    <p><a class="btn" href="http://twitter.com/CiaranR">@CiaranR on Twitter &raquo;</a></p>
     <p><a class="btn" href="http://github.com/CiaranR">@CiaranR on Github &raquo;</a></p>
 </div>
 <div class="profile">
