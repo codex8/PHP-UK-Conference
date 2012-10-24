@@ -7,10 +7,24 @@
 <html class="no-js">
 <!--<![endif]-->
 <head>
-<!--#include virtual="header.html" -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/resets.css">
+
+<link rel="stylesheet" href="css/1140.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media-styles.css">
+
+
+<script src="js/jquery-1.8.0.min.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+<script src="js/php-conference-functions.js"></script>
+<script src="js/jquery.countdown.js"></script>
 </head>
 <body>
-<!--#include virtual="banner.html" -->
+
+<?php include 'banner.php'?>
 
 <div id="main">
 
@@ -43,6 +57,6 @@ Click on the ticket image above to buy now and beat the crowd!</p>
 </div><!-- main-->
 <div class="push"></div>
 </div><!-- page -->
-<!--#include virtual="footer.html" -->
+<?php include 'footer.php'?>
 </body>
 </html>
