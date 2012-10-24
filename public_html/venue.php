@@ -24,7 +24,13 @@
 <body>
 <?php include 'banner.php'?>
 <div id="main">
+<div id="brewery-image" class="row">
+<div class="twelvecol">
+<img class="brewery-image" src="images/brewery.jpg" />
+</div>
+</div>
 </div><!-- main -->
+<div class="push"></div>
 </div><!-- page -->
 <?php include 'footer.php'?>
 </body>

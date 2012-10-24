@@ -358,6 +358,14 @@ img.octocat {
 	width:15%;
 }
 
+#brewery-image {
+	width:90%;
+	margin: auto;
+}
+img.brewery-image {
+	width:100%;
+}
+
 /* =Navigation
 -------------------------------------------------------------- */
 
