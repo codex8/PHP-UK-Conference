@@ -65,7 +65,8 @@ h2 {
 	
 	}
 h3 {
-	
+	padding-bottom: 20px;
+	font-size: 140%;
 	}
 ul {
 	
@@ -349,7 +350,11 @@ height: 171px;
 	}
 img.email-image {
 	padding-top: 1%;
-	width:10%;
+	width:12%;
+}
+img.octocat {
+	padding-top: 1%;
+	width:15%;
 }
 
 /* =Navigation
