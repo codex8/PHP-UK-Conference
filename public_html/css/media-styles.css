@@ -65,7 +65,6 @@ and (max-width: 1280px) {
 	}
 	.countdown_descr {
 	font-size: 120%;
-	margin-top: 3%;
 	}
 	
 }
@@ -113,7 +112,6 @@ and (max-width : 1024px) {
 	font-size: 120%;
 	}
 	.countdown_descr {
-	padding-top: 7%;
 	font-size: 120%;
 	}
 	img.circle {

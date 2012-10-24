@@ -130,7 +130,7 @@ img.right-ribbon {
  	display: block;
  	width: 100%;
 	max-width: 1920px;
-	margin: auto;	 
+	margin: 0 auto -101px;	 
 	background: #fff;
 	background: #efefef url(images/fallback-gradient.png);
 	background-image: -webkit-gradient(radial, 50% 45%, 0, 50% 80%, 100 from(#fff), to(#efefef));
@@ -139,6 +139,7 @@ img.right-ribbon {
 	background-image: -ms-radial-gradient(50% 45%, closest-corner, #fff, #efefef);
 	background-image: -o-radial-gradient(50% 45%, closest-corner, #fff, #efefef); 
 	min-height: 100%;
+	height: auto !important;
 }
 
 img.header-image {
@@ -314,19 +315,14 @@ img.ticket-image {
 	width: 100%;
 	margin: auto;
 	background-color: #25272c;
-	height: 150px;
 	position:relative;
 	clear: both;
 	max-width: 1920px;
 	}
-/*Opera Fix*/
-body:before {
-	content:"";
-	height:100%;
-	float:left;
-	width:0;
-	margin-top:-32767px;/
+.footer, .push {
+height: 101px;
 }
+
 /* =Navigation
 -------------------------------------------------------------- */
 
@@ -351,34 +347,6 @@ img.alignright {
 
 /* =Footer
 -------------------------------------------------------------- */
-
-#colophon {
-	padding: 1em 0 0;
-}
-.footer-container {
-	max-width: 1140px;
-	margin: auto;
-	background-color: #303030;
-}
-.contact {
-	padding-left: 5%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-.footer, .push {
-	clear:both;
-	height: 103px; /*Extra 2px allows for border top*/
-}
-
-.footer-wrapper {
-	color: #fff;
-	border-top: solid 15px #000;
-	text-align: center;
-	
-}
-.footer-wrapper h3 {
-	padding-bottom: 30px;
-	}
 
 
 /* = jQuery Countdown 
