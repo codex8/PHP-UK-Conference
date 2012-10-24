@@ -385,7 +385,8 @@ img.alignright {
 -------------------------------------------------------------- */
 .hasCountdown {
 	color: white;
-	padding-top: 2%;
+	padding-top: 1%;
+	width: 50%
 }
 .countdown_rtl {
 	direction: rtl;
@@ -406,7 +407,9 @@ img.alignright {
 	width: 48%;
 }
 .countdown_show3 .countdown_section {
-	width: 32.5%;
+	/*width: 32.5%;*/
+	/* Reduced to cope with IE issue */
+	width: 30%;
 }
 .countdown_show4 .countdown_section {
 	width: 24.5%;
@@ -433,10 +436,8 @@ img.alignright {
 	color:  #da9e26;
 }
 .countdown_descr {
-	padding-top: 5%;
 	font-size: 190%;
-	display: block;
-	width: 100%;
+	display: inline;
 	font-family: 'SteelfishRgRegular';
 	color: #da9e26;
 }
