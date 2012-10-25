@@ -24,8 +24,9 @@
 </ul>
 </div>
 </div>
+
 <div id="header-logo"><a href="//<?=$host;?>/"><img class="header-logo"
-	src="//<?=$host;?>/images/HeaderHead.png" alt="" /></a></div>
+	src="//<?=$host;?>/images/HeaderHead.jpg" alt="" /></a></div>
 
 <div id="header-text"><span class="small-title-text">F&nbsp;E&nbsp;B&nbsp;R&nbsp;U&nbsp;A&nbsp;R&nbsp;Y&nbsp;&nbsp;&nbsp;22&nbsp;-&nbsp;23&nbsp;&nbsp;&nbsp;2013&nbsp;&nbsp;&nbsp;&#8212;&nbsp;&nbsp;&nbsp;</span>
 <a  href="//<?=$host;?>/"><span class="big-title-text">PHP UK</span></a> <span
