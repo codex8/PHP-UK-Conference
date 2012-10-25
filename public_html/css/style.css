@@ -489,12 +489,14 @@ img.alignright {
 	font-size: 150%;
 	color:  #da9e26;
 }
-.countdown_descr {
-	font-size: 190%;
+#countdown_descr {
+	font-size: 130%;
 	display: inline;
 	font-family: 'SteelfishRgRegular';
 	color: #da9e26;
-}
+	padding-top: 3%;
+	
+	}
 
 .circle-frame {
     border-radius: 100%;
