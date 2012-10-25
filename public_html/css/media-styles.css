@@ -214,6 +214,9 @@ and (max-width : 480px) {
 	body {
 	font-size: 70%;
 	}
+	#main{
+		font-size: 110%;
+	}
 	.sub-title-text {
 	display: none;
 	}
@@ -243,5 +246,15 @@ and (max-width : 480px) {
     .short-image-header-text {
 	padding-top: 5% !important;
 	}
+	.footer {
+		height: 301px;
+	}
+	.push {
+		height: 321px;
+	}
+	#page{
+	margin: 0 auto -321px;	
+	}
+	
 }
 

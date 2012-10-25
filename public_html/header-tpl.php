@@ -13,7 +13,7 @@
 
 <link rel="stylesheet" href="//<?=$host;?>/css/1140.css">
 <link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=9">
-<link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css?version=1">
+<link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css?version=2">
 
 
 <script src="//<?=$host;?>/js/jquery-1.8.0.min.js"></script>
