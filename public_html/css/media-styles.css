@@ -123,6 +123,9 @@ and (max-width : 1024px) {
 	width: 10%;
 	
 	}
+	#countdown_descr {
+	padding-top: 3.5%
+	}
 	
 }
 

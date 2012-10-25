@@ -12,14 +12,14 @@
 <link rel="stylesheet" href="//<?=$host;?>/css/resets.css">
 
 <link rel="stylesheet" href="//<?=$host;?>/css/1140.css">
-<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=10">
-<link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css?version=4">
+<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=11">
+<link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css?version=5">
 
 
 <script src="//<?=$host;?>/js/jquery-1.8.0.min.js"></script>
-<script src="//<?=$host;?>/js/css3-mediaqueries.js"></script>
-<script src="//<?=$host;?>/js/php-conference-functions.js"></script>
-<script src="//<?=$host;?>/js/jquery.countdown.js"></script>
+<script src="//<?=$host;?>/js/css3-mediaqueries.min.js"></script>
+<script src="//<?=$host;?>/js/php-conference-functions.min.js"></script>
+<script src="//<?=$host;?>/js/jquery.countdown.min.js"></script>
 </head>
 <body>
 <?php include 'banner-tpl.php'; ?>
