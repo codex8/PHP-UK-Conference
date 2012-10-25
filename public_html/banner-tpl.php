@@ -24,6 +24,7 @@
 </ul>
 </div>
 </div>
+
 <div id="header-logo"><a href="//<?=$host;?>/"><img class="header-logo"
 	src="//<?=$host;?>/images/HeaderHead.png" alt="" /></a></div>
 
