@@ -8,7 +8,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport"
-	content="width=device-width, initial-scale=1, maximum-scale=1">
+	content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="//<?=$host;?>/css/resets.css">
 
 <link rel="stylesheet" href="//<?=$host;?>/css/1140.css">
