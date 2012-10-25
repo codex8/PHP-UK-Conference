@@ -1,6 +1,6 @@
 <?php 
 
-include 'header.php';
+include 'header-tpl.php';
 
 $menu = strtolower(filter_input(INPUT_SERVER, 'REQUEST_URI', FILTER_SANITIZE_STRING));
 $menu = str_replace("/", "", $menu);
@@ -8,29 +8,29 @@ if(empty($menu)) { $menu = "home"; }
 
 switch ($menu) {
     case "home":
-        include 'home.php';
+        include 'home-tpl.php';
         break;
     case "about":
-        include 'about.php';
+        include 'about-tpl.php';
         break;
     case "speakers":
-        include 'speakers.php';
+        include 'speakers-tpl.php';
         break;
     case "schedule":
-        include 'schedule.php';
+        include 'schedule-tpl.php';
         break;
     case "sponsors":
-        include 'sponsors.php';
+        include 'sponsors-tpl.php';
         break;
     case "socials":
-        include 'socials.php';
+        include 'socials-tpl.php';
         break;
     case "venue":
-        include 'venue.php';
+        include 'venue-tpl.php';
         break;
 	default:
-		include 'home.php';
+		include 'home-tpl.php';
 	break;
 }
- include 'footer.php';
+ include 'footer-tpl.php';
  ?>

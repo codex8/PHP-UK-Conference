@@ -22,4 +22,4 @@
 <script src="js/jquery.countdown.js"></script>
 </head>
 <body>
-<?php include 'banner.php'; ?>
+<?php include 'banner-tpl.php'; ?>
