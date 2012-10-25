@@ -27,7 +27,7 @@ and (max-width: 1590px) {
 	position:relative;
 	width: 80%;
 	overflow:visible;
-	max-width: 1920px;
+	max-width: 920px;
     }
     #mobile-content-bar-below-header {
 	display:none;
