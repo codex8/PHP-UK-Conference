@@ -468,5 +468,6 @@ img.alignright {
     margin: 3%;
 }
 
-.profile {
+.profile img{
+	float: left;
 }
