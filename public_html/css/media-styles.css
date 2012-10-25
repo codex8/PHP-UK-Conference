@@ -204,6 +204,15 @@ and (max-width: 767px) {
 	.short-image-sub-text {
 	display: none;
 	}
+	.footer {
+		height: 251px;
+	}
+	.push {
+		height: 271px;
+	}
+	#page{
+	margin: 0 auto -271px;	
+	}
 
 }
 
@@ -213,6 +222,10 @@ and (min-width : 320px)
 and (max-width : 480px) {
 	body {
 	font-size: 70%;
+	}
+	#main{
+	
+		font-size: 130%;
 	}
 	.sub-title-text {
 	display: none;
@@ -243,5 +256,18 @@ and (max-width : 480px) {
     .short-image-header-text {
 	padding-top: 5% !important;
 	}
+	.footer {
+		height: 251px;
+	}
+	.push {
+		height: 271px;
+	}
+	#page{
+	margin: 0 auto -271px;	
+	}
+	#footer-content {
+		width: 90%;
+	}
+	
 }
 
