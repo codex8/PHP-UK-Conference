@@ -1,5 +1,5 @@
 <div id="main">
-    <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SOCIALS<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+    <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SOCIALS<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"alt=""/></h1>
     <div id="profiles" class="row">
         <div class="profile fourcol">
             <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />THURSDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>

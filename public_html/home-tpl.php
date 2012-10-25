@@ -2,7 +2,7 @@
 
 <div class="row">
 <div class="fourcol">
-<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SAVE
+<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" alt=""/>SAVE
 THE DATE<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png" /></h1>
 <p>PHP London are pleased to announce our 8th Annual PHP UK
 conference. It will be two days crammed with great talks and amazing
@@ -10,7 +10,7 @@ socials. This year the conference will be in the Brewery in the heart of
 the City of London.</p>
 </div>
 <div class="fourcol">
-<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SUBMIT
+<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" alt=""/>SUBMIT
 AN ABSTRACT<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png" /></h1>
 <p>We are looking for speakers that understand their subject and are
 passionate about it. Click the button below to send us your abstract

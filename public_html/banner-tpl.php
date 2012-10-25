@@ -6,7 +6,7 @@
 
 <div id="page">
 <div id="header"><img class="header-image"
-	src="//<?=$host;?>/images/HeaderBackground<?php if($menu != "home"){ print "Short"; } ?>.png" alt="" />
+	src="//<?=$host;?>/images/HeaderBackground<?php if($menu != "home"){ print "Short"; } ?>.jpg" alt="" />
 <div id="access" class="row">
 <div id="left-menu">
 <ul>
