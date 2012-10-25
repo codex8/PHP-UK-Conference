@@ -20,6 +20,7 @@
 <script src="//<?=$host;?>/js/css3-mediaqueries.js"></script>
 <script src="//<?=$host;?>/js/php-conference-functions.js"></script>
 <script src="//<?=$host;?>/js/jquery.countdown.js"></script>
+<title>PHP UK Conference 2013 - The Brewery, London - February 22-23 2013</title>
 </head>
 <body>
 <?php include 'banner-tpl.php'; ?>
