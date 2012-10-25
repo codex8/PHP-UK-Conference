@@ -9,17 +9,17 @@
 <meta charset="utf-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" href="//<?=$host;?>css/resets.css">
+<link rel="stylesheet" href="//<?=$host;?>/css/resets.css">
 
-<link rel="stylesheet" href="//<?=$host;?>css/1140.css">
-<link rel="stylesheet" href="//<?=$host;?>css/style.css?version=3">
-<link rel="stylesheet" href="//<?=$host;?>css/media-styles.css">
+<link rel="stylesheet" href="//<?=$host;?>/css/1140.css">
+<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=3">
+<link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css">
 
 
-<script src="//<?=$host;?>js/jquery-1.8.0.min.js"></script>
-<script src="//<?=$host;?>js/css3-mediaqueries.js"></script>
-<script src="//<?=$host;?>js/php-conference-functions.js"></script>
-<script src="//<?=$host;?>js/jquery.countdown.js"></script>
+<script src="//<?=$host;?>/js/jquery-1.8.0.min.js"></script>
+<script src="//<?=$host;?>/js/css3-mediaqueries.js"></script>
+<script src="//<?=$host;?>/js/php-conference-functions.js"></script>
+<script src="//<?=$host;?>/js/jquery.countdown.js"></script>
 </head>
 <body>
 <?php include 'banner-tpl.php'; ?>
