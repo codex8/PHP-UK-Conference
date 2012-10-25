@@ -204,6 +204,15 @@ and (max-width: 767px) {
 	.short-image-sub-text {
 	display: none;
 	}
+	.footer {
+		height: 251px;
+	}
+	.push {
+		height: 271px;
+	}
+	#page{
+	margin: 0 auto -271px;	
+	}
 
 }
 
@@ -215,7 +224,8 @@ and (max-width : 480px) {
 	font-size: 70%;
 	}
 	#main{
-		font-size: 110%;
+	
+		font-size: 130%;
 	}
 	.sub-title-text {
 	display: none;
@@ -247,13 +257,13 @@ and (max-width : 480px) {
 	padding-top: 5% !important;
 	}
 	.footer {
-		height: 301px;
+		height: 251px;
 	}
 	.push {
-		height: 321px;
+		height: 271px;
 	}
 	#page{
-	margin: 0 auto -321px;	
+	margin: 0 auto -271px;	
 	}
 	
 }
