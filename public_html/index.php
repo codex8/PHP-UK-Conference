@@ -1,4 +1,6 @@
-<?php include 'header.php';
+<?php 
+
+include 'header.php';
 
 $menu = strtolower(filter_input(INPUT_SERVER, 'REQUEST_URI', FILTER_SANITIZE_STRING));
 $menu = str_replace("/", "", $menu);
