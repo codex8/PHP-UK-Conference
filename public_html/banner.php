@@ -10,25 +10,25 @@
 <div id="access" class="row">
 <div id="left-menu">
 <ul>
-	<li><a href="about.php">ABOUT</a></li>
-	<li><a href="speakers.php">SPEAKERS</a></li>
-	<li><a href="schedule.php">SCHEDULE</a></li>
+	<li><a href="/about">ABOUT</a></li>
+	<li><a href="/speakers">SPEAKERS</a></li>
+	<li><a href="/schedule">SCHEDULE</a></li>
 </ul>
 </div>
 
 <div id="right-menu">
 <ul>
-	<li><a href="sponsors.php">SPONSORS</a></li>
-	<li><a href="socials.php">SOCIALS</a></li>
-	<li><a href="venue.php">VENUE</a></li>
+	<li><a href="/sponsors">SPONSORS</a></li>
+	<li><a href="/socials">SOCIALS</a></li>
+	<li><a href="/venue">VENUE</a></li>
 </ul>
 </div>
 </div>
-<div id="header-logo"><a href="index.php"><img class="header-logo"
+<div id="header-logo"><a href="/"><img class="header-logo"
 	src="images/HeaderHead.png" alt="" /></a></div>
 
 <div id="header-text"><span class="small-title-text">F&nbsp;E&nbsp;B&nbsp;R&nbsp;U&nbsp;A&nbsp;R&nbsp;Y&nbsp;&nbsp;&nbsp;22&nbsp;-&nbsp;23&nbsp;&nbsp;&nbsp;2013&nbsp;&nbsp;&nbsp;&#8212;&nbsp;&nbsp;&nbsp;</span>
-<a  href="index.php"><span class="big-title-text">PHP UK</span></a> <span
+<a  href="/"><span class="big-title-text">PHP UK</span></a> <span
 	class="small-title-text">&nbsp;&#8212;&nbsp;&nbsp;T&nbsp;H&nbsp;E&nbsp;&nbsp;B&nbsp;R&nbsp;E&nbsp;W&nbsp;E&nbsp;R&nbsp;Y,&nbsp;&nbsp;L&nbsp;O&nbsp;N&nbsp;D&nbsp;O&nbsp;N</span>
 </div>
 <div id="header-sub-text"><span class="sub-title-text">
