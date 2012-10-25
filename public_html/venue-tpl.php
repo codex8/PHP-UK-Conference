@@ -13,9 +13,13 @@
             <div class="profile fourcol">
             </div>
             <div class="profile fourcol last">
-                 <p><a href="http://www.thebrewery.co.uk/">The Brewery</a> occupies the site of the former Whitbread brewery in East London. In 1750 Samuel Whitbread, having bought property in the area, transplanted his operations to Chiswell Street from two smaller breweries in Old Street and Brick Lane.</p>
-                <p>Within a few years Whitbread’s brewery had become a vast operation, its sheer size making it an attraction worthy of royal visits. George III, Queen Charlotte, Queen Elizabeth II and Elizabeth the Queen Mother all visited the site.</p>
-                <p>Brewing on the site continued until 1976, the last tanker pulling out of the South Yard on April 13, bringing to an end a 225-year era.</p>
+                <p>PHP UK conference is in a new venue this year, <a href="http://www.thebrewery.co.uk/">The Brewery</a>, right in the heart of the City of London. The Brewery occupies the site of the former Whitbread brewery in East London. Samuel Whitbread opened The Brewery in 1750. Brewing on the site continued until 1976.</p>
+
+                <p>The Brewery is a beautiful venue, with unique rooms and ambient lighting which provide the perfect creative atmosphere, encouraging networking and learning. There will be dedicated space for delegates to relax, charge their equipment and network with other attendees.</p>
+
+                <p>The centre of the conference will be the 544square metre exhibition and catering space. Buzzing with speakers, sponsors and delegates in this room you'll find all your refreshments, lunch and great info and swag from our awesome <a href="/sponsors">sponsors</a>.</p>
+
+                <p>The whole venue is equipped with award winning wifi free for all attendees. Each talk room contains state of the art audio and video equipment so you know you'll get the best possible experience out of all the talks, including in the recorded video after the event.</p>
             </div>
         </div>
     </div>
