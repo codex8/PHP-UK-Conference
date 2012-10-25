@@ -87,6 +87,9 @@ a {
 	text-decoration: none;
 	
 	}
+a:hover {
+	color:  #2492a2;
+	}
 #main p {
 	font-family: 'Arial';
 	padding-bottom: 20px;
@@ -345,6 +348,9 @@ height: 171px;
 }
 #footer-content a {
 	color: #fff;
+	}
+#footer-content	a:hover {
+	color:  #2492a2;
 	}
 
 #contact-info{
