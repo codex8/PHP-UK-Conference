@@ -1,11 +1,12 @@
 <?php 
 
 $host = $_SERVER['HTTP_HOST'];
-include 'header-tpl.php';
 
 $menu = strtolower(filter_input(INPUT_SERVER, 'REQUEST_URI', FILTER_SANITIZE_STRING));
 $menu = str_replace("/", "", $menu);
 if(empty($menu)) { $menu = "home"; }
+
+include 'header-tpl.php';
 
 switch ($menu) {
     case "home":
