@@ -394,6 +394,12 @@ img.brewery-image {
 	font-family: "SteelfishRgRegular";
 	font-size: 200%;
 	color: #60b5c9; 
+	text-align: center;
+}
+img.sadele {
+	width: 20%;
+	padding-top: 30px;
+	text-align: center;
 }
 
 /* =Navigation
