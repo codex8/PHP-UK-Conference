@@ -345,6 +345,8 @@ height: 171px;
 	padding-top: 2%;
 	width: 90%;
 	color: #fff;
+	margin-left: auto;
+	margin-right: auto;
 }
 #footer-content a {
 	color: #fff;

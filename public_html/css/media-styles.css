@@ -265,6 +265,9 @@ and (max-width : 480px) {
 	#page{
 	margin: 0 auto -271px;	
 	}
+	#footer-content {
+		width: 90%;
+	}
 	
 }
 

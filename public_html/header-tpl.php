@@ -12,8 +12,8 @@
 <link rel="stylesheet" href="//<?=$host;?>/css/resets.css">
 
 <link rel="stylesheet" href="//<?=$host;?>/css/1140.css">
-<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=9">
-<link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css?version=3">
+<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=10">
+<link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css?version=4">
 
 
 <script src="//<?=$host;?>/js/jquery-1.8.0.min.js"></script>
