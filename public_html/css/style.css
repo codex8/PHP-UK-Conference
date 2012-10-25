@@ -395,7 +395,12 @@ img.brewery-image {
 	font-size: 200%;
 	color: #60b5c9; 
 	text-align: center;
+	padding-bottom:10px;
 }
+#elephant-image {
+	margin-left: auto;
+	margin-right: auto;	
+	}
 img.sadele {
 	width: 20%;
 	padding-top: 30px;
