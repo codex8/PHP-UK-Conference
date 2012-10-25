@@ -2,6 +2,7 @@
 
 include 'header-tpl.php';
 
+$host = $_SERVER['HTTP_HOST'];
 $menu = strtolower(filter_input(INPUT_SERVER, 'REQUEST_URI', FILTER_SANITIZE_STRING));
 $menu = str_replace("/", "", $menu);
 if(empty($menu)) { $menu = "home"; }
