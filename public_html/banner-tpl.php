@@ -48,11 +48,15 @@ CONFERENCE 2013 </span></div>
 <div id="bar-below-header" class="transparent"></div>
 <div id="content-bar-below-header" class="row">
 <div class="eightcol">
-<div id="noSeconds"></div>
-<div class="countdown_descr">
+<div class="row">
+<div id="noSeconds" class="sixcol"></div>
+<div id="countdown_descr"  class="sixcol last">
 UNTIL THE PHP UK CONFERENCE
 </div>
 </div>
+</div>
+
+
 <div class="fourcol last"><a
 	href="http://phpukconference.eventbrite.com/"><img
 	class="ticket-image alignright" src="//<?=$host;?>/images/Ticket.png" alt="Buy Tickets Now" /></a></div>
