@@ -332,6 +332,9 @@ height: 171px;
 	width: 90%;
 	color: #fff;
 }
+#footer-content a {
+	color: #fff;
+	}
 
 #contact-info{
 	font-style: "BebasNeueRegular";
