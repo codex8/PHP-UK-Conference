@@ -6,7 +6,7 @@
 
 <div id="page">
 <div id="header"><img class="header-image"
-	src="//<?=$host;?>/images/HeaderBackground.png" alt="" />
+	src="//<?=$host;?>/images/HeaderBackground<?php if($menu != "home"){ print "Short"; } ?>.png" alt="" />
 <div id="access" class="row">
 <div id="left-menu">
 <ul>
@@ -33,7 +33,9 @@
 </div>
 <div id="header-sub-text"><span class="sub-title-text">
 CONFERENCE 2013 </span></div>
-
+<?php
+if($menu == "home"){ 
+?>
 <div id="header-circle-wrapper" class="row">
 <div id="header-circles" class="twelvecol"><img class="circle"
 	src="//<?=$host;?>/images/Round1.png" alt="" /> <img class="circle"
@@ -42,6 +44,7 @@ CONFERENCE 2013 </span></div>
 	src="//<?=$host;?>/images/Round4.png" alt="" /></div>
 </div>
 </div>
+<?php } ?>
 <div id="bar-below-header" class="transparent"></div>
 <div id="content-bar-below-header" class="row">
 <div class="eightcol">
