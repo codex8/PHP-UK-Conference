@@ -14,38 +14,7 @@ height: 460px;
 #customheader .main{width:100%}
 </STYLE>
 <style>
-@font-face {
-    font-family: 'SteelfishRgRegular';
-    src: url('https://phpukdev.orchestra.io/fonts/steelfish_regular_macroman/steelfish_rg-webfont.eot');
-    src: url('https://phpukdev.orchestra.io/fonts/steelfish_regular_macroman/steelfish_rg-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://phpukdev.orchestra.io/fonts/steelfish_regular_macroman/steelfish_rg-webfont.woff') format('woff'),
-         url('https://phpukdev.orchestra.io/fonts/steelfish_regular_macroman/steelfish_rg-webfont.ttf') format('truetype'),
-         url('https://phpukdev.orchestra.io/fonts/steelfish_regular_macroman/steelfish_rg-webfont.svg#SteelfishRgRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'SteelfishRgItalic';
-    src: url('https://phpukdev.orchestra.io/fonts/steelfish_italic_macroman/steelfish_rg_it-webfont.eot');
-    src: url('https://phpukdev.orchestra.io/fonts/steelfish_italic_macroman/steelfish_rg_it-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://phpukdev.orchestra.io/fonts/steelfish_italic_macroman/steelfish_rg_it-webfont.woff') format('woff'),
-         url('https://phpukdev.orchestra.io/fonts/steelfish_italic_macroman/steelfish_rg_it-webfont.ttf') format('truetype'),
-         url('https://phpukdev.orchestra.io/fonts/steelfish_italic_macroman/steelfish_rg_it-webfont.svg#SteelfishRgItalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
-@font-face {
-    font-family: 'BebasNeueRegular';
-    src: url('https://phpukdev.orchestra.io/fonts/bebas_neue/BebasNeue-webfont.eot');
-    src: url('https://phpukdev.orchestra.io/fonts/bebas_neue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://phpukdev.orchestra.io/fonts/bebas_neue/BebasNeue-webfont.woff') format('woff'),
-         url('https://phpukdev.orchestra.io/fonts/bebas_neue/BebasNeue-webfont.ttf') format('truetype'),
-         url('https://phpukdev.orchestra.io/fonts/bebas_neue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 .container {
 padding-left: 20px;
 padding-right: 20px;
@@ -71,6 +40,7 @@ img.header-image {
 width: 100%;
 position: absolute;
 top: 0;
+left: 0;
 margin: auto !important;
 max-width: 1920px;
 max-height: 490px;
@@ -84,7 +54,7 @@ background-color: #25272C;
 width: 100%;
 z-index: 105;
 color: white;
-font-family: "BebasNeueRegular";
+font-family: "BebasNeueRegular", "SteelfishRgRegular", Impact, "Trebuchet MS", Helvetica, sans-serif;
 position: relative;
 max-width: 1920px;
 }
@@ -148,7 +118,7 @@ padding-top: 5.5% !important;
 }
 .small-title-text {
 font-size: 35px;
-font-family: "SteelfishRgRegular";
+font-family: "SteelfishRgRegular", Impact, sans-serif;
 font-size: 250%;
 color: white;
 }
@@ -163,7 +133,7 @@ position: relative;
 }
 .sub-title-text {
 font-size: 32px;
-font-family: "SteelfishRgRegular";
+font-family: "SteelfishRgRegular", Impact, sans-serif;
 color: #DA9E26;
 padding-right: 3px !important;
 }
@@ -183,7 +153,7 @@ width: 14%;
 }
 .big-title-text {
 font-size: 78px;
-font-family: "SteelfishRgRegular";
+font-family: "SteelfishRgRegular", Impact, sans-serif;
 color: white;
 }
 </style>
@@ -211,7 +181,7 @@ color: white;
 </div>
 </div>
 <div id="header-logo"><a href="http://phpconference.co.uk/"><img class="header-logo"
-	src="https://phpukdev.orchestra.io/images/HeaderHead.png" alt="" /></a></div>
+	src="https://phpukdev.orchestra.io/images/HeaderHead.png" alt="" border="0" /></a></div>
 
 <div id="header-text"><span class="small-title-text">F&nbsp;E&nbsp;B&nbsp;R&nbsp;U&nbsp;A&nbsp;R&nbsp;Y&nbsp;&nbsp;&nbsp;22&nbsp;-&nbsp;23&nbsp;&nbsp;&nbsp;2013&nbsp;&nbsp;&nbsp;&#8212;&nbsp;&nbsp;&nbsp;</span>
 <a  href="http://phpconference.co.uk/"><span class="big-title-text">PHP UK</span></a> <span
