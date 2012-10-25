@@ -1,4 +1,3 @@
-<?php include 'header.php'; ?>
 <div id="main">
     <h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />CALL FOR PAPERS<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
     <h2>Closes November 22 2012</h2>
@@ -19,6 +18,3 @@
 </div><!-- main -->
 <div class="push"></div>
 </div><!-- page -->
-<?php include 'footer.php'?>
-</body>
-</html>

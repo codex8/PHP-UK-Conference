@@ -1,4 +1,3 @@
-<?php include 'header.php'; ?>
 <div id="main">
     <h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />VENUE<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
     <!-- <div id="brewery-image" class="row">
@@ -25,6 +24,3 @@
 </div><!-- main -->
 <div class="push"></div>
 </div><!-- page -->
-<?php include 'footer.php'?>
-</body>
-</html>
