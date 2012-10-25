@@ -43,8 +43,9 @@ if($menu == "home"){
 	src="//<?=$host;?>/images/Round3.png" alt="" /> <img class="circle"
 	src="//<?=$host;?>/images/Round4.png" alt="" /></div>
 </div>
-</div>
 <?php } ?>
+</div>
+
 <div id="bar-below-header" class="transparent"></div>
 <div id="content-bar-below-header" class="row">
 <div class="eightcol">
