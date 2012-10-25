@@ -1,0 +1,3 @@
+# for apache servers everything else goes through index except for the below: robots, images, css, etc.
+RewriteCond $1 !^(index\.php|css|js|images|fonts|robots\.txt|humans\.txt|favicon\.ico)
+RewriteRule ^(.*)$ /index.php?/$1 [L]
