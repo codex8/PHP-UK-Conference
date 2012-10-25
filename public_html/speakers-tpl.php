@@ -1,5 +1,5 @@
 <div id="main">
-    <h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />CALL FOR PAPERS<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
+    <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />CALL FOR PAPERS<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
     <h2>Closes November 22 2012</h2>
     <p>The main attraction of any conference is the talks that are given and we aim to attract the best PHP speakers from around the world. We solicit talks through a call for papers so you, the community, can tell us what kinds of things everyone should be hearing about.</p>
     

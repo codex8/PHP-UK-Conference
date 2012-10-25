@@ -1,5 +1,5 @@
 <div id="main">
-    <h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />VENUE<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
+    <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />VENUE<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
     <!-- <div id="brewery-image" class="row">
         <div class="twelvecol">
             <img class="brewery-image" src="images/brewery.jpg" class="circle-frame" />
@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />ACCOMODATION<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
+    <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />ACCOMODATION<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
     <p>There are several hotels within 5-10 minutes walking distance of the venue. We'll be working with those hotels to try and bring you a reduced booking rate and will update this page soon with more details. </p>
 </div><!-- main -->
 <div class="push"></div>

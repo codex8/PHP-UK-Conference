@@ -2,7 +2,7 @@
   
 <div class="row">
 <div class="twelvecol">
-<h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />ABOUT THE CONFERENCE<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
+<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />ABOUT THE CONFERENCE<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
 <p><a href="http://phplondon.org">PHP London</a> are pleased to announce the 8th Annual PHP UK conference; a 2-day event with 4 great tracks held at at <a href="http://www.thebrewery.co.uk" alt="The Brewery Event Venue" title="The Brewery Event Venue">The Brewery</a>, in the heart of the City of London.</p>
 
 <p>With over 600 delegates, speakers, and sponsors, PHP UK conference aims to deliver fantastic up to date content about PHP and related web technologies in a comfortable and professional setting. There are countless networking opportunities to engage with international speakers and delegates, which makes the event one you won't want to miss.</p>
@@ -13,7 +13,7 @@
 
 <p>PHP UK Conference was started in 2006 with the aim to offer the local PHP community access to industry updates and professional development at an affordable rate. The conference is run solely by volunteer members of the PHP London community. Costs are minimised to keep ticket prices as low as possible, and any surplus funds are used to fund community events throughout the year and to fund the following years' conference.</p>
 
-<h1><img class="left-ribbon" src="images/TitleRibbonLeft.png" />ORGANISERS<img class="right-ribbon" src="images/TitleRibbonRight.png"/></h1>
+<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />ORGANISERS<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
 <div id="profiles" class="row">
 <div class="profile fourcol">
     <img class="circle-frame right" src="http://www.gravatar.com/avatar/1534835c0e1afc0772f7017c5528ddf4" />
