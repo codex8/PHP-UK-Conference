@@ -512,6 +512,10 @@ img.alignright {
 	}
 .schedule-row {
 	}
+.row-divider {
+	border-top: 1px solid #c5c5c5;
+	
+}
 .time-slot {
 	}
 .start-time {
@@ -549,6 +553,15 @@ img.alignright {
 	}
 .session-all {
 	background-color: #fff380;
+	}
+.session-break {
+	background-color: #82cafa;
+	}
+.session-key {
+	background-color: #87afc7;
+	}
+.session-rc {
+	background-color: #E9AB17;
 	}
 
 
