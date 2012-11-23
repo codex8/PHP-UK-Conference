@@ -15,8 +15,6 @@ AN ABSTRACT<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.
 <p>We are looking for speakers that understand their subject and are
 passionate about it. Click the button below to send us your abstract
 before the 22nd November 2012.</p>
-<div id="submit-abstract"><a href="http://bit.ly/phpukcfp2013"
-	target="_blank" class="standard-button">SUBMIT</a></div>
 </div>
 <div class="fourcol last">
 <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />BUY
