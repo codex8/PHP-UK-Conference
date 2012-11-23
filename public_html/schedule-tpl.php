@@ -6,7 +6,7 @@
     <?php 
     
     
-    $input = file('/Users/zoe/authdata.txt');
+    $input = file('/path/to/authdata.txt');
 	foreach($input as $line) {
 		list($key, $value) = explode(':',trim($line));
 		$data[$key] = $value;
@@ -22,25 +22,35 @@
     //Get the data from the Google schedule
     $service = getGoogleSpreadSheetService($user, $pass);
     
-    $fridaySchedule = getShedule($spreadSheetService, 1);
+    $fridaySchedule = getShedule($service, $scheduleID, 1);
     
-    echo var_export($fridaySchedule, true);
+    //echo var_export($fridaySchedule, true);
     
-    //Next - need to extract the data
-    
-    
-    
-    //One sample row.
-    $rowData=array(
-             'start' => '09:00', 
-             'end' => '10:00', 
-             'session-one' => array('title'=>"Title 1", 'name'=>"Fred", 'abstract'=>"Abstract 1"),
-             'session-main' => array('title'=>"Title M", 'name'=>"Joe", 'abstract'=>"Abstract 1"),
-             'session-two'=> array('title'=>"Title 2", 'name'=>"Mable", 'abstract'=>"Abstract 1"),
-             );
-    
-    
-    buildScheduleRow($rowData)
+    for($i=0; $i<count($fridaySchedule); $i++) {
+    	$rowData['start'] = substr($fridaySchedule[$i]['start'], 0, strlen($fridaySchedule[$i]['start']) - 2); // Remove the seconds
+    	$rowData['end'] = substr($fridaySchedule[$i]['end'], 0, strlen($fridaySchedule[$i]['end']) - 2); // Remove the seconds
+    	
+    	$side2 = $fridaySchedule[$i]['sidetrack2'];
+    	$main = $fridaySchedule[$i]['maintrack'];
+    	$side3 = $fridaySchedule[$i]['sidetrack3'];
+    	
+    	if($side2 !== '') {
+    		if ($main == '' && $side3 == '') {
+    			$rowData['session-one'] = array('title'=>$side2, 'name'=>"X", 'abstract'=>"X");
+    			buildCrossTrackRow($rowData);
+    		}
+    	} else {
+            $side2 = "SessionTitle";
+    	    if ($main == '' ) {$main= $side2;}
+    	    if ($side3 == '' ) {$side3= $side2;}
+    	
+    	    $rowData['session-one'] = array('title'=>$side2, 'name'=>"X", 'abstract'=>"X");
+    	    $rowData['session-main'] = array('title'=>$main, 'name'=>"Y", 'abstract'=>"Y");
+    	    $rowData['session-two'] = array('title'=>$side3, 'name'=>"Z", 'abstract'=>"Z");  	
+    	    buildTrackRow($rowData);
+    	}	
+    }
+   
     ?>
    
     </div><!-- schedule-container -->
@@ -49,7 +59,7 @@
 </div><!-- page -->
 
 <?php 
-function buildScheduleRow ($rowData) {
+function buildTrackRow ($rowData) {
 ?>
 		 <div class="schedule-row">
     
@@ -82,6 +92,42 @@ function buildScheduleRow ($rowData) {
     </div>
     <?php 	
 }
+function buildCrossTrackRow ($rowData) {
+?>
+		 <div class="schedule-row">
+    
+    <div class="time-slot">
+     
+      <div class="start-time ">
+      <?php echo $rowData['start']?>
+      </div>
+     
+      <div class="end-time ">
+       <?php echo $rowData['end']?>    
+      </div>
+      
+    </div>
+    
+    <div class="sessions">
+       <div class= "row">
+         <div class="twelvecol session-all">
+           <?php buildCrossCell($rowData['session-one'])?>
+         </div>
+       </div> 
+    </div>
+    
+    </div>
+    <?php 	
+}
+
+function buildCrossCell($sessionData) {
+	?>
+	    <div class="session-title">
+        <?php echo $sessionData['title'] ?>  
+        </div>
+<?php 
+}
+
 function buildCell($sessionData) {
 	?>
 	    <div class="session-title">
@@ -115,7 +161,7 @@ function getGoogleSpreadsheetService($user, $pass) {
     return $spreadSheetService;
 }
 
-function getShedule($spreadSheetService, $worksheetID) {
+function getShedule($spreadSheetService, $scheduleID, $worksheetID) {
     $query = new Zend_Gdata_Spreadsheets_DocumentQuery();
     $query->setSpreadsheetKey($scheduleID);
     $feed = $spreadSheetService->getWorksheetFeed($query);
