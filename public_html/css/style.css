@@ -505,3 +505,48 @@ img.alignright {
 
 .profile img{
 }
+
+/* = Schedule
+-------------------------------------------------------------- */
+#schedule-container {
+	}
+.schedule-row {
+	}
+.time-slot {
+	}
+.start-time {
+	background-color: #efefef;
+	width: 10%;
+	float: left;
+	}
+.end-time {
+	background-color: #cdcdcd;
+	width: 10%;
+	float: left;
+	}
+.sessions {
+	width:80%;
+	float: left;
+	text-align: center;
+	
+	}
+.session-one {
+	background-color: #ababab;
+	}
+.session-main {
+	background-color: #787878;
+	}
+.session-two {
+	background-color: #565656;
+	}
+.session-title {
+	font-style: bold;
+}
+.session-presenter {
+	font-style: italic;
+}
+.session-abstract {
+	}
+
+
+
