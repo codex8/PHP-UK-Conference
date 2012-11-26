@@ -164,10 +164,19 @@ for($i=0; $i<count($schedule); $i++) {
  * Get Google authorisation data
  */
 function getAuthData() {
-    $input = file('/path/to/authdata.txt');
+	$pathinput = (file('authfilepath.txt'));
+	foreach($pathinput as $line) {
+		if(substr($line, 0, 1) != '#') {
+		    list($id, $path) = explode(':',trim($line));		    
+	    }
+	}
+	
+    $input = file($path . '/authdata.txt');
 	foreach($input as $line) {
-		list($key, $value) = explode(':',trim($line));
-		$data[$key] = $value;
+		if(substr($line, 0, 1) != '#') {
+		    list($key, $value) = explode(':',trim($line));
+		    $data[$key] = $value;
+	    }
 	}
 	return $data;
 }
