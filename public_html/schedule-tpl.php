@@ -7,19 +7,8 @@
     
     require_once('functions.php');
 	
-	$data = getAuthData();
- 
-   // Gmail email address and password for google spreadsheet
-
-    $user = $data['user'];
-    $pass = $data['pass'];
-    $scheduleID=$data['schedID'];
-    $detailsID=$data['detailsID'];
     
-    //Get the data from the Google schedule
-    $service = getGoogleSpreadSheetService($user, $pass);
-    
-    $fridaySchedule = getShedule($service, $scheduleID, 1);
+    $fridaySchedule = unserialize(getSchedule('friday'));
     
     //echo var_export($fridaySchedule, true);
     

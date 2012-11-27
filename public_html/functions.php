@@ -1,5 +1,3 @@
-
- 
 <?php
 /*
  * Build a shedule row where there are three seperate track sessions
@@ -123,12 +121,9 @@ function getGoogleSpreadsheetService($user, $pass) {
 /*
  * Get a single days schedule from the spreadsheet
  */
-function getShedule($spreadSheetService, $scheduleID, $worksheetID) {
-    $query = new Zend_Gdata_Spreadsheets_DocumentQuery();
-    $query->setSpreadsheetKey($scheduleID);
-    $feed = $spreadSheetService->getWorksheetFeed($query);
-    $entries = $feed->entries[$worksheetID]->getContentsAsRows();
-    return $entries;
+function getSchedule($day) {
+	$fileName = $day."Schedule";
+    return file_get_contents($fileName);
 }
 /*
  * Display a single days schedule
