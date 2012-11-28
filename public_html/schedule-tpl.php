@@ -11,7 +11,9 @@
     $fridaySchedule = unserialize(getSchedule('friday'));
     
     //echo var_export($fridaySchedule, true);
-    
+    ?>
+    <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />FRIDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+    <?php 
     displayDay($fridaySchedule);
     
     $saturdaySchedule = unserialize(getSchedule('saturday'));
