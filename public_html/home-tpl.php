@@ -12,9 +12,8 @@ the City of London.</p>
 <div class="fourcol">
 <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" alt=""/>SUBMIT
 AN ABSTRACT<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png" /></h1>
-<p>We are looking for speakers that understand their subject and are
-passionate about it. Click the button below to send us your abstract
-before the 22nd November 2012.</p>
+<p>Our call for papers is now closed, thanks to all of you who submitted!
+</p>
 </div>
 <div class="fourcol last">
 <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />BUY
