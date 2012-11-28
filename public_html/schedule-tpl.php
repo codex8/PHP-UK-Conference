@@ -14,6 +14,10 @@
     
     displayDay($fridaySchedule);
     
+    $saturdaySchedule = unserialize(getSchedule('saturday'));
+    
+    displayDay($saturdaySchedule);
+    
    
     ?>
    
