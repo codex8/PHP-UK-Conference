@@ -15,7 +15,7 @@
     //Get the data from the Google schedule
     $service = getGoogleSpreadSheetService($user, $pass);
     
-    $mastersheet = getSchedule($service, $scheduleID, 3);    
+    $mastersheet = getSchedule($service, $scheduleID, 2);    
     $serialisedMaster = serialize($mastersheet);
     
     $config = file("schedule-path.txt");

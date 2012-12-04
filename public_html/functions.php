@@ -147,17 +147,17 @@ for($i=0; $i<count($schedule); $i++) {
     		} else {
     			$titlekey = substr($side2, 0, 7);
     			$details1 = getFromMaster($mastersheet, $titlekey);
-    			if(count($details1) < 1) {$details1 = array('TBD', "", "");}	
+    			if(count($details1) < 1) {$details1 = array($side2, "", "");}	
     		    $rowData['session-one'] = array('title'=>$details1[0], 'name'=>$details1[1], 'abstract'=>$details1[2]);
     		    
     		    $titlekey = substr($main, 0, 7);
     		    $detailsm = getFromMaster($mastersheet, $titlekey);
-    		    if(count($detailsm) < 1) {$detailsm = array('TBD', "", "");}		
+    		    if(count($detailsm) < 1) {$detailsm = array($main, "", "");}		
     		    $rowData['session-main'] = array('title'=>$detailsm[0], 'name'=>$detailsm[1], 'abstract'=>$detailsm[2]);
     		    
     		    $titlekey = substr($side3, 0, 7);
     		    $details2 = getFromMaster($mastersheet, $titlekey);
-    		    if(count($details2) < 1) {$details2 = array('TBD', "", "");}		
+    		    if(count($details2) < 1) {$details2 = array($side3, "", "");}		
     		    $rowData['session-two'] = array('title'=>$details2[0], 'name'=>$details2[1], 'abstract'=>$details2[2]);
     		    
     	        buildTrackRow($rowData);  
