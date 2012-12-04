@@ -128,30 +128,41 @@ function getSchedule($day) {
 /*
  * Display a single days schedule
  */
-function displayDay($schedule) {
+function displayDay($schedule, $mastersheet) {
 for($i=0; $i<count($schedule); $i++) {
     	$rowData['start'] = substr($schedule[$i]['start'], 0, strlen($schedule[$i]['start']) - 3); // Remove the seconds
     	$rowData['end'] = substr($schedule[$i]['end'], 0, strlen($schedule[$i]['end']) - 3); // Remove the seconds
     	
     	$side2 = $schedule[$i]['sidetrack2'];
+    	//var_dump($side2);
     	$main = $schedule[$i]['maintrack'];
     	$side3 = $schedule[$i]['sidetrack3'];
     	
+    	//If the first col has something in it but the other two don't this must be
+    	//a long row (keynote, break etc)
     	if($side2 !== '') {
     		if ($main == '' && $side3 == '') {
     			$rowData['session-one'] = array('title'=>$side2, 'name'=>"Name", 'abstract'=>"Abstract");
     			buildCrossTrackRow($rowData);
-    		}
-    	} else {
-            $side2 = "SessionTitle";
-    	    if ($main == '' ) {$main= $side2;}
-    	    if ($side3 == '' ) {$side3= $side2;}
-    	
-    	    $rowData['session-one'] = array('title'=>$side2, 'name'=>"Name", 'abstract'=>"Abstract");
-    	    $rowData['session-main'] = array('title'=>$main, 'name'=>"Name", 'abstract'=>"Abstract");
-    	    $rowData['session-two'] = array('title'=>$side3, 'name'=>"Name", 'abstract'=>"Abstract");  	
-    	    buildTrackRow($rowData);
-    	}	
+    		} else {
+    			$titlekey = substr($side2, 0, 7);
+    			$details1 = getFromMaster($mastersheet, $titlekey);
+    			if(count($details1) < 1) {$details1 = array('TBD', "", "");}	
+    		    $rowData['session-one'] = array('title'=>$details1[0], 'name'=>$details1[1], 'abstract'=>$details1[2]);
+    		    
+    		    $titlekey = substr($main, 0, 7);
+    		    $detailsm = getFromMaster($mastersheet, $titlekey);
+    		    if(count($detailsm) < 1) {$detailsm = array('TBD', "", "");}		
+    		    $rowData['session-main'] = array('title'=>$detailsm[0], 'name'=>$detailsm[1], 'abstract'=>$detailsm[2]);
+    		    
+    		    $titlekey = substr($side3, 0, 7);
+    		    $details2 = getFromMaster($mastersheet, $titlekey);
+    		    if(count($details2) < 1) {$details2 = array('TBD', "", "");}		
+    		    $rowData['session-two'] = array('title'=>$details2[0], 'name'=>$details2[1], 'abstract'=>$details2[2]);
+    		    
+    	        buildTrackRow($rowData);  
+    	    }
+    	}
     }
 	
 }
@@ -174,4 +185,18 @@ function getAuthData() {
 	    }
 	}
 	return $data;
+}
+function getFromMaster($master, $key) {
+	$a=array();
+	
+	for($i=0; $i < count($master); $i++) {
+		if( substr($master[$i]['title'], 0, 7) == $key) {
+			$a[0] = $master[$i]['title'];
+			$a[1] = $master[$i]['name'];
+			$a[2] = $master[$i]['abstract'];
+			return $a;			
+		}
+	}
+	//var_dump($key);
+	return $a;
 }

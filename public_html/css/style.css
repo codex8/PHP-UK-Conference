@@ -550,6 +550,7 @@ img.alignright {
 	font-style: italic;
 }
 .session-abstract {
+	display:none;
 	}
 .session-all {
 	background-color: #ffffff;

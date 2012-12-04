@@ -7,6 +7,7 @@
     
     require_once('functions.php');
 	
+    $mastersheet = unserialize(file_get_contents('mastersheet'));
     
     $fridaySchedule = unserialize(getSchedule('friday'));
     
@@ -14,7 +15,7 @@
     ?>
     <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />FRIDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
     <?php 
-    displayDay($fridaySchedule);
+    displayDay($fridaySchedule, $mastersheet);
     
     ?>
     <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SATURDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
@@ -22,7 +23,7 @@
     
     $saturdaySchedule = unserialize(getSchedule('saturday'));
     
-    displayDay($saturdaySchedule);
+    displayDay($saturdaySchedule, $mastersheet);
     
    
     ?>
