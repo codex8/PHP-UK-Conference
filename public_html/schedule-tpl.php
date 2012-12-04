@@ -18,7 +18,6 @@
     
     ?>
     <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SATURDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
-    <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SATURDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
     <?php
     
     $saturdaySchedule = unserialize(getSchedule('saturday'));

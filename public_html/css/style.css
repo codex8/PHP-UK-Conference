@@ -524,7 +524,7 @@ img.alignright {
 	float: left;
 	}
 .end-time {
-	background-color: #cdcdcd;
+	background-color: #efefef;
 	width: 10%;
 	float: left;
 	}
@@ -535,13 +535,13 @@ img.alignright {
 	
 	}
 .session-one {
-	background-color: #ababab;
+	background-color: #ffffff;
 	}
 .session-main {
-	background-color: #787878;
+	background-color: #ffffff;
 	}
 .session-two {
-	background-color: #565656;
+	background-color: #ffffff;
 	}
 .session-title {
 	font-style: bold;
@@ -552,16 +552,16 @@ img.alignright {
 .session-abstract {
 	}
 .session-all {
-	background-color: #fff380;
+	background-color: #ffffff;
 	}
 .session-break {
-	background-color: #82cafa;
+	background-color: #efefef;
 	}
 .session-key {
 	background-color: #87afc7;
 	}
 .session-rc {
-	background-color: #E9AB17;
+	background-color: #efefef;
 	}
 
 
