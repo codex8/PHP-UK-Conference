@@ -1,5 +1,5 @@
 <div id="main">
-    <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SCHEDULE<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+    
     <div id="schedule-container">
     <?php 
     
