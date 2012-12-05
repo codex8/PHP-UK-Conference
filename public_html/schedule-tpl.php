@@ -11,12 +11,13 @@
     
     //echo var_export($fridaySchedule, true);
     ?>
-    <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />FRIDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+    <h1 class="schedule">FRIDAY</h1>
     <?php 
     displayDay($fridaySchedule, $mastersheet);
     
     ?>
-    <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SATURDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+    <h1 class="schedule">SATURDAY</h1>
+    
     <?php
     
     $saturdaySchedule = unserialize(getSchedule('saturday'));

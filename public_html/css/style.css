@@ -509,6 +509,7 @@ img.alignright {
 /* = Schedule
 -------------------------------------------------------------- */
 #schedule-container {
+	background-color: #efefef;
 	}
 .schedule-row {
 	}
@@ -535,13 +536,13 @@ img.alignright {
 	
 	}
 .session-one {
-	background-color: #ffffff;
+	background-color: #efefef;
 	}
 .session-main {
-	background-color: #ffffff;
+	background-color: #efefef;
 	}
 .session-two {
-	background-color: #ffffff;
+	background-color: #efefef;
 	}
 .session-title {
 	font-style: bold;
@@ -553,17 +554,23 @@ img.alignright {
 	display:none;
 	}
 .session-all {
-	background-color: #ffffff;
-	}
-.session-break {
 	background-color: #efefef;
 	}
+.session-break {
+	background-color: #dedede;
+	}
 .session-key {
-	background-color: #87afc7;
+	background-color:  #da9e26;
 	}
 .session-rc {
 	background-color: #efefef;
 	}
 
-
-
+h1.schedule {
+	font-family: "SteelfishRgRegular";
+	font-size: 200%;
+	color: #60b5c9;
+	text-align: left;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
