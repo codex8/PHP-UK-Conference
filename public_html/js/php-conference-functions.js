@@ -29,8 +29,13 @@ $(function () {
 */
 function popUpAbstract(key, event) {
 	$(document).ready(
-			function() {				
-				ShowAbstract(key);
+			function() {
+				
+				/* position relative to the button that was clicked */
+				var px = event.pageX + 0 +"px";
+				var py = event.pageY - 380 + "px";
+				
+				ShowAbstract(key, px, py);
 				
 				event.preventDefault ? event.preventDefault()
 						: event.returnValue = false;
@@ -40,11 +45,16 @@ function popUpAbstract(key, event) {
 /*
 * Shows a dialog - referenced by key
 */
-function ShowAbstract(key) {
+function ShowAbstract(key, px, py) {
 	var ol = "#".concat(key).concat("overlay");
 	var dl = "#".concat(key).concat("dialog");
 	$(ol).show();
-	$(dl).fadeIn(300);
+	if((px != 0) && (py !=0 )) {
+		$(dl).css({left:px, top:py }).fadeIn(300);
+	}else {
+		$(dl).fadeIn(300);
+	}
+	
 }
 /*
 * Hides a dialog - referenced by key

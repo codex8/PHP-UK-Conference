@@ -152,6 +152,7 @@ for($i=0; $i<count($schedule); $i++) {
     			if(count($details1) < 1) {$details1 = array($side2, "", "");}
     			$abstractkey = preg_replace('/\s+/', '', $titlekey);
     			$abstractkey = preg_replace('/\"/', '', $abstractkey);
+    			$abstractkey = preg_replace('/,/', '', $abstractkey);
     			$abstracts[$abstractkey]	= $details1[2];
     			$abstract_link = get_abstract_link($abstractkey);
     		    $rowData['session-one'] = array('title'=>$details1[0], 'name'=>$details1[1], 'abstract'=>$abstract_link);
@@ -162,6 +163,7 @@ for($i=0; $i<count($schedule); $i++) {
     		    if(count($detailsm) < 1) {$detailsm = array($main, "", "");}
     		    $abstractkey = preg_replace('/\s+/', '', $titlekey);
     		    $abstractkey = preg_replace('/\"/', '', $abstractkey);
+    		    $abstractkey = preg_replace('/,/', '', $abstractkey);
     		    $abstract_link = get_abstract_link($abstractkey);
     		    $abstracts[$abstractkey]	= $detailsm[2];		
     		    $rowData['session-main'] = array('title'=>$detailsm[0], 'name'=>$detailsm[1], 'abstract'=>$abstract_link);
@@ -171,6 +173,7 @@ for($i=0; $i<count($schedule); $i++) {
     		    if(count($details2) < 1) {$details2 = array($side3, "", "");}
     		    $abstractkey = preg_replace('/\s+/', '', $titlekey);
     		    $abstractkey = preg_replace('/\"/', '', $abstractkey);
+    		    $abstractkey = preg_replace('/,/', '', $abstractkey);
     		    $abstract_link = get_abstract_link($abstractkey);
     		    $abstracts[$abstractkey]	= $details2[2];		
     		    $rowData['session-two'] = array('title'=>$details2[0], 'name'=>$details2[1], 'abstract'=>$abstract_link);
