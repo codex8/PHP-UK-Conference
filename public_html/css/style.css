@@ -551,7 +551,7 @@ img.alignright {
 	font-style: italic;
 }
 .session-abstract {
-	display:none;
+	/*display:none;*/
 	}
 .session-all {
 	background-color: #efefef;
@@ -574,3 +574,63 @@ h1.schedule {
 	padding-top: 40px;
 	padding-bottom: 30px;
 }
+	
+.web_dialog_overlay
+{
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background: #000000;
+   opacity: .15;
+   filter: alpha(opacity=15);
+   -moz-opacity: .15;
+   z-index: 101;
+   display: none
+}
+.web_dialog
+{
+   display: none;
+   position: absolute;
+   width: 300px;
+   top: 0;
+   left: 50%;
+   margin-left: -190px;
+   margin-top: 400px;
+   border: 1px solid #c5c5c5;
+   z-index: 102;
+ 
+   background-color: #f5f5f5;
+}
+.btnClose {
+	float: right;
+	margin-right:15px;
+	margin-top: 10px;
+	color: #a5a5a5;
+	}
+.btnClose a {
+	color: #a5a5a5;
+}
+.btnClose a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+.web_dialog_title
+{
+   font-weight:bold;
+   color: black;
+   padding-right: 15px;
+}
+.web_dialog_container {
+	margin: 50px;	
+	
+}
+.web_dialog_blurb {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	}

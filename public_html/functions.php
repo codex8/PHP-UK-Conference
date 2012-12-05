@@ -129,6 +129,7 @@ function getSchedule($day) {
  * Display a single days schedule
  */
 function displayDay($schedule, $mastersheet) {
+	$abstracts = array();
 for($i=0; $i<count($schedule); $i++) {
     	$rowData['start'] = substr($schedule[$i]['start'], 0, strlen($schedule[$i]['start']) - 3); // Remove the seconds
     	$rowData['end'] = substr($schedule[$i]['end'], 0, strlen($schedule[$i]['end']) - 3); // Remove the seconds
@@ -146,23 +147,44 @@ for($i=0; $i<count($schedule); $i++) {
     			buildCrossTrackRow($rowData);
     		} else {
     			$titlekey = substr($side2, 0, 7);
+    			
     			$details1 = getFromMaster($mastersheet, $titlekey);
-    			if(count($details1) < 1) {$details1 = array($side2, "", "");}	
-    		    $rowData['session-one'] = array('title'=>$details1[0], 'name'=>$details1[1], 'abstract'=>$details1[2]);
+    			if(count($details1) < 1) {$details1 = array($side2, "", "");}
+    			$abstractkey = preg_replace('/\s+/', '', $titlekey);
+    			$abstractkey = preg_replace('/\"/', '', $abstractkey);
+    			$abstracts[$abstractkey]	= $details1[2];
+    			$abstract_link = get_abstract_link($abstractkey);
+    		    $rowData['session-one'] = array('title'=>$details1[0], 'name'=>$details1[1], 'abstract'=>$abstract_link);
+    		    
     		    
     		    $titlekey = substr($main, 0, 7);
     		    $detailsm = getFromMaster($mastersheet, $titlekey);
-    		    if(count($detailsm) < 1) {$detailsm = array($main, "", "");}		
-    		    $rowData['session-main'] = array('title'=>$detailsm[0], 'name'=>$detailsm[1], 'abstract'=>$detailsm[2]);
+    		    if(count($detailsm) < 1) {$detailsm = array($main, "", "");}
+    		    $abstractkey = preg_replace('/\s+/', '', $titlekey);
+    		    $abstractkey = preg_replace('/\"/', '', $abstractkey);
+    		    $abstract_link = get_abstract_link($abstractkey);
+    		    $abstracts[$abstractkey]	= $detailsm[2];		
+    		    $rowData['session-main'] = array('title'=>$detailsm[0], 'name'=>$detailsm[1], 'abstract'=>$abstract_link);
     		    
     		    $titlekey = substr($side3, 0, 7);
     		    $details2 = getFromMaster($mastersheet, $titlekey);
-    		    if(count($details2) < 1) {$details2 = array($side3, "", "");}		
-    		    $rowData['session-two'] = array('title'=>$details2[0], 'name'=>$details2[1], 'abstract'=>$details2[2]);
+    		    if(count($details2) < 1) {$details2 = array($side3, "", "");}
+    		    $abstractkey = preg_replace('/\s+/', '', $titlekey);
+    		    $abstractkey = preg_replace('/\"/', '', $abstractkey);
+    		    $abstract_link = get_abstract_link($abstractkey);
+    		    $abstracts[$abstractkey]	= $details2[2];		
+    		    $rowData['session-two'] = array('title'=>$details2[0], 'name'=>$details2[1], 'abstract'=>$abstract_link);
     		    
     	        buildTrackRow($rowData);  
     	    }
     	}
+    }
+    
+    foreach($abstracts as $key=>$abstract) {
+    	
+    	buildAbstract($key, $abstract);
+    	
+    
     }
 	
 }
@@ -199,4 +221,39 @@ function getFromMaster($master, $key) {
 	}
 	//var_dump($key);
 	return $a;
+}
+function buildAbstract($key, $abstract ) {
+	
+	?>
+
+<div id="<?php echo $key?>overlay"
+	    class="web_dialog_overlay"></div>
+
+<div id="<?php echo $key?>dialog" class="web_dialog abstract">
+
+    <div class="btnClose"><a href="#" onclick="HideAbstract('<?php echo $key?>', event)">Close</a></div>
+    <div class="web_dialog_container">
+        <div class="row">
+            <div class="twelvecol">
+                <div class="web_dialog_title">Abstract</div>
+            </div>
+        </div>
+ 
+       <div class="row">
+           <div class="twelvecol">
+               <div class="web_dialog_blurb">
+                   <p><?php echo $abstract ?></p>
+               </div>
+           </div>
+       </div>
+
+    </div><!-- web_dialog_abstract -->
+</div>
+<?php
+}
+function get_abstract_link($key) {
+	$key = "'".$key."'";
+	$abstract_link = '<a href="" onclick="popUpAbstract(' .  $key . ' , event)">Abstract</a>';
+	return $abstract_link;
+
 }

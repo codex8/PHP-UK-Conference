@@ -22,3 +22,40 @@ $(function () {
 	$('#noSeconds').countdown({until: confDay, format: 'dHM' });
 });
 
+//Pop up abstracts
+
+/*
+* Displays an overlay dialog when a user clicks the 'I'll be there' link
+*/
+function popUpAbstract(key, event) {
+	$(document).ready(
+			function() {				
+				ShowAbstract(key);
+				
+				event.preventDefault ? event.preventDefault()
+						: event.returnValue = false;
+			});
+}
+
+/*
+* Shows a dialog - referenced by key
+*/
+function ShowAbstract(key) {
+	var ol = "#".concat(key).concat("overlay");
+	var dl = "#".concat(key).concat("dialog");
+	$(ol).show();
+	$(dl).fadeIn(300);
+}
+/*
+* Hides a dialog - referenced by key
+*/
+function HideAbstract(key, event) {
+	var ol = "#".concat(key).concat("overlay");
+	var dl = "#".concat(key).concat("dialog");
+	$(ol).hide();
+	$(dl).fadeOut(300);
+	event.preventDefault ? event.preventDefault() : event.returnValue = false;
+}
+
+
+
