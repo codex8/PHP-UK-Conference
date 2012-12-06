@@ -651,3 +651,20 @@ h1.schedule {
 	margin-top: 10px;
 	margin-bottom: 30px;
 	}
+	
+/*
+    Speakers bio styles
+*/
+.speaker-photo {
+    border-radius: 100%;
+    float: left;
+}
+
+.speaker-bio {
+    margin: 30px 0px 0px 20px;
+}
+
+.speaker-name {
+    margin: 30px 0px 0px 50px;
+}
+
