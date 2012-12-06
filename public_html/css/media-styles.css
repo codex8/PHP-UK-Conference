@@ -271,6 +271,12 @@ and (max-width : 480px) {
 	#footer-content {
 		width: 90%;
 	}
+	.start-time {
+	font-size: 65%;
+	}
+    .end-time {
+	font-size: 65%;
+	}
 	
 }
 
