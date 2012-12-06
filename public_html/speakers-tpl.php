@@ -65,8 +65,8 @@
         <p class="speaker-name">Helgi Thorbjoernsson</p>
         <p class="speaker-bio">I am an Icelander transplanted in Ireland that co-founded Orchestra.io, a PHP PaaS - Currently I work as an engineer at Engineyard. In my spare time I am a PEAR extraordinaire, author, lecturer and passionate about anything distributed / performance related.</p>
     </div>
-    <div id="">
-        <img class="speaker-photo" src="images/speakers/.jpg">
+    <div id="ianbarber">
+        <img class="speaker-photo" src="images/speakers/ianbarber.jpg">
         <p class="speaker-name"></p>
         <p class="speaker-bio">Ian Barber works as a Senior Developer Advocate for Google+, and is based in Google's London office. Ian has been developing and managing development teams professionally since 2002. Among various open source interests, Ian is the author of the PHP Support Vector Machine extension and a contributor to the brokerless messaging library ZeroMQ. He blogs at <a href="http://phpir.com">http://phpir.com</a> and <a href="http://www.riskcompletefailure.com">http://www.riskcompletefailure.com</a>.</p>
     </div>
