@@ -655,6 +655,11 @@ h1.schedule {
 /*
     Speakers bio styles
 */
+.speaker {
+    clear: both;
+    margin: 20px 0px 20px 0px;
+}
+
 .speaker-photo {
     border-radius: 100%;
     float: left;
@@ -666,6 +671,5 @@ h1.schedule {
     font-family: "SteelfishRgItalic";
 	font-size: 135%;
 	color: #da9e26;
-	text-align: center;
 }
 
