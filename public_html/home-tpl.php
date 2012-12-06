@@ -12,7 +12,7 @@ the City of London.</p>
 <div class="sixcol last">
 <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />BUY
 YOUR TICKETS<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png" /></h1>
-<p>Early bird tickets arw on sale from 6th December.
+<p>Early bird tickets are on sale from 6th December.
 Check out our fantastic <a href="/speakers">speakers</a> and <a href="/schedule">schedule!</a>
 Click on the ticket image above to buy now and beat the crowd!</p>
 </div>
