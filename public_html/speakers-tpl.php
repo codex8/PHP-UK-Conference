@@ -67,7 +67,7 @@
     </div>
     <div id="ianbarber" class="speaker">
         <img class="speaker-photo" src="images/speakers/ianbarber.jpg">
-        <p class="speaker-name"></p>
+        <p class="speaker-name">Ian Barber</p>
         <p class="speaker-bio">Ian Barber works as a Senior Developer Advocate for Google+, and is based in Google's London office. Ian has been developing and managing development teams professionally since 2002. Among various open source interests, Ian is the author of the PHP Support Vector Machine extension and a contributor to the brokerless messaging library ZeroMQ. He blogs at <a href="http://phpir.com">http://phpir.com</a> and <a href="http://www.riskcompletefailure.com">http://www.riskcompletefailure.com</a>.</p>
     </div>
     <div id="iliaalshanetsky" class="speaker">
