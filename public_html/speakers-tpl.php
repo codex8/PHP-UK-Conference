@@ -236,7 +236,7 @@
     </div>
     <div id="saragolemon" class="speaker row">
         <div class="threecol">
-            <img class="speaker-photo" src="images/speakers/.jpg">
+            <img class="speaker-photo" src="images/speakers/saragolemon.jpg">
         </div>
         <div class="ninecol last">
             <p class="speaker-name">Sara Golemon</p>
