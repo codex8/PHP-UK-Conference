@@ -5,7 +5,7 @@
 <div id="main">
     <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SPEAKERS<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
     <div id="alvarovidela" class="speaker row">
-    <div class = "threecol">
+    <div class="threecol">
         <img class="speaker-photo" src="images/speakers/alvarovidela.jpg">
         </div>
         <div class="ninecol last">
@@ -14,7 +14,7 @@
         </div>
       </div>
     <div id="andreizmievski" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/andreizmievski.jpg">
          </div>
         <div class="ninecol last">
@@ -23,27 +23,26 @@
     </div>
     </div>
     <div id="bastianhofmann" class="speaker row">
-     <div class = "threecol">
-        <img class="speaker-photo" src="images/speakers/bastianhofmann.jpg">
-         </div>
+        <div class="threecol">
+            <img class="speaker-photo" src="images/speakers/bastianhofmann.jpg">
+        </div>
         <div class="ninecol last">
-        <p class="speaker-name">Bastian Hofmann</p>
-        <p class="speaker-bio">Bastian is a Software Engineer at ResearchGate, a social network for scientists, working there on everything API related. Before that he was responsible for the integration of OpenSocial, OAuth, OpenID and other open standards into the largest german based social networks, studiVZ, schülerVZ and meinVZ. He is also a frequent speaker on international web technology conferences, always trying to promote open standards and protocols. This, together with his activity in the OpenSocial foundation and as a committer and PMC member for the Apache Shindig project makes him a strong advocate for the vision of an truly open and distributed social web.</p>
-    </div>
-    </div>
-    <div id="" class="speaker row">
-     <div class = "threecol">
-        <!-- <img class="speaker-photo" src="images/speakers/.jpg"> -->
-         </div>
-        <div class="ninecol last">
-            <p class="speaker-name" class="speaker row">Ben Longdon</p>
-            <div class = "threecol">
-            <p class="speaker-bio"></p>
+            <p class="speaker-name">Bastian Hofmann</p>
+            <p class="speaker-bio">Bastian is a Software Engineer at ResearchGate, a social network for scientists, working there on everything API related. Before that he was responsible for the integration of OpenSocial, OAuth, OpenID and other open standards into the largest german based social networks, studiVZ, schülerVZ and meinVZ. He is also a frequent speaker on international web technology conferences, always trying to promote open standards and protocols. This, together with his activity in the OpenSocial foundation and as a committer and PMC member for the Apache Shindig project makes him a strong advocate for the vision of an truly open and distributed social web.</p>
         </div>
     </div>
-    <div id="bethuckerlong" class="speaker row">
-         <div class = "threecol">
-        <img class="speaker-photo" src="images/speakers/bethuckerlong.jpg">
+    <div id="benlongden" class="speaker row">
+        <div class="threecol">
+            <img class="speaker-photo" src="images/speakers/benlongden.jpg">
+        </div>
+        <div class="ninecol last">
+            <p class="speaker-name" class="speaker row">Ben Longden</p>
+            <p class="speaker-bio">Ben is technical assurance manager at Inviqa (Sheffield). He has many years of professional experience in a variety of programming languages including C, C++, Perl, Python and has been working with PHP for the last 6 years. Throughout his career he has worked at a variety of places in different industries; mobile marketing, data, ISP and in professional services all of which has given him diverse experience of software engineering in different fields. Outside of work he is a father, and with what little spare time he has left he can be found hacking one of his own projects (lots of ideas, not enough time!), playing on his PS3, or infrequently blogging on techPortal and his own personal blog at <a href="http://nocarrier.co.uk">http://nocarrier.co.uk</a></p>        
+        </div>
+    </div>
+    <div id="bethtuckerlong" class="speaker row">
+         <div class="threecol">
+            <img class="speaker-photo" src="images/speakers/bethtuckerlong.jpg">
          </div>
         <div class="ninecol last">
             <p class="speaker-name">Beth Tucker Long</p>
@@ -53,7 +52,7 @@
         </div>
     </div>
     <div id="davegardner" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/davegardner.jpg">
          </div>
         <div class="ninecol last">
@@ -62,7 +61,7 @@
     </div>
     </div>
     <div id="daveingram" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/daveingram.jpg">
          </div>
         <div class="ninecol last">
@@ -71,7 +70,7 @@
     </div>
     </div>
     <div id="davidsoriaparra" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/davidsoriaparra.jpg">
          </div>
         <div class="ninecol last">
@@ -80,7 +79,7 @@
     </div>
     </div>
     <div id="derickrethans" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/derickrethans.jpg">
          </div>
         <div class="ninecol last">
@@ -90,7 +89,7 @@
     </div>
     </div>
     <div id="enricozimuel" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/enricozimuel.jpg">
          </div>
         <div class="ninecol last">
@@ -99,7 +98,7 @@
     </div>
     </div>
     <div id="harrieverveer" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/harrieverveer.jpg">
          </div>
         <div class="ninecol last">
@@ -108,7 +107,7 @@
     </div>
     </div>
     <div id="helgithorbjoernsson" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/helgithorbjoernsson.jpg">
          </div>
         <div class="ninecol last">
@@ -117,7 +116,7 @@
     </div>
     </div>
     <div id="ianbarber" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/ianbarber.jpg">
          </div>
         <div class="ninecol last">
@@ -126,7 +125,7 @@
     </div>
     </div>
     <div id="iliaalshanetsky" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/iliaalshanetsky.jpg">
          </div>
         <div class="ninecol last">
@@ -135,7 +134,7 @@
     </div>
     </div>
     <div id="jeremyquinton" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/jeremyquinton.jpg">
          </div>
         <div class="ninecol last">
@@ -144,7 +143,7 @@
     </div>
     </div>
     <div id="julienpauli" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/julienpauli.jpg">
          </div>
         <div class="ninecol last">
@@ -153,7 +152,7 @@
     </div>
     </div>
     <div id="junehenriksen" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/junehenriksen.jpg">
          </div>
         <div class="ninecol last">
@@ -163,7 +162,7 @@
     </div>
     </div>
     <div id="juozaskaziukenas" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/juozaskaziukenas.jpg">
          </div>
         <div class="ninecol last">
@@ -172,7 +171,7 @@
     </div>
     </div>
     <div id="lorenzoalberton" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/lorenzoalberton.jpg">
          </div>
         <div class="ninecol last">
@@ -182,7 +181,7 @@
     </div>
     </div>
     <div id="marcelloduarte" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/marcelloduarte.jpg">
          </div>
         <div class="ninecol last">
@@ -191,7 +190,7 @@
     </div>
     </div>
     <div id="michaelmaclean" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/michaelmaclean.jpg">
          </div>
         <div class="ninecol last">
@@ -200,7 +199,7 @@
     </div>
     </div>
     <div id="michaelpeacock" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/michaelpeacock.jpg">
          </div>
         <div class="ninecol last">
@@ -209,7 +208,7 @@
     </div>
     </div>
     <div id="nickbelhomme" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/nickbelhomme.jpg">
          </div>
         <div class="ninecol last">
@@ -218,7 +217,7 @@
     </div>
     </div>
     <div id="richardjohnson" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/richardjohnson.jpg">
          </div>
         <div class="ninecol last">
@@ -227,7 +226,7 @@
     </div>
     </div>
     <div id="rowanmerewood" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/rowanmerewood.jpg">
          </div>
         <div class="ninecol last">
@@ -235,17 +234,17 @@
         <p class="speaker-bio">Rowan is a software engineer and technical team lead at the Inviqa group. He's worked commercially with PHP for well over 6 years, dabbling before that in Python, Java, and BASIC if you go back far enough. His work has encompassed everything from tiny in-page scripts through to multi-million pound billing engines using a wide variety of open source technologies. Rowan is based in Sheffield, UK, makes semi-regular treks over to the PHPNW user group meetings and accidentally organises the Sheffield PHP user group. Talk to him about creative cocktails and appalling horror films.</p>
     </div>
     </div>
-    <div id="" class="speaker row">
-     <div class = "threecol">
-        <!-- <img class="speaker-photo" src="images/speakers/.jpg"> -->
-         </div>
+    <div id="saragolemon" class="speaker row">
+        <div class="threecol">
+            <img class="speaker-photo" src="images/speakers/.jpg">
+        </div>
         <div class="ninecol last">
-        <p class="speaker-name">Sara Golemon</p>
-        <p class="speaker-bio"></p>
-    </div>
+            <p class="speaker-name">Sara Golemon</p>
+            <p class="speaker-bio">Sara began her OSS career contributing to the PHP project in 2002. Since then she's released numerous PECL extensions and core features, and published "Extending and Embedding PHP", the definitive resource on writing PHP extensions.  Sara also built the libssh2 library (now bundled with and maintained by the cURL project), and has recently taken over the public version of HipHop for PHP (Facebook's high-performance implementation of the PHP language).</p>
+        </div>
     </div>
     <div id="sebastianmarek" class="speaker row">
-     <div class = "threecol">
+     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/sebastianmarek.jpg">
          </div>
         <div class="ninecol last">
