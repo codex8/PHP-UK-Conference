@@ -31,15 +31,14 @@
         <p class="speaker-bio">Bastian is a Software Engineer at ResearchGate, a social network for scientists, working there on everything API related. Before that he was responsible for the integration of OpenSocial, OAuth, OpenID and other open standards into the largest german based social networks, studiVZ, schülerVZ and meinVZ. He is also a frequent speaker on international web technology conferences, always trying to promote open standards and protocols. This, together with his activity in the OpenSocial foundation and as a committer and PMC member for the Apache Shindig project makes him a strong advocate for the vision of an truly open and distributed social web.</p>
     </div>
     </div>
-    <div id="" class="speaker row">
-     <div class = "threecol">
-        <!-- <img class="speaker-photo" src="images/speakers/.jpg"> -->
-         </div>
+    <div id="benlongden" class="speaker row">
+        <div class = "threecol">
+            <!-- <img class="speaker-photo" src="images/speakers/.jpg"> -->
+        </div>
         <div class="ninecol last">
-        <p class="speaker-name" class="speaker row">Ben Longdon</p>
-         <div class = "threecol">
-        <p class="speaker-bio"></p>
-    </div>
+            <p class="speaker-name" class="speaker row">Ben Longden</p>
+            <p class="speaker-bio">Ben is technical assurance manager at Inviqa (Sheffield). He has many years of professional experience in a variety of programming languages including C, C++, Perl, Python and has been working with PHP for the last 6 years. Throughout his career he has worked at a variety of places in different industries; mobile marketing, data, ISP and in professional services all of which has given him diverse experience of software engineering in different fields. Outside of work he is a father, and with what little spare time he has left he can be found hacking one of his own projects (lots of ideas, not enough time!), playing on his PS3, or infrequently blogging on techPortal and his own personal blog at <a href="http://nocarrier.co.uk">http://nocarrier.co.uk</a></p>
+        </div>
     </div>
     <div id="davegardner" class="speaker row">
      <div class = "threecol">
