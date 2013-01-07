@@ -36,10 +36,21 @@
         <!-- <img class="speaker-photo" src="images/speakers/.jpg"> -->
          </div>
         <div class="ninecol last">
-        <p class="speaker-name" class="speaker row">Ben Longdon</p>
-         <div class = "threecol">
-        <p class="speaker-bio"></p>
+            <p class="speaker-name" class="speaker row">Ben Longdon</p>
+            <div class = "threecol">
+            <p class="speaker-bio"></p>
+        </div>
     </div>
+    <div id="bethuckerlong" class="speaker row">
+         <div class = "threecol">
+        <img class="speaker-photo" src="images/speakers/bethuckerlong.jpg">
+         </div>
+        <div class="ninecol last">
+            <p class="speaker-name">Beth Tucker Long</p>
+            <p class="speaker-bio">
+                Beth Tucker Long is the Editor-In-Chief of php|architect magazine as well as a trainer for php|architect. She also runs Treeline Design - <a href="http://www.treelinedesign.com">http://www.treelinedesign.com</a>, a web development company, and Playlist Event Music - <a href="http://www.playlisteventmusic.com">http://www.playlisteventmusic.com</a>, a DJ company, along with her husband, Chris, and son, Liam. You can find her on Twitter (<a href="https://twitter.com/e3betht">https://twitter.com/e3betht</a>) and on her very new and already neglected blog, <a href="http://www.alittleofboth.com">http://www.alittleofboth.com</a>. 
+            </p>
+        </div>
     </div>
     <div id="davegardner" class="speaker row">
      <div class = "threecol">
@@ -76,15 +87,6 @@
         <p class="speaker-name">Derick Rethans</p>
         <p class="speaker-bio">Derick Rethans is a PHP internals expert, author of <a href='http://xdebug.org'>Xdebug</a> and an <a href="http://openstreetmap.org">OpenStreetMap</a> and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the <a href='http://xdebug.org'>Xdebug</a> debugging tool, and various extensions and additions. He's a frequent lecturer at <a href="httpd://derickrethans.nl/talks.html">conferences</a>, the author of <a href="http://phpdatebook.com">php|architect's Guide to Date and Time Programming</a>, and the co-author of <a href="http://www.amazon.co.uk/exec/obidos/ASIN/013147149X/derickrethans-21">PHP 5 Power Programming</a>. He is now working at <a href='http://10gen.com'>10gen</a> to work on the <a href='http://pecl.php.net/mongo'>PHP driver</a> for <a href='http://mongodb.org'>MongoDB</a>.
         </p>
-    </div>
-    </div>
-    <div id="elizabethuckerlong" class="speaker row">
-         <div class = "threecol">
-        <!-- <img class="speaker-photo" src="images/speakers/elizabethuckerlong.jpg"> -->
-         </div>
-        <div class="ninecol last">
-        <p class="speaker-name">Elizabeth Tucker Long</p>
-        <p class="speaker-bio"></p>
     </div>
     </div>
     <div id="enricozimuel" class="speaker row">
