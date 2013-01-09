@@ -170,6 +170,15 @@
         <p class="speaker-bio">Juozas, or as everyone calls him Joe, is an experienced and talented (some say) young professional, entrepreneur and evangelist. Focusing on bringing IT solutions to non-technical businesses, like retail, he works on optimizing their processes and using cutting-edge research to solve hard problems and grow sales. When not working, Joe finds time to contribute to open-source projects and movements to improve interoperability and platform independence. His hands-on practice with collection of different technologies, programming languages and environments allows him to deliver unbiased and practical presentations in all kind of different topics.</p>
     </div>
     </div>
+    <div id="kennygryp" class="speaker row">
+        <div class="threecol">
+            <img class="speaker-photo" src="images/speakers/kennygryp.jpg">
+        </div>
+        <div class="ninecol last">
+            <p class="speaker-name">Kenny Gryp</p>
+            <p class="speaker-bio">Kenny is currently Senior Technical Account Manager at Percona. Bitten somewhere in the late 90s by the open-source bug, most of his spare time was spent working with Linux & OpenBSD servers. Eventually, after school ended, Kenny turned into a linux system administrator and performed that role at various companies. Before joining Percona, he worked at a large social networking company in Europe as DBA &amp; Puppeteer.</p>
+        </div>
+    </div>
     <div id="lorenzoalberton" class="speaker row">
      <div class="threecol">
         <img class="speaker-photo" src="images/speakers/lorenzoalberton.jpg">
