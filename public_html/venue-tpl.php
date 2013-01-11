@@ -24,7 +24,39 @@
         </div>
     </div>
     <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />ACCOMMODATION<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
-    <p>There are several hotels within 5-10 minutes walking distance of the venue. We'll be working with those hotels to try and bring you a reduced booking rate and will update this page soon with more details. </p>
+    <p>
+    <div id="row">
+     		<div class="twelvcol">
+     		<p>We have visited and inspected a number of hotels in the direct vicinity of the Brewery - we looked at rooms in each one and have selected three that we believe represent excellent value for conference accommodation.
+     		 There are many other hotels in the area, including of course, <a href="http://www.thistle.com/en/hotels/united_kingdom/london/thistle_city_barbican/index.html" target-"_blank">the Montcalm"</a> which is located in the conference centre.</p>
+     		Other local hotels can be found <a href="http://www.thebrewery.co.uk/Where-to-stay-nearby" target="_blank">here</a>.</p>
+     		<p>Note: Delegates would be well advised to book accommodation as soon as possible. London hotels tend to be fully booked - especially as we are running just after London Fashion Week.
+     </div>
+     </div>
+     <div class="row">
+            <div class="fourcol">
+            <h2> Travelodge - London Central City Road</h2>
+            <p> This hotel is 5 minutes walk from the conference centre. It is clean and basic. 
+            Rooms can be booked on line by 
+            following <a href="http://www.travelodge.co.uk/hotels/340/London-Central-City-Road-prev-Moorgate-hotel/rooms-rates" target="_blank">this link</a>.</p>
+            </div> 
+            <div class="fourcol">
+            <h2> Holiday Inn Express - London Central City Road</h2>
+            <p> This hotel is 10 minutes walk from the conference centre. 
+            It is right by the so called "Silicon Roundabout" in the heart of the thriving tech start-up area. 
+            The hotel was fully refurbished in some style last year making it a rather more comfortable option than the 
+            Travelodge. Rooms can be booked on line by 
+            following <a href="http://www.hiexpress.com/hotels/us/en/london/lonct/hoteldetail?cm_mmc=mdpr-_-GoogleMapsUK-_-ex-_-lonct" target="_blank">this link</a>.</p>
+               
+            </div>
+            <div class="fourcol last">
+               <h2> Thistle City Barbican</h2> 
+                <p>This hotel is the furthest from the conference centre - 
+                about 15 minutes walk. It is beautifully decorated inside with a pleasant social/area bar. 
+                Rooms can be booked <a href="http://www.thistle.com/en/hotels/united_kingdom/london/thistle_city_barbican/index.html" target = "_blank">here</a></p>.
+            </div>
+      </div>
+    </div>
 </div><!-- main -->
 <div class="push"></div>
 </div><!-- page -->
