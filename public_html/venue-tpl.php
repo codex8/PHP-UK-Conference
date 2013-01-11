@@ -42,7 +42,7 @@
             following <a href="http://www.travelodge.co.uk/hotels/340/London-Central-City-Road-prev-Moorgate-hotel/rooms-rates" target="_blank">this link</a>.</p>
             </div> 
             <div class="fourcol">
-            <h2> Holiday Inn Express - London Central City Road</h2>
+            <h2> Holiday Inn Express - Old Street</h2>
             <p> Rates (on the 11th Jan) from &pound;119 per person per night, including VAT</p>
             <p> This hotel is 10 minutes walk from the conference centre. 
             It is right by the so called "Silicon Roundabout" in the heart of the thriving tech start-up area. 
