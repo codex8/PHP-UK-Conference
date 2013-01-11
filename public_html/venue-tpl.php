@@ -36,21 +36,23 @@
      <div class="row">
             <div class="fourcol">
             <h2> Travelodge - London Central City Road</h2>
+            <p> Rates from £55 per person per night, including VAT. </p>
             <p> This hotel is 5 minutes walk from the conference centre. It is clean and basic. 
             Rooms can be booked on line by 
             following <a href="http://www.travelodge.co.uk/hotels/340/London-Central-City-Road-prev-Moorgate-hotel/rooms-rates" target="_blank">this link</a>.</p>
             </div> 
             <div class="fourcol">
             <h2> Holiday Inn Express - London Central City Road</h2>
+            <p> Rates from £119 per person per night, including VAT</p>
             <p> This hotel is 10 minutes walk from the conference centre. 
             It is right by the so called "Silicon Roundabout" in the heart of the thriving tech start-up area. 
-            The hotel was fully refurbished in some style last year making it a rather more comfortable option than the 
-            Travelodge. Rooms can be booked on line by 
+            The hotel was fully refurbished last year. Rooms can be booked on line by 
             following <a href="http://www.hiexpress.com/hotels/us/en/london/lonct/hoteldetail?cm_mmc=mdpr-_-GoogleMapsUK-_-ex-_-lonct" target="_blank">this link</a>.</p>
                
             </div>
             <div class="fourcol last">
                <h2> Thistle City Barbican</h2> 
+               <p>Rates from £69 per person per nigh, including VAT.</p>P
                 <p>This hotel is the furthest from the conference centre - 
                 about 15 minutes walk. It is beautifully decorated inside with a pleasant social/area bar. 
                 Rooms can be booked <a href="http://www.thistle.com/en/hotels/united_kingdom/london/thistle_city_barbican/index.html" target = "_blank">here</a></p>.
