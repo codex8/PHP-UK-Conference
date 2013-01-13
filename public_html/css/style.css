@@ -688,6 +688,8 @@ h1.schedule {
 	width: 100px;
 	display: inline-block;
 	border: solid 1px #da9e26;
+	border-radius: 100%;
+	padding: 10px;
 }
 .separator {
 	font-weight: bold;
