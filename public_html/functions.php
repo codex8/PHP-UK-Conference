@@ -284,7 +284,7 @@ function display_logos($logos) {
         $logo =  $logo =  "/images/sponsors/". $sponsor_name . "_logo.png";  
         ?> 
         <a href="<?php echo $link?>" target="_blank">
-        <img class="sponsor-logo-home" src="//<?=$host;?><?php echo $logo ?>" width="100px"/>
+        <img class="sponsor-logo-home" src="//<?=$host;?><?php echo $logo ?>"/>
         </a>
         <?php
     }

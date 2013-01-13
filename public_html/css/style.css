@@ -703,6 +703,7 @@ h1.schedule {
 }
 .sponsor-logo-home {
 	border: solid 1px #da9e26;
+	width: 150px;
 }
 .sponsor-type {
 	font-family: "SteelfishRgRegular";

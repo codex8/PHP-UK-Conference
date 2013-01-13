@@ -15,8 +15,8 @@ the City of London.</p>
 </div> 
 <?php 
 require_once('functions.php');
-$logos = array ("INVIQA" => "http://inviqa.com", 
-                "SENSIO" => "http://sensiolabs.co.uk" ,
+$logos = array ("INVIQAG" => "http://inviqa.com", 
+                "SENSIOG" => "http://sensiolabs.co.uk" ,
                 "WEBANDPHP" => "www.webandphp.com");
 display_logos($logos);
 ?>
