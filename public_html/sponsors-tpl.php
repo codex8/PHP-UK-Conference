@@ -15,15 +15,14 @@ require_once('functions.php');
 <?php display_sponsor("SENSIO"); ?>
 </div>
 </div>
-
+<!-- 
 <div id="media-partners" class="sponsor-type">MEDIA PARTNERSHIP</div>
 <div class="row">
 <div class="twelvecol">
 <?php display_sponsor("WEBANDPHP"); ?>
 </div>
-
 </div>
-
+-->
 </div><!-- sponsor-container -->
 </div><!-- main -->
 <div class="push"></div>
