@@ -6,7 +6,7 @@
 <?php 
 require_once('functions.php');
 ?>
-<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />GOLD PARTNERSHIP<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+<div id="gold-partners" class="sponsor-type">GOLD PARTNERSHIP</div>
 <div class="row">
 <div class="sixcol">
 <?php display_sponsor("INVIQA"); ?>
@@ -16,7 +16,7 @@ require_once('functions.php');
 </div>
 </div>
 
-<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />MEDIA PARTNERSHIP<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+<div id="media-partners" class="sponsor-type">MEDIA PARTNERSHIP</div>
 <div class="row">
 <div class="twelvecol">
 <?php display_sponsor("WEBANDPHP"); ?>

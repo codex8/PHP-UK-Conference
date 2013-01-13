@@ -265,14 +265,16 @@ function display_sponsor($sponsor_name) {
     $logo =  "/images/sponsors/". $sponsor_name . "_logo.png";   
     $text_file = "texts/sponsors/" . $sponsor_name . ".txt";
 ?>
-    <div class="sponsor">
-     <div class="sponsor-logo-container">
-	<img class="sponsor-logo" src="//<?=$host;?><?php echo $logo ?>" />
+    <div class="sponsor-heading">
+    <div class="sponsor-logo-container">
+		<img class="sponsor-logo" src="//<?=$host;?><?php echo $logo ?>" />
+	</div>
 	</div>
 	<div class="sponsor-text">
 	<?php echo file_get_contents($text_file) ?>
+	
     </div>
-    </div>
+    
     <?php 
 }
 
@@ -282,7 +284,7 @@ function display_logos($logos) {
         $logo =  $logo =  "/images/sponsors/". $sponsor_name . "_logo.png";  
         ?> 
         <a href="<?php echo $link?>" target="_blank">
-        <img class="sponsor-logo-home" src="//<?=$host;?><?php echo $logo ?>" width="200px"/>
+        <img class="sponsor-logo-home" src="//<?=$host;?><?php echo $logo ?>" width="100px"/>
         </a>
         <?php
     }
