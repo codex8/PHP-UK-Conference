@@ -227,7 +227,7 @@ and (max-width : 480px) {
 	font-size: 70%;
 	}
 	#main{
-	
+	    line-height: 130%;
 		font-size: 130%;
 	}
 	.sub-title-text {
