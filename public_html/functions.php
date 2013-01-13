@@ -260,3 +260,19 @@ function get_abstract_link($key) {
 	return $abstract_link;
 
 }
+function display_sponsor($sponsor_name, $format="png", $percent_width="20%") {
+    $host =  $_SERVER['HTTP_HOST'];
+    $logo =  "/images/sponsors/". $sponsor_name . "_logo." . $format;   
+    $text_file = "texts/sponsors/" . $sponsor_name . ".txt";
+?>
+    <div class="sponsor">
+     <div class="sponsor-logo-container">
+	<img class="sponsor-logo" src="//<?=$host;?><?php echo $logo ?>" width="<?php echo $percent_width ?>"/>
+	</div>
+	<div class="sponsor-text">
+	<?php echo file_get_contents($text_file) ?>
+    </div>
+    </div>
+    <?php 
+}
+?>
