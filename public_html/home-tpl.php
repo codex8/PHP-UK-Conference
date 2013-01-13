@@ -17,6 +17,16 @@ Check out our fantastic <a href="/speakers">speakers</a> and <a href="/schedule"
 Click on the ticket image above to buy now and beat the crowd!</p>
 </div>
 </div>
+<div id="sponsor-logos-bar">
+</div> 
+<?php 
+require_once('functions.php');
+$logos = array ("INVIQA" => "http://inviqa.com", 
+                "SENSIO" => "http://sensiolabs.co.uk" ,
+                "WEBANDPHP" => "www.webandphp.com");
+display_logos($logos);
+?>
+
 
 </div><!-- main-->
 <div class="push"></div>

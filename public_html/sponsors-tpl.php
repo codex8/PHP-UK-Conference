@@ -6,16 +6,23 @@
 <?php 
 require_once('functions.php');
 ?>
-<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />GOLD<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />GOLD PARTNERSHIP<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
 <div class="row">
 <div class="sixcol">
-<?php display_sponsor("INVIQA","png","15%"); ?>
+<?php display_sponsor("INVIQA"); ?>
 </div>
 <div class="sixcol last">
-<?php display_sponsor("SENSIO", "jpg", "30%"); ?>
+<?php display_sponsor("SENSIO"); ?>
 </div>
 </div>
 
+<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />MEDIA PARTNERSHIP<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+<div class="row">
+<div class="twelvecol">
+<?php display_sponsor("WEBANDPHP"); ?>
+</div>
+
+</div>
 
 </div><!-- sponsor-container -->
 </div><!-- main -->

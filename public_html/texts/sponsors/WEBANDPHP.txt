@@ -1,0 +1,12 @@
+Web &amp; PHP Magazine is a digital publication that focuses on PHP and 
+web technologies, covering all the latest front and back-end developments. 
+With a wide variety of features, articles and columns by key industry experts 
+and innovators, including regular columnists from thePHP.cc 
+gang: Arne Blankerts, Stefan Priebsch and Sebastian Bergmann. 
+Our newest additions are Cory Isaacson - (CEO of Codefutures), 
+Michael Stowe (PHP Security Expert at Caringbridge) and Steffan Sudek of (Sudek Solutions).
+With our editors office based in the
+heart of London we couldn&rsquo;t miss the opportunity to join 
+London PHP and help bring a sense of community to this exciting event. 
+Now into our second publication year, 2013 looks to be even better than 2012. With a growing community and consistent new innovations to report it is clear that PHP and Web Technology is set to dominate the developer world for years to come. You can find us on Facebook and Twitter @webandphp. To download the current and legacy
+issues head over to <a href="http://webandphp.com" target="_blank">Web&nbsp;and&nbsp;PHP</a>
