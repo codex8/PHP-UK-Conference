@@ -265,7 +265,7 @@ function display_sponsor($sponsor_name) {
     $logo =  "/images/sponsors/". $sponsor_name . "_logo.png";   
     $text_file = "texts/sponsors/" . $sponsor_name . ".txt";
 ?>
-    <div class="sponsor-heading">
+    <div id="<?php echo $sponsor_name?>" class="sponsor-heading">
     <div class="sponsor-logo-container">
 		<img class="sponsor-logo" src="//<?=$host;?><?php echo $logo ?>" />
 	</div>
