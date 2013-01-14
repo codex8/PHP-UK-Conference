@@ -13,4 +13,4 @@ Find out more about our current vacancies <a href="http://inviqa.com/careers" ta
 <span class="separator">|</span>
 <a href="mailto:info@inviqa.com">More information</a>
 <span  class="separator">|</span>
-<a href="http://inviqa.com/phpuk13">PHP UK 2013</a>
+<a href="http://inviqa.com/phpuk13">INVIQA</a>
