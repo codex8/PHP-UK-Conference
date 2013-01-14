@@ -260,3 +260,33 @@ function get_abstract_link($key) {
 	return $abstract_link;
 
 }
+function display_sponsor($sponsor_name) {
+    $host =  $_SERVER['HTTP_HOST'];
+    $logo =  "/images/sponsors/". $sponsor_name . "_logo.png";   
+    $text_file = "texts/sponsors/" . $sponsor_name . ".txt";
+?>
+    <div id="<?php echo $sponsor_name?>" class="sponsor-heading">
+    <div class="sponsor-logo-container">
+		<img class="sponsor-logo" src="//<?=$host;?><?php echo $logo ?>" />
+	</div>
+	</div>
+	<div class="sponsor-text">
+	<?php echo file_get_contents($text_file) ?>
+	
+    </div>
+    
+    <?php 
+}
+
+function display_logos($logos) {
+    $host =  $_SERVER['HTTP_HOST'];
+    foreach($logos as $sponsor_name => $link) {
+        $logo =  $logo =  "/images/sponsors/". $sponsor_name . "_logo.png";  
+        ?> 
+        <a href="<?php echo $link?>" target="_blank">
+        <img class="sponsor-logo-home" src="//<?=$host;?><?php echo $logo ?>"/>
+        </a>
+        <?php
+    }
+}
+?>

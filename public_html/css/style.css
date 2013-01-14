@@ -93,6 +93,7 @@ a:hover {
 #main p {
 	font-family: 'Arial';
 	padding-bottom: 20px;
+	line-height: 140%;
 }
 .transparent {
 	zoom: 1;
@@ -663,8 +664,6 @@ h1.schedule {
 
 .speaker-photo {
     border-radius: 100%;
-    /*float: left;*/
-    /*margin-right: 40px;*/
     border: solid 1px #DA9E26;
 }
 
@@ -675,4 +674,41 @@ h1.schedule {
 	color: #da9e26;
 	line-height: 1.2em;
 }
-
+.sponsor-text {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.sponsor-heading {
+	font-family: "SteelfishRgRegular";
+	font-size: 300%;
+	color: #60B5C9;
+	}
+.sponsor-logo-container {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	border: solid 1px #da9e26;
+	border-radius: 100%;
+	padding: 10px;
+}
+.separator {
+	font-weight: bold;
+	color: #da9e26;
+}
+#sponsor-logos-bar {
+	padding-top: 20px;
+	height: 10px;
+	border-top: solid 2px #da9e26;
+	padding-bottom: 20px;
+}
+.sponsor-logo-home {
+	border: solid 1px #da9e26;
+	width: 150px;
+}
+.sponsor-type {
+	font-family: "SteelfishRgRegular";
+	font-size: 300%;
+	color: #da9e26;
+	line-height: 300%;
+	text-align: center;
+}
