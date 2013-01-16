@@ -280,12 +280,16 @@ function display_sponsor($sponsor_name) {
 
 function display_logos($logos) {
     $host =  $_SERVER['HTTP_HOST'];
-    foreach($logos as $sponsor_name => $link) {
-        $logo =  $logo =  "/images/sponsors/". $sponsor_name . "_logo.png";  
+    foreach($logos as $sponsor_name => $sponsor_data) {
+        $logo =  "/images/sponsors/". $sponsor_name . "_logo.png";  
+        $col =  $sponsor_data[2]
         ?> 
-        <a href="<?php echo $link?>" target="_blank">
+        <div id="sponsors-home">
+        <h3 class="sponsor-logo-heading <?php echo $col?>"><img class="left-ribbon-small" src="//<?=$host;?>/images/TitleRibbonLeft.png" /><?php echo $sponsor_data[1]?><img class="right-ribbon-small" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h3>
+        <a href="<?php echo $sponsor_data[0]?>" target="_blank">
         <img class="sponsor-logo-home" src="//<?=$host;?><?php echo $logo ?>"/>
         </a>
+        </div>
         <?php
     }
 }
