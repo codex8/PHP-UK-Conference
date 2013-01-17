@@ -16,8 +16,7 @@ the City of London.</p>
 <?php 
 require_once('functions.php');
 $logos = array ("AUTOMA" => array("http://www.automattic.com" , "GOLD TRACK", "gold"),
-				"INVIQA" => array("http://inviqa.com", "GOLD TRACK", "gold"), 
-                "SENSIO" => array("http://sensiolabs.co.uk" , "GOLD TRACK", "gold"),
+				"INVSEN" => array("http://inviqa.com", "GOLD TRACK", "gold"), 
                 "WEBANDPHP" => array("www.webandphp.com" , "MEDIA PARTNER", "blue")
                 );
 display_logos($logos);
