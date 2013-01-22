@@ -90,6 +90,13 @@ a {
 a:hover {
 	color:  #2492a2;
 	}
+.gold {
+	color: #da9e26;
+}
+.blue {
+	color: #60B5C9;
+}
+
 #main p {
 	font-family: 'Arial';
 	padding-bottom: 20px;
@@ -106,10 +113,22 @@ img.left-ribbon {
 	padding-right: 5px;
 	
 }
+img.left-ribbon-small {
+	display: inline-block;
+	width: 15px;
+	padding-right: 5px;
+}
+	
 	
 img.right-ribbon {
 	display: inline-block;
 	width:30px;
+	margin-top: -5px;
+	padding-left: 5px;
+}
+img.right-ribbon-small {
+	display: inline-block;
+	width: 15px;
 	margin-top: -5px;
 	padding-left: 5px;
 }
@@ -710,5 +729,16 @@ h1.schedule {
 	font-size: 300%;
 	color: #da9e26;
 	line-height: 300%;
+	text-align: center;
+}
+#sponsors-home {
+	float:left;
+	margin: 10px;
+	
+	}
+.sponsor-logo-heading {
+	font-family: "SteelfishRgItalic";
+	font-size: 100%;
+	padding-bottom:10px;
 	text-align: center;
 }

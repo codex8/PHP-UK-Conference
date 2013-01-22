@@ -1,0 +1,9 @@
+<p>Automattic is a startup of less than two hundred people trying to democratize publishing on the open web. 
+We're a distributed company scattered across some 60+ countries, but brought together by a common purpose. 
+As well as contributing to Core WordPress, our projects include WordPress.com and WP.com VIP, 
+Jetpack, Akismet, VaultPress, Gravatar, Code Poet, Plinky, VideoPress, After the Deadline, and Intense Debate. 
+They solve different problems, but are all unified in their goal of making publishing easier and better for everyone.</p>
+ 
+<p>PHP is in our DNA, it's what WordPress is built on. As strong believers in Open Source, 
+most of our work is available under licenses like the GPL. Much like PHP, we're here to make the web a better place, 
+and a more open one while we're about it.</p>

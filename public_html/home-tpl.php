@@ -15,9 +15,10 @@ the City of London.</p>
 </div> 
 <?php 
 require_once('functions.php');
-$logos = array ("INVIQAG" => "http://inviqa.com", 
-                "SENSIOG" => "http://sensiolabs.co.uk" ,
-//                "WEBANDPHP" => "www.webandphp.com"
+$logos = array ("AUTOMA" => array("http://www.automattic.com" , "GOLD TRACK", "gold"),
+				"INVIQA" => array("http://inviqa.com", "GOLD TRACK", "gold"), 
+                "SENSIO" => array("http://sensiolabs.co.uk", "GOLD TRACK", "gold"),
+                "WEBANDPHP" => array("www.webandphp.com" , "MEDIA PARTNER", "blue")
                 );
 display_logos($logos);
 ?>
