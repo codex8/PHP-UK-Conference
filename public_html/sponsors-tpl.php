@@ -6,7 +6,7 @@
 <?php 
 require_once('functions.php');
 ?>
-<div id="gold-partners" class="sponsor-type">GOLD TRACK SPONSOR</div>
+<div id="gold-partners" class="sponsor-type">GOLD TRACK SPONSORS</div>
 <div class="row">
 <div class="twelvecol">
 <?php display_sponsor("AUTOMA"); ?>
