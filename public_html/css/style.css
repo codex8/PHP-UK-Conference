@@ -731,14 +731,15 @@ h1.schedule {
 	line-height: 300%;
 	text-align: center;
 }
-#sponsors-home {
-	float:left;
+.sponsor-home {
 	margin: 10px;
-	
-	}
+	float: left;
+}
 .sponsor-logo-heading {
+	
 	font-family: "SteelfishRgItalic";
 	font-size: 100%;
 	padding-bottom:10px;
 	text-align: center;
+	
 }

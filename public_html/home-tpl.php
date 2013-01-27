@@ -12,7 +12,7 @@ the City of London.</p>
 </div>
 </div>
 <div id="sponsor-logos-bar">
-</div> 
+</div>
 <?php 
 require_once('functions.php');
 $logos = array ("AUTOMA" => array("http://www.automattic.com" , "GOLD TRACK", "gold"),
