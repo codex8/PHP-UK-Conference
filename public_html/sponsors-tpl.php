@@ -29,6 +29,13 @@ require_once('functions.php');
 </div>
 </div>
 
+<div id="media-partners" class="sponsor-type">SOCIAL SPONSOR</div>
+<div class="row">
+<div class="twelvecol">
+<?php display_sponsor("ZT"); ?>
+</div>
+</div>
+
 </div><!-- sponsor-container -->
 </div><!-- main -->
 <div class="push"></div>

@@ -1,0 +1,15 @@
+<p>ZeroTurnaround is dedicated to changing the way the world develops, tests and runs Java applications. 
+Powered by award-winning Hotpatching Technology, JRebel and LiveRebel are revolutionizing the way Development and 
+Operations teams work with Java. ZeroTurnaround's technology is trusted by nearly a quarter of the Fortune 100 and 
+several big-name companies including United Health Group, eBay, LinkedIn, Oracle, IBM, Hewlett Packard and more. 
+Thousands of engineers use JRebel to transform the laborious build/test/deploy phase of application development 
+into a light-speed cycle that delivers true bottom-line benefits. Also, ZeroTurnaround's LiveRebel is an 
+instant rollout/rollback tool for live applications, bringing Continuous Delivery to fruition for companies all over the world. 
+ZeroTurnaround is headquartered in Estonia and also has offices in Boston. For more information, 
+visit <a href="http://zeroturnaround.com" target="_blank">ZeroTurnaround</a> or follow @jrebel on Twitter.</p>
+
+<p>ZeroTurnaround's LiveRebel brings one-click deployment and rollback to any PHP application across multiple physical or 
+cloud environments. It provides a one-page overview of your deployments across multiple applications, servers and environments 
+so that you always know what version your testers or users are pounding on. It bundles configuration and database changes 
+with the application, so that same application can be deployed to multiple environments with no special changes or preparation. 
+It can be installed in minutes and automates your release process, bringing you that much closer to DevOps heaven.</p>
