@@ -3,13 +3,20 @@
 <a href="/schedule" class="backlink">Back to the schedule &raquo;</a>  
 <h1 class="uncon">PHPUK 2013 Unconference</h1>
 <h2 class="blue">Powered by the unpredictable</h2>
-
+<div class="row">
+<div class="ninecol">
 <p>The Unconference track will run in tandem with the main conference track on both days and this year our 
 unconference host and chair will be <a href="http://antz29.com" target="_blank">John Le Drew</a> who will be running the show.</p>
 
 <p>In true unconference fashion, anyone can speak and it is often an opportunity to learn about some of the more
  off the wall topics, see speakers try out material destined for the main tracks of future conferences 
  and even speak yourself (really, we want to hear you speak!).</p>
+ </div>
+ <div class="threecol last">
+<img class="speaker-photo" src="images/speakers/johnledrew.jpg">
+<p class="speaker-name">John Le Drew</p>
+</div>
+ </div>
 <h1 class="uncon">So you have something to say?</h1>
 <h2 class="blue">We want to hear you speak (yes, we mean you...)</h2>
 
