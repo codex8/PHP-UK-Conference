@@ -20,7 +20,7 @@ unconference host and chair will be <a href="http://antz29.com" target="_blank">
 <h1 class="uncon">So you have something to say?</h1>
 <h2 class="blue">We want to hear you speak (yes, we mean you...)</h2>
 
-<p>So if you want to speak, drop John an e-mail or come and find him throughout the day and he will slot 
+<p>So if you want to speak, drop John an <a href="mailto:phpukuncon@antz29.com">e-mail</a> or come and find him throughout the day and he will slot 
 you into the schedule. Generally, a talk will be either 15 minutes or 30 minutes with some time for questions 
 at the end, but if you have a longer or shorter talk please come and speak to John as 
 we can probably still fit you in; it is the uncon after all, powered by the unpredictable.</p>
