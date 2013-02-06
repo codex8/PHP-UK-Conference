@@ -611,6 +611,13 @@ h1.schedule {
 	background-color: #DEDEDE;
 	border-bottom: 1px solid #c5c5c5;
 }
+h1.uncon{
+	font-family: "SteelfishRgRegular";
+	font-size: 200%;
+	text-align: left;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	}
 	
 .web_dialog_overlay
 {
@@ -742,4 +749,14 @@ h1.schedule {
 	padding-bottom:10px;
 	text-align: center;
 	
+}
+.backlink {
+	padding-top:15px;
+	padding-left: 15px;
+	float:right;
+}
+#unconlink {
+	display:inline-block;
+	padding-top:10px;
+	padding-bottom: 10px;
 }

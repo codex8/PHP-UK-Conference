@@ -1,5 +1,9 @@
 <div id="main">
     <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SCHEDULE<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+    <div id="unconlink">
+    <img src="//<?=$host;?>/images/star.png" />
+    <a href="/uncon" class="backlink">Check out the Unconference &raquo;</a>
+    </div>
     <div id="schedule-container">
     <?php 
     

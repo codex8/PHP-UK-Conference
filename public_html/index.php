@@ -30,6 +30,9 @@ switch ($menu) {
     case "venue":
         include 'venue-tpl.php';
         break;
+    case "uncon":
+        include 'uncon-tpl.php';
+        break;
 	default:
 		include 'home-tpl.php';
 	break;
