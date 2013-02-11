@@ -3,7 +3,26 @@
 <link rel="stylesheet" href="css/media-styles.css?version=6">
 
 <div id="main">
+    
     <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SPEAKERS<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+    <div id="aralbalkan" class="speaker row">
+    <div class="threecol">
+        <img class="speaker-photo" src="images/speakers/aralbalkan.jpg">
+        </div>
+        <div class="ninecol last">
+        <p class="speaker-name">Aral Balkan</p>
+        <p class="speaker-bio">Aral Balkan is an experience designer and developer working to change the world through better design. He recently won Voice of the Year at the Critter awards for his talks at international conferences. He is currently working on a new app, teaches iOS workshops, and sits on the board of CodeClub. You can follow his personal narrative on Breaking Things.
+        </div>
+      </div>
+     <div id="martijnverburg" class="speaker row">
+    <div class="threecol">
+        <img class="speaker-photo" src="images/speakers/diabolicaldevloper.jpg">
+        </div>
+        <div class="ninecol last">
+        <p class="speaker-name">The Diabolical Developer</p>
+        <p class="speaker-bio">The Diabolical Developer is rumoured to be a secret double agent, living life helping take down (guide) the Java community - or is that .NET? He does seem to know what an AbstractFactorySingletonProxyBean is, which is worrying.
+        </div>
+      </div>
     <div id="alvarovidela" class="speaker row">
     <div class="threecol">
         <img class="speaker-photo" src="images/speakers/alvarovidela.jpg">

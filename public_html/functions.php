@@ -56,7 +56,7 @@ function buildCrossTrackRow ($rowData) {
                 //colour code the rows
                 if (substr($content, 0, 3) == "Roo") {
                     echo '<div class="twelvecol session-rc">';
-                } else if(substr($content, 0, 3) == "Key") {
+                } else if((substr($content, 0, 3) == "Key") || (substr($content, 0, 3) == "KEY")) {
        	            echo '<div class="twelvecol session-key">';
                 } else if(substr($content, -3) == "eak" || substr($content, -3) == "nch") {
        	           echo '<div class="twelvecol session-break">';
