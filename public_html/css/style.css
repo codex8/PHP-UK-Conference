@@ -760,3 +760,9 @@ h1.uncon{
 	padding-top:10px;
 	padding-bottom: 10px;
 }
+.keynote-presenter a {
+	color:#2561DA;
+}
+.keynote-presenter a:hover {
+	color:#4325DA;
+}
