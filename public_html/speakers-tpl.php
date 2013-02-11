@@ -11,7 +11,7 @@
         </div>
         <div class="ninecol last">
         <p class="speaker-name">Aral Balkan</p>
-        <p class="speaker-bio">Aral Balkan is an experience designer and developer working to change the world through better design. He recently won Voice of the Year at the Critter awards for his talks at international conferences. He is currently working on a new app, teaches iOS workshops, and sits on the board of CodeClub. You can follow his personal narrative on Breaking Things.
+        <p class="speaker-bio"><a href ="http://aralbalkan.com" target="_blank">Aral Balkan</a> is an experience designer and developer working to change the world through better design. He recently won Voice of the Year at the Critter awards for his talks at international conferences. He is currently working on a new app, teaches iOS workshops, and sits on the board of CodeClub. You can follow his personal narrative on Breaking Things.
         </div>
       </div>
      <div id="martijnverburg" class="speaker row">
