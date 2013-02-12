@@ -56,14 +56,20 @@ function buildCrossTrackRow ($rowData) {
                 //colour code the rows
                 if (substr($content, 0, 3) == "Roo") {
                     echo '<div class="twelvecol session-rc">';
+                    buildCrossCell($rowData['session-one']);
                 } else if((substr($content, 0, 3) == "Key") || (substr($content, 0, 3) == "KEY")) {
-       	            echo '<div class="twelvecol session-key">';
+       	            echo '<div class="session-key twelvecol">';
+       	            echo '<div class="session-key-container">';
+       	            buildCrossCell($rowData['session-one']);
+       	            echo "</div>";
                 } else if(substr($content, -3) == "eak" || substr($content, -3) == "nch") {
        	           echo '<div class="twelvecol session-break">';
+       	           buildCrossCell($rowData['session-one']);
                 }else {
        	           echo '<div class="twelvecol session-all">';
-                }        
-                buildCrossCell($rowData['session-one'])?>
+       	           buildCrossCell($rowData['session-one']);
+                } 
+                ?>       
                 </div>
             </div> 
         </div>

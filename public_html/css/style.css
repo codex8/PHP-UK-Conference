@@ -594,7 +594,7 @@ img.alignright {
 	background-color: #dedede;
 	}
 .session-key {
-	background-color:  #da9e26;
+	/*background-color:  #da9e26;*/
 	}
 .session-rc {
 	background-color: #efefef;
@@ -760,9 +760,15 @@ h1.uncon{
 	padding-top:10px;
 	padding-bottom: 10px;
 }
+/*
 .keynote-presenter a {
 	color:#2561DA;
 }
 .keynote-presenter a:hover {
 	color:#4325DA;
+}
+*/
+.session-key-container {
+	border-top: 2px solid #da9e26;
+	border-bottom: 2px solid #da9e26;
 }
