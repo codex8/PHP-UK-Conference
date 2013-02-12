@@ -137,7 +137,7 @@ img.right-ribbon-small {
     font-family: "BebasNeueRegular";
     color: #565656;
     text-decoration:none;
-    text-shadow: #000 1px;
+    text-shadow: #000 1px 1px;
     border-top: 1px solid f8a912;
     -moz-border-radius: 2px;
  	-webkit-border-radius: 2px;
@@ -361,7 +361,7 @@ height: 171px;
 .push {
 height: 191px;
 }
-#fer-content {
+#footer-content {
 	padding-top: 2%;
 	width: 90%;
 	color: #fff;
