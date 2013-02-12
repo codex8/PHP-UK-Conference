@@ -137,7 +137,7 @@ img.right-ribbon-small {
     font-family: "BebasNeueRegular";
     color: #565656;
     text-decoration:none;
-    text-shadow: #000 1px 1px;
+    text-shadow: #000 1px;
     border-top: 1px solid f8a912;
     -moz-border-radius: 2px;
  	-webkit-border-radius: 2px;
@@ -162,7 +162,7 @@ img.right-ribbon-small {
  	display: block;
  	width: 100%;
 	max-width: 1920px;
-	margin: 0 auto -171px;	 
+	margin: 0 auto -191px;	 
 	background: #fff;
 	background: #efefef url(images/fallback-gradient.png);
 	background-image: -webkit-gradient(radial, 50% 45%, 0, 50% 80%, 100 from(#fff), to(#efefef));
@@ -356,12 +356,12 @@ img.ticket-image {
 	border-top: 20px solid #000;
 	}
 .footer {
-height: 151px;
-}
-.push {
 height: 171px;
 }
-#footer-content {
+.push {
+height: 191px;
+}
+#fer-content {
 	padding-top: 2%;
 	width: 90%;
 	color: #fff;
