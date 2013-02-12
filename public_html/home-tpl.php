@@ -20,7 +20,8 @@ $logos = array ("AUTOMA" => array("http://www.automattic.com" , "GOLD TRACK", "g
                 "SENSIO" => array("http://sensiolabs.co.uk", "GOLD TRACK", "gold"),
                 "WEBANDPHP" => array("http://www.webandphp.com" , "MEDIA PARTNER", "blue"),
                 "ZT" => array("http://zeroturnaround.com" , "LOCAL", "blue"),
-                "ENGINE" => array("http://www.engineyard.com" , "SOCIAL", "blue")
+                "ENGINE" => array("http://www.engineyard.com" , "SOCIAL", "blue"),
+                "PUSHER" => array("http://www.pusher.com" , "HACKATHON", "blue")
                 );
 display_logos($logos);
 ?>
