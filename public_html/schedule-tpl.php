@@ -5,7 +5,7 @@
     		<div id="unconlink">
     		     <h2>Looking for something off the beaten track?</h2>
     		     We will be running the 
-    			<a href="/unconference" target="_blank"> Unconference </a> again this year.
+    			<a href="/unconference"> Unconference </a> again this year.
     		</div>
     	</div>
     	<div class="sixcol last">
