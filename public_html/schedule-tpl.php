@@ -1,8 +1,21 @@
 <div id="main">
     <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SCHEDULE<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
-    <div id="unconlink">
-    <img src="//<?=$host;?>/images/star.png" />&nbsp;<a href="/unconference" class="backlink">Check out the Unconference &raquo;</a>
+    <div id="otherthings" class="row">
+    	<div class="sixcol">
+    		<div id="unconlink">
+    		     <h2>Looking for something off the beaten track?</h2>
+    		     We will be running the 
+    			<a href="/unconference"> Unconference </a> again this year.
+    		</div>
+    	</div>
+    	<div class="sixcol last">
+    		<div id="hackathon">
+    		<h2>Feeling creative?</h2>
+    			We have a brand new <a href="https://www.hackerleague.org/hackathons/php-uk-conference-hackathon/" target="_blank">Hackathon</a> this year!
+    		</div>  
+    	</div>
     </div>
+  
     <div id="schedule-container">
     <?php 
     

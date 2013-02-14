@@ -1,0 +1,12 @@
+<p><a href="www.engineyard.com">Engine Yard</a> is the leading Platform as a Service (PaaS), empowering software application innovation more rapidly, 
+easily and cost effectively. With deep technical expertise, powerful infrastructure orchestration, strong support of the open 
+source community, and world-class service, Engine Yard provides a complete commercial grade solution that enables 
+developers to focus on creating great applications, instead of managing their platform. Thousands of customers in 58 
+countries, from explosive-growth Web startups to Fortune 500 enterprises, rely on Engine Yard to leverage the cloud for 
+competitive advantage. Headquartered in San Francisco, Calif., Engine Yard is backed by Benchmark Capital, 
+New Enterprise Associates, Oracle andAmazon.com.</p>
+
+<p>Engine Yard is a Platform as a Service for deploying, scaling and managing PHP applications. Built on Amazon Web Services, 
+it integrates with your workflow, autoscales up and down and gives you extra capabilities with powerful add-ons. Engine Yard provides a 
+portfolio of options that let you begin deploying your applications for free and then allows you to upgrade to elastic, dedicated resources 
+when you're ready to go into production. Think Engine Yard PHP hosting for PHP development.</p>
