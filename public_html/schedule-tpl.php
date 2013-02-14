@@ -20,6 +20,22 @@
     <?php 
     
     require_once('functions.php');
+    
+    //Thursday
+    ?>
+    <div class="row thursday">
+       <div class="twocol">		
+           <h1 class="thursday-schedule">THURSDAY</h1>
+       </div>
+       <div class="tencol last">
+       <div class="thursday-text">
+    		     Start the conference in style! Join us at an exciting new venue for food, drink and a great talk! Details will   
+    			be  <a href="/socials"> here </a> very soon!.
+   		</div>
+    	</div>
+    </div>
+    <?php 
+    
 	
     $mastersheet = unserialize(file_get_contents('mastersheet'));
     

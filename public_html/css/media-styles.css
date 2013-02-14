@@ -216,6 +216,18 @@ and (max-width: 767px) {
 	#page{
 	margin: 0 auto -271px;	
 	}
+	h1.thursday-schedule{
+	padding-left: 5%;
+	}
+	.thursday-text {
+	padding-top: 20px;
+	}
+	.schedule-room-main {	
+	border-bottom: 1px solid #cdcdcd;
+	}
+	.schedule-room-side {	
+	border-bottom: 1px solid #cdcdcd;
+	}
 
 }
 
