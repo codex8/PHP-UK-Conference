@@ -1,0 +1,4 @@
+<p>At <a href="www.jetbrains.com" target="_blank">JetBrains</a>, we have a passion 
+for making people more productive through <a href="www.jetbrains.com/products.html" target="_blank">smart software solutions</a> that help them 
+focus more what they really want to accomplish, 
+and less on mundane, repetitive "computer busy work".</p>
