@@ -43,6 +43,27 @@ require_once('functions.php');
 </div>
 </div>
 
+<div id="media-partners" class="sponsor-type">BRONZE</div>
+<div class="row">
+<div class="twelvecol">
+<?php display_sponsor("OREILLY"); ?>
+</div>
+</div>
+
+<div id="media-partners" class="sponsor-type">SOCIAL</div>
+<div class="row">
+<div class="twelvecol">
+<?php display_sponsor("IMAKR"); ?>
+</div>
+</div>
+
+<div id="media-partners" class="sponsor-type">HACKATHON</div>
+<div class="row">
+<div class="twelvecol">
+<?php display_sponsor("TWILIO"); ?>
+</div>
+</div>
+
 </div><!-- sponsor-container -->
 </div><!-- main -->
 <div class="push"></div>
