@@ -228,6 +228,12 @@ and (max-width: 767px) {
 	.schedule-room-side {	
 	border-bottom: 1px solid #cdcdcd;
 	}
+	.mobile-track {
+		display: inline-block;
+	}
+	.header-row {
+	display: none;
+	}
 
 }
 

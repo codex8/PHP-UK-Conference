@@ -577,8 +577,8 @@ img.alignright {
 	background-color: #efefef;
 	}
 .session-title {
-	font-style: bold;
-	margin-top:5px;
+	/*font-weight: bold;*/
+	/*margin-top:5px;*/
 }
 .session-presenter {
 	font-style: italic;
@@ -834,5 +834,15 @@ h1.thursday-schedule {
 	padding-left:5%;
 	padding-right: 5%;
 	padding-bottom:30px;
+}
+.mobile-track {
+	display: none;
+    padding-top: 20px;
+	font-style: italic;
+	font-size: 80%;
+	color: #da9e26;
+}
+.header-row {
+    background-color: #DEDEDE;
 }
 	

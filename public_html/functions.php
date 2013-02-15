@@ -18,12 +18,15 @@ function buildTrackRow ($rowData) {
         <div class="sessions">
             <div class= "row">
                 <div class="fourcol session-one">
+                    <div class="mobile-track">Track 2 </div>
                     <?php buildCell($rowData['session-one'])?>
                 </div>
                 <div class="fourcol session-main">
+                    <div class="mobile-track">Main Track</div>
                     <?php buildCell($rowData['session-main'])?>
                 </div>
                 <div class="fourcol last session-two">
+                    <div class="mobile-track">Track 3 </div>
                     <?php buildCell($rowData['session-two'])?>
                 </div> 
             </div> 
@@ -35,7 +38,7 @@ function buildTrackRow ($rowData) {
 }
 function buildTrackHeader() {
     ?>
-    <div class="schedule-row row">   
+    <div class="header-row row">   
         <div class="time-slot">     
             <div class="start-time ">
                 <?php echo "&nbsp"?>
