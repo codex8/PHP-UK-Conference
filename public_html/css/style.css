@@ -577,8 +577,8 @@ img.alignright {
 	background-color: #efefef;
 	}
 .session-title {
-	font-style: bold;
-	margin-top:5px;
+	/*font-weight: bold;*/
+	/*margin-top:5px;*/
 }
 .session-presenter {
 	font-style: italic;
@@ -792,3 +792,57 @@ h1.uncon{
 	border-top: 2px solid #da9e26;
 	border-bottom: 2px solid #da9e26;
 }
+.thursday {
+	background-color: #dedede;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.schedule-room-bg {
+	width:82%;
+	float: left;
+	text-align: center;
+	background-color: #daebef;
+	}
+.schedule-room-side {
+
+	font-family: "SteelfishRgRegular";
+	font-size: 120%;
+	color: #454545;
+	
+}
+.schedule-room-main {	
+	padding-top:10px;
+	font-family: "SteelfishRgRegular";
+	font-size: 150%;
+	color: #454545;
+	padding-bottom:10px;
+	
+}
+
+h1.thursday-schedule {
+	font-family: "SteelfishRgRegular";
+	font-size: 200%;
+	color: #60b5c9;
+	text-align: left;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	padding-left: 34%;
+	background-color: #DEDEDE;
+}
+.thursday-text {
+	padding-top:40px;
+	padding-left:5%;
+	padding-right: 5%;
+	padding-bottom:30px;
+}
+.mobile-track {
+	display: none;
+    padding-top: 20px;
+	font-style: italic;
+	font-size: 80%;
+	color: #da9e26;
+}
+.header-row {
+    background-color: #DEDEDE;
+}
+	

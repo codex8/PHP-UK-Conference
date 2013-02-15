@@ -18,12 +18,15 @@ function buildTrackRow ($rowData) {
         <div class="sessions">
             <div class= "row">
                 <div class="fourcol session-one">
+                    <div class="mobile-track">Track 2 </div>
                     <?php buildCell($rowData['session-one'])?>
                 </div>
                 <div class="fourcol session-main">
+                    <div class="mobile-track">Main Track</div>
                     <?php buildCell($rowData['session-main'])?>
                 </div>
                 <div class="fourcol last session-two">
+                    <div class="mobile-track">Track 3 </div>
                     <?php buildCell($rowData['session-two'])?>
                 </div> 
             </div> 
@@ -32,6 +35,38 @@ function buildTrackRow ($rowData) {
     </div>
      <div class="row-divider row"></div>
     <?php 	
+}
+function buildTrackHeader() {
+    ?>
+    <div class="header-row row">   
+        <div class="time-slot">     
+            <div class="start-time ">
+                <?php echo "&nbsp"?>
+            </div>
+     
+            <div class="end-time ">
+                <?php echo "&nbsp"?>    
+            </div>      
+        </div>
+    
+        <div class="schedule-room-bg">
+            <div class= "row">
+                <div class="fourcol schedule-room-side">
+                    <?php echo "Track 2 <br> Automattic"?>
+                </div>
+                <div class="fourcol schedule-room-main">
+                    <?php echo "Main track"?>
+                </div>
+                <div class="fourcol last schedule-room-side">
+                    <?php echo "Track 3 <br> Inviqa/Sensio Labs"?>
+                </div> 
+            </div> 
+        </div>
+    
+    </div>
+     <div class="row-divider row"></div>
+    <?php 	
+    
 }
 /*
  * Build a schedule row where the sessions goes across all tracks
@@ -135,6 +170,9 @@ function getSchedule($day) {
  * Display a single days schedule
  */
 function displayDay($schedule, $mastersheet) {
+    
+     buildTrackHeader(); 
+    
 	$abstracts = array();
 for($i=0; $i<count($schedule); $i++) {
     	$rowData['start'] = substr($schedule[$i]['start'], 0, strlen($schedule[$i]['start']) - 3); // Remove the seconds

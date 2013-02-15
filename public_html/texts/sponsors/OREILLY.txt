@@ -1,0 +1,17 @@
+<p><a href="www.oreilly.com" target="_blank">O'Reilly Media</a> spreads the knowledge of innovators through its books, online services, 
+magazine, and conferences. Since 1978, O'Reilly has been a chronicler and catalyst of 
+leading-edge development, homing in on the technology trends that really matter and 
+spurring their adoption by amplifying "faint signals" from the alpha geeks who are 
+creating the future. An active participant in the technology community, the company 
+has a long history of advocacy, meme-making, and evangelism.</p>
+
+<p>Publisher of the iconic "animal books" for software developers, creator of the first 
+commercial website (GNN), organizer of the summit meeting that gave the 
+open source software movement its name, and prime instigator of the DIY revolution 
+through itsMake magazine, O'Reilly continues to concoct new ways to connect people with 
+the information they need. O'Reilly conferences and summits bring alpha geeks and 
+forward-thinking business leaders together to shape the revolutionary ideas that spark 
+new industries. Long the information source of choice for technologists, the company now 
+also delivers the knowledge of expert early adopters to everyday computer users. Whether 
+it's delivered in print, online, or in person, everything O'Reilly produces reflects the 
+company's unshakeable belief in the power of information to spur innovation.</p>
