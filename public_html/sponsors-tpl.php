@@ -22,51 +22,47 @@ require_once('functions.php');
 </div>
 </div>
 
-<div id="media-partners" class="sponsor-type">MEDIA PARTNERSHIP</div>
+<div class="sponsor-type">MEDIA PARTNERSHIP</div>
 <div class="row">
 <div class="twelvecol">
 <?php display_sponsor("WEBANDPHP"); ?>
 </div>
 </div>
 
-<div id="media-partners" class="sponsor-type">LOCAL PARTNER</div>
+<div class="sponsor-type">LOCAL PARTNER</div>
 <div class="row">
 <div class="twelvecol">
 <?php display_sponsor("ZT"); ?>
 </div>
 </div>
 
-<div id="media-partners" class="sponsor-type">SOCIAL</div>
+<div class="sponsor-type">SOCIAL</div>
 <div class="row">
-<div class="twelvecol">
+<div class="sixcol">
 <?php display_sponsor("ENGINE"); ?>
 </div>
-</div>
 
-<div id="media-partners" class="sponsor-type">BRONZE</div>
-<div class="row">
-<div class="twelvecol">
-<?php display_sponsor("OREILLY"); ?>
-</div>
-</div>
-
-<div id="media-partners" class="sponsor-type">SOCIAL</div>
-<div class="row">
-<div class="twelvecol">
+<div class="sixcol last">
 <?php display_sponsor("IMAKR"); ?>
 </div>
 </div>
 
-<div id="media-partners" class="sponsor-type">HACKATHON</div>
+<div class="sponsor-type">HACKATHON</div>
 <div class="row">
-<div class="twelvecol">
+<div class="sixcol">
 <?php display_sponsor("TWILIO"); ?>
+</div>
+<div class="sixcol last">
+<?php display_sponsor("PUSHER"); ?>
 </div>
 </div>
 
-<div id="media-partners" class="sponsor-type">BRONZE</div>
+<div class="sponsor-type">BRONZE</div>
 <div class="row">
-<div class="twelvecol">
+<div class="sixcol">
+<?php display_sponsor("OREILLY"); ?>
+</div>
+<div class="sixcol last">
 <?php display_sponsor("JETB"); ?>
 </div>
 </div>
