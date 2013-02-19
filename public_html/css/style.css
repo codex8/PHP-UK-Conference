@@ -845,4 +845,26 @@ h1.thursday-schedule {
 .header-row {
     background-color: #DEDEDE;
 }
+ul#volunteers {
+	list-style: none;
+	display:inline-block;
+}
+.vname{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+li.volunteer-list {
+	float: left;
+}
+img.starleft {
+	width: 15px;
+	padding-left: 15px;
+}
+img.starright {
+	width: 15px;
+	padding-right: 15px;
+}
+	
+	
+
 	

@@ -13,6 +13,27 @@
 
 <p>PHP UK Conference was started in 2006 with the aim to offer the local PHP community access to industry updates and professional development at an affordable rate. The conference is run solely by volunteer members of the PHP London community. Costs are minimised to keep ticket prices as low as possible, and any surplus funds are used to fund community events throughout the year and to fund the following years' conference.</p>
 
+<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />VOLUNTEERS<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+<p>The whole conference is run by volunteers - on the two days of the conference the following people will be running reception, looking after rooms and handling general queries. 
+We'd like to say a huge thankyou to the for giving up their time!</p>
+<ul id="volunteers">
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Abigail Egea</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Adam Wilson</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Arron Woods</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Ben Greenaway</span><img src="/images/star.png" class="starright" ></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Bradley Stott</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Caroline Maynard</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Catherine Siviter</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Chris Class</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Jeremy Gomez</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">John Le Drew</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Luke Ashe-Browne</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Marcus Baker</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Matt Sear</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Richard Foster</span><img src="/images/star.png" class="starright"></li>
+<li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Sam Bell</span><img src="/images/star.png" class="starright"></li>
+</ul>
+
 <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />ORGANISERS<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
 <div id="profiles" class="row">
 <div class="profile fourcol">
