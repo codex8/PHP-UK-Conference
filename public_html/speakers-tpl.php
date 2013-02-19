@@ -243,6 +243,14 @@
         <p class="speaker-name">Nick Belhomme</p>
         <p class="speaker-bio">With more than a decade in professional web application development Nick Belhomme has contributed in a number of ways to the PHP Community. He is a domain-driven design enthusiast and his consulting focus is the design and construction of enterprise applications. Currently he works as an independent contractor and consults the PHP team at Belgium’s premium telecom operator Belgacom. He speaks and is frequently found at conferences. He authored several articles and the Zend Framework 2.0 Cookbook. In his spare time he likes to travel, take hikes with his lovely wife and loves nature.</p>
     </div>
+    <div id="philleggetter" class="speaker row">
+     <div class="threecol">
+        <img class="speaker-photo" src="images/speakers/philleggetter.jpg">
+         </div>
+        <div class="ninecol last">
+        <p class="speaker-name">Phil Leggetter</p>   
+        <p class="speaker-bio">Phil is a Developer Evangelist at Pusher, Real-Time Web Software and Technology Evangelist and Consultant, software engineer, team leader, line manager, micropreneur, product developer, blogger, twitter user and a keen user of social media. He lives near Dundee and has previously worked for Caplin Systems, bigmouthmedia, ESRI (UK), and VeriSIM.
+         </p>
     </div>
     <div id="richardjohnson" class="speaker row">
      <div class="threecol">
