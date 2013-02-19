@@ -845,4 +845,12 @@ h1.thursday-schedule {
 .header-row {
     background-color: #DEDEDE;
 }
+ul#volunteers-ticker {
+	list-style: none;
+}
+.vname{
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
 	

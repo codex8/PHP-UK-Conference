@@ -39,6 +39,24 @@
 </div>
 </div>
 </div>
+<div class="row">
+<ul id="volunteers-ticker">
+<li><span class="vname">Abigail Egea</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Adam Wilson</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Arron Woods</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Ben Greenaway</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Bradley Stott</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Caroline Maynard</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Catherine Siviter</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Chris Class</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Jeremy Gomez</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">John Le Drew</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Luke Ashe-Browne</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Marcus Baker</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Matt Sear</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Richard Foster</span><img src="/images/star.png" width=15px></li>
+<li><span class="vname">Sam Bell</span><img src="/images/star.png" width=15px></li>
+</ul>
 </div><!-- main-->
 <div class="push"></div>
 </div><!-- page -->
