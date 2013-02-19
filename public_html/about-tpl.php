@@ -15,7 +15,7 @@
 
 <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />VOLUNTEERS<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
 <p>The whole conference is run by volunteers - on the two days of the conference the following people will be running reception, looking after rooms and handling general queries. 
-We'd like to say a huge thankyou to the for giving up their time!</p>
+We'd like to say a huge thankyou to them for giving up their time!</p>
 <ul id="volunteers">
 <li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Abigail Egea</span><img src="/images/star.png" class="starright"></li>
 <li class="volunteer-list"><img src="/images/star.png" class="starleft"><span class="vname">Adam Wilson</span><img src="/images/star.png" class="starright"></li>
