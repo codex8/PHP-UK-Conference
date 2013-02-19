@@ -38,11 +38,15 @@ require_once('functions.php');
 
 <div class="sponsor-type">SOCIAL</div>
 <div class="row">
-<div class="sixcol">
+<div class="fourcol">
 <?php display_sponsor("ENGINE"); ?>
 </div>
 
-<div class="sixcol last">
+<div class="fourcol">
+<?php display_sponsor("GITHUB"); ?>
+</div>
+
+<div class="fourcol last">
 <?php display_sponsor("IMAKR"); ?>
 </div>
 </div>
@@ -59,10 +63,13 @@ require_once('functions.php');
 
 <div class="sponsor-type">BRONZE</div>
 <div class="row">
-<div class="sixcol">
+<div class="fourcol">
 <?php display_sponsor("OREILLY"); ?>
 </div>
-<div class="sixcol last">
+<div class="fourcol">
+<?php display_sponsor("TENGEN"); ?>
+</div>
+<div class="fourcol last">
 <?php display_sponsor("JETB"); ?>
 </div>
 </div>
