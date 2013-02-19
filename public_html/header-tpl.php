@@ -12,9 +12,8 @@
 <link rel="stylesheet" href="//<?=$host;?>/css/resets.css">
 
 <link rel="stylesheet" href="//<?=$host;?>/css/1140.css">
-<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=15">
-<link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css?version=10">
-<link rel="stylesheet" href="//<?=$host;?>/css/li-scroller.css?version=1">
+<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=16">
+<link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css?version=11">
 
 
 <script src="//<?=$host;?>/js/jquery-1.8.0.min.js"></script>
