@@ -24,7 +24,7 @@ Old Street (Northern line) or Liverpool Street (Metropolitan, Hammersmith & City
 <div class="fourcol last">
 <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />EVENING<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
 Great conferences are not just about what you do in the day - they are about networking and the friends you will make in the evening. We think this is especially important - 
-so we have plans for you! Thusday night is at <a href="http://www.cafekick.co.uk/bar-kick/">Bar Kick</a> - there will be food, drinks and <a href="https://twitter.com/marcgear">Marc Gear</a>'s talk Node.js vs PHP Smackdown. Look 
+so we have plans for you! Thusday night is at <a href="http://www.cafekick.co.uk/bar-kick/">Bar Kick</a> on <a href="http://goo.gl/maps/hwmJT" target="_blank">127 Shoreditch high Street</a> - there will be food, drinks and <a href="https://twitter.com/marcgear">Marc Gear</a>'s talk Node.js vs PHP Smackdown. Look 
 at the <a href="http://phpconference.co.uk/socials" target="_blank"> socials </a> page to see what else we have lined up!
 </div>
 </div>
