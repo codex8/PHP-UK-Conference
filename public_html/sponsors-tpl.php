@@ -31,23 +31,23 @@ require_once('functions.php');
 
 <div class="sponsor-type">LOCAL PARTNER</div>
 <div class="row">
-<div class="twelvecol">
+<div class="sixcol">
 <?php display_sponsor("ZT"); ?>
+</div>
+<div class="sixcol last">
+<?php display_sponsor("IMAKR"); ?>
+</div>
 </div>
 </div>
 
 <div class="sponsor-type">SOCIAL</div>
 <div class="row">
-<div class="fourcol">
+<div class="sixcol">
 <?php display_sponsor("ENGINE"); ?>
 </div>
 
-<div class="fourcol">
+<div class="sixcol last">
 <?php display_sponsor("GITHUB"); ?>
-</div>
-
-<div class="fourcol last">
-<?php display_sponsor("IMAKR"); ?>
 </div>
 </div>
 

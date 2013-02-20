@@ -26,7 +26,7 @@ $logos = array ("AUTOMA" => array("http://www.automattic.com" , "GOLD TRACK", "g
                 "OREILLY" => array("http://www.oreilly.com" , "BRONZE", "blue"),
                 "GITHUB" => array("http://www.github.com" , "SOCIAL", "blue"),
                 "TENGEN" => array("http://www.10gen.com" , "BRONZE", "blue"),
-                "IMAKR" => array("http://www.imakr.vc" , "SOCIAL", "blue"),
+                "IMAKR" => array("http://www.imakr.vc" , "LOCAL", "blue"),
                 "JETB" => array("http://www.jetbrains.com" , "BRONZE", "blue")               
                 );
 display_logos($logos);
