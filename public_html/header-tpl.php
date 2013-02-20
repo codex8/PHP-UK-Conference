@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="//<?=$host;?>/css/resets.css">
 
 <link rel="stylesheet" href="//<?=$host;?>/css/1140.css">
-<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=17">
+<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=18">
 <link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css?version=11">
 
 
