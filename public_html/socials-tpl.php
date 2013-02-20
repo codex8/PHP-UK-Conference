@@ -7,11 +7,11 @@
         </div>
         <div class="profile fourcol">
             <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />FRIDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
-            <p>Friday night we'll be hosting our mid-conference social. We'll start at the conference venue with a huge prize raffle, open for all delegates. We'll have FREE drinks and FREE snacks for a couple hours giving you a chance to meet and network with all the other delegates and check out the exhibits too. If you're participating in the <a href="https://www.hackerleague.org/hackathons/php-uk-conference-hackathon/">Hackathon</a> or want to pop by and check it out, it'll be running until 11pm. We'll then move on to <a href="http://www.amber-bar.co.uk/">Amber Bar</a> just around the corner from the conference centre for more FREE drinks. We'll be in the Milk bar. Don't forget to bring your conference badge to gain entry.</p>
+            <p>Friday night we'll be hosting our mid-conference social. We'll start at the conference venue with a huge prize raffle, open for all delegates. We'll have FREE drinks and FREE snacks for a couple hours giving you a chance to meet and network with all the other delegates and check out the exhibits too. If you're participating in the <a href="https://www.hackerleague.org/hackathons/php-uk-conference-hackathon/">Hackathon</a> or want to pop by and check it out, it'll be running until 11pm. We'll then move on to <a href="http://www.amber-bar.co.uk/">Amber Bar</a> just <a href="http://goo.gl/maps/2X7eL" target="_blank">around the corner</a> from the conference centre for more FREE drinks. We'll be in the Milk bar. Don't forget to bring your conference badge to gain entry.</p>
         </div>
         <div class="profile fourcol last">
             <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SATURDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
-            <p>Closing conference social, details TBD.</p>
+            <p>Saturday night we'll be hosting our post-conference social. We'll have FREE drinks and FREE snacks for a an hour at he conference centre, giving you a chance to meet and network with all the other delegates and check out the exhibits too. Then we will move on to <a href="http://www.thefoxpublichouse.co.uk/" target="_blank">The Fox</a> Bar just a <a href="http://goo.gl/maps/G2PQ2" target="_blank">10 minute walk</a> away from the conference venue. Here will have more FREE drinks and lots of great food like mini steak sandwiches and sliders. Don't forget to bring your conference badge to gain entry.</p>
         </div>
     </div>
 </div><!-- main-->
