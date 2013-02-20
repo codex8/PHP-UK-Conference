@@ -1,4 +1,4 @@
-<p><a href="www.engineyard.com">Engine Yard</a> is the leading Platform as a Service (PaaS), empowering software application innovation more rapidly, 
+<p><a href="//www.engineyard.com">Engine Yard</a> is the leading Platform as a Service (PaaS), empowering software application innovation more rapidly, 
 easily and cost effectively. With deep technical expertise, powerful infrastructure orchestration, strong support of the open 
 source community, and world-class service, Engine Yard provides a complete commercial grade solution that enables 
 developers to focus on creating great applications, instead of managing their platform. Thousands of customers in 58 

@@ -1,6 +1,6 @@
-<p><a href="www.twilio.com" target="_blank">Twilio</a> offer a simple, but powerful, cloud communications API. This means you can now add voice or sms 
+<p><a href="//www.twilio.com" target="_blank">Twilio</a> offer a simple, but powerful, cloud communications API. This means you can now add voice or sms 
 capability to your web or mobile app in minutes. More than 150,000 developers around the 
 world are already using Twilio, and you can check out some of the cool stuff they have built here. 
-We offer a ton of support for PHP including <a href="www.twilio.com/docs/libraries" target="_blank">Helper Libraries</a>, 
-<a href="www.twilio.com/docs/howto" target="_blank">code samples</a> and 
-<a href="www.twilio.com/docs/api" target="_blank">docs</a>.
+We offer a ton of support for PHP including <a href="//www.twilio.com/docs/libraries" target="_blank">Helper Libraries</a>, 
+<a href="//www.twilio.com/docs/howto" target="_blank">code samples</a> and 
+<a href="//www.twilio.com/docs/api" target="_blank">docs</a>.
