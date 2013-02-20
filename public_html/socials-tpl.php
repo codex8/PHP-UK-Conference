@@ -11,7 +11,7 @@
         </div>
         <div class="profile fourcol last">
             <h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />SATURDAY<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
-            <p>Saturday night we'll be hosting our post-conference social. We'll have FREE drinks and FREE snacks for a an hour at he conference centre, giving you a chance to meet and network with all the other delegates and check out the exhibits too. Then we will move on to <a href="http://www.thefoxpublichouse.co.uk/" target="_blank">The Fox</a> Bar just a <a href="http://goo.gl/maps/G2PQ2" target="_blank">10 minute walk</a> away from the conference venue. Here will have more FREE drinks and lots of great food like mini steak sandwiches and sliders. Don't forget to bring your conference badge to gain entry.</p>
+            <p>Saturday night we'll be hosting our post-conference social. We'll have FREE drinks and FREE snacks for a an hour at he conference centre, giving you a chance to meet and network with all the other delegates and check out the exhibits too. Then we will move on to <a href="http://www.thefoxpublichouse.co.uk/" target="_blank">The Fox</a> Bar just a <a href="http://goo.gl/maps/G2PQ2" target="_blank">10 minute walk</a> away from the conference venue. Here will have more FREE drinks and lots of great food like mini steak sandwiches and sliders. Don't forget to bring your conference badge to gain entry. Food and drinks are generously sponsored by <a href="http://engineyard.com">EngineYard</a>.</p>
         </div>
     </div>
 </div><!-- main-->
