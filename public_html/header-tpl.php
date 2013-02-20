@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="//<?=$host;?>/css/resets.css">
 
 <link rel="stylesheet" href="//<?=$host;?>/css/1140.css">
-<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=16">
+<link rel="stylesheet" href="//<?=$host;?>/css/style.css?version=17">
 <link rel="stylesheet" href="//<?=$host;?>/css/media-styles.css?version=11">
 
 
@@ -24,7 +24,7 @@
 <script src="//<?=$host;?>/js/ticker.js"></script>
 <title>PHP UK Conference 2013 - The Brewery, London - February 22-23 2013</title>
 
-
+ 
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-35868980-1']);
