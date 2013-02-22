@@ -22,9 +22,11 @@ The closest tube stations are equally Barbican or Moorgate (Metropolitan, Hammer
 Old Street (Northern line) or Liverpool Street (Metropolitan, Hammersmith & City,  Circle and Central lines) are also within a few minutes walk.
 </div>
 <div class="fourcol last">
-<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />THURSDAY EVENING<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
+<h1><img class="left-ribbon" src="//<?=$host;?>/images/TitleRibbonLeft.png" />FRIDAY EVENING<img class="right-ribbon" src="//<?=$host;?>/images/TitleRibbonRight.png"/></h1>
 Great conferences are not just about what you do in the day - they are about networking and the friends you will make in the evening. We think this is especially important - 
-so we have plans for you! <strong>Thusday night</strong> is at <a href="http://www.cafekick.co.uk/bar-kick/">Bar Kick</a> on <a href="http://goo.gl/maps/hwmJT" target="_blank">127 Shoreditch high Street</a> - there will be food, drinks and <a href="https://twitter.com/marcgear">Marc Gear</a>'s talk Node.js vs PHP Smackdown. Look 
+so we have plans for you! 
+Friday night we are hosting our mid-conference social. We'll start at the conference venue with a huge prize raffle, open for all delegates. We'll have FREE drinks and FREE snacks for a couple hours giving you a chance to meet and network with all the other delegates and check out the exhibits too. If you're participating in the <a href="https://www.hackerleague.org/hackathons/php-uk-conference-hackathon/">Hackathon</a> or want to pop by and check it out, it'll be running until 11pm. We'll then move on to <a href="http://www.amber-bar.co.uk/">Amber Bar</a> just <a href="http://goo.gl/maps/2X7eL" target="_blank">around the corner</a> from the conference centre for more FREE drinks. We'll be in the Milk bar. Don't forget to bring your conference badge to gain entry.
+Look 
 at the <a href="http://phpconference.co.uk/socials" target="_blank"> socials </a> page to see what else we have lined up!
 </div>
 </div>
