@@ -1,4 +1,4 @@
-<p><a href="www.oreilly.com" target="_blank">O'Reilly Media</a> spreads the knowledge of innovators through its books, online services, 
+<p><a href="//www.oreilly.com" target="_blank">O'Reilly Media</a> spreads the knowledge of innovators through its books, online services, 
 magazine, and conferences. Since 1978, O'Reilly has been a chronicler and catalyst of 
 leading-edge development, homing in on the technology trends that really matter and 
 spurring their adoption by amplifying "faint signals" from the alpha geeks who are 

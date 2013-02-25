@@ -29,8 +29,8 @@
        </div>
        <div class="tencol last">
        <div class="thursday-text">
-    		     Start the conference in style! Join us at an exciting new venue for food, drink and a great talk! Details will   
-    			be  <a href="/socials"> here </a> very soon!.
+    		     Start the conference in style! Join us at an exciting new venue for food, drink and a great talk! Details are   
+    			<a href="/socials"> here</a>.
    		</div>
     	</div>
     </div>

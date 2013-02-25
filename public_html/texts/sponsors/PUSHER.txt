@@ -1,4 +1,4 @@
-<p><a href="www.pusher.com" target="_blank">Pusher</a> is a cloud-based service that make it incredibly easy and fast for developers 
+<p><a href="//www.pusher.com" target="_blank">Pusher</a> is a cloud-based service that make it incredibly easy and fast for developers 
 to add massively scalable realtime functionality to their web and mobile apps.</p>
 
 <p>With its powerful and intuitive API, Pusher enables developers to create ground 

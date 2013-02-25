@@ -337,4 +337,13 @@ function display_logos($logos) {
         <?php
     }
 }
+function display_volunteers($vs) {
+    echo "<div class=\"twelvecol vnames\">";
+    foreach($vs as $v) {
+        ?>
+        <div class="vname"><img src="/images/star.png" class="starleft"><?php echo $v?><img src="/images/star.png" class="starright"></div>
+        <?php 
+    }
+    echo "</div>";
+}
 ?>
