@@ -671,8 +671,11 @@ h1.uncon{
    padding-right: 15px;
 }
 .web_dialog_container {
-	margin: 50px;	
-	
+	margin: 50px;
+}
+.web_dialog_container .row {
+	background-color: #f5f5f5;
+	text-align: left;
 }
 .web_dialog_blurb {
 	margin-top: 10px;
